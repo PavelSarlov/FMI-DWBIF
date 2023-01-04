@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bank_warehouse" id="C8A16F08-2F0E-4FB3-6D46-68DCB932E4D7" version="3.5">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:32:32 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<modelPersistence>2</modelPersistence>
+<capitalNames>false</capitalNames>
+<designId>C8A16F08-2F0E-4FB3-6D46-68DCB932E4D7</designId>
+</OSDM_Design>

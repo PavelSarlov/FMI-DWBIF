@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="client__disposition" directorySegmentName="seg_0" id="4DDDA7C8-887E-6C39-9DBB-7FC6C1CFDACF">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:51:56 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<sourcePk>CCFAEFF8-0AF4-8988-FA72-702AF7D3E50F</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>client_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CB9463B-5459-30ED-B33C-1A5EE3AD2A30</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A778D293-E50F-CCF4-2FF0-56DB80C53A16</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

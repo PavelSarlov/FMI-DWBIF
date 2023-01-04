@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17594B22-8E19-C044-7627-FBB16A564808" name="r_payment_k_symbol">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:59:03 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:59:03 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="0762FD04-AE86-DB9D-BDDB-4E5BCA627CAF">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:59:03 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4B9AAC8-7D9F-6A55-D7BF-059C205CF2C0" name="r_payment_k_symbol PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-17 12:01:02 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

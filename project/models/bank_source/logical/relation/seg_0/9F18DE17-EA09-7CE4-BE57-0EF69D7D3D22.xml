@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disposition__credit_card" directorySegmentName="seg_0" id="9F18DE17-EA09-7CE4-BE57-0EF69D7D3D22">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:05:42 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<sourcePk>4B5839B6-8861-7B6C-DE0E-3AFE4EE05663</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>disp_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A778D293-E50F-CCF4-2FF0-56DB80C53A16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>76562933-9AD4-C063-1394-4C56A86169AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

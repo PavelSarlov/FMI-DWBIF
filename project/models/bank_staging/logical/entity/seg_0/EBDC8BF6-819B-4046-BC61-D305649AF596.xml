@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBDC8BF6-819B-4046-BC61-D305649AF596" name="demographic_data">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staged_at" id="88847F50-AD84-701C-B940-276D236DA2BE">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:33:35 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A1" id="0E5F87D1-1E2D-9749-F5E7-43A3FCD12FB5">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>BF84914C-1A89-905D-3CDB-EEF9D3D92591</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A2" id="21F10B08-6D1B-4775-3518-896418E6A4E0">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>39348FB7-9EDD-3CEF-1AE9-53BB8E457ECC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A3" id="41253B1C-C908-E612-06FA-56500E423C4A">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>05863B08-934B-AE64-F323-19D9CF543CD4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A4" id="FFE27C61-FC21-3DA5-D4A3-E31584E6A445">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>DFDE438C-E0A4-EE25-FF9F-C0897F3B9572</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A5" id="961C9883-8F77-C2FF-1B03-3D8F05AAADEF">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>48125C89-41D7-7323-9630-B9C8602F9CFC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A6" id="0732C42B-1C73-7480-A695-B0DD5D89E8BE">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>C72530C7-FED7-E0D2-8716-A897F2DD0AF7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A7" id="905BE7C9-74F3-916F-3516-5344D1B881AE">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>7E53F375-8F39-4EE8-0DA9-0C7760247533</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A8" id="9F32E755-B206-D1A9-CEE7-D17027E5ADD9">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>370D94BC-5B80-56A3-E465-B2A3E8AD4C51</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A9" id="239761E3-7F79-AEF2-F0F7-38852FA03030">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>0C9C2DF0-E655-4676-6FBC-C595654E2605</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A10" id="7DCAC21C-C420-2B6E-84CD-A971B7A643C6">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>EB5B67E5-E0AF-79AD-6BDC-502C2538F67C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A11" id="5A095CF4-8501-6D0C-FF6B-618A0AE8B855">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>6A806C3D-9011-7499-C24B-FCB3A8EF1B05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A12" id="2E93554A-622C-FA20-79AF-DF3EBDF69E02">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>E5737849-B74B-CA84-1796-87C663F19DC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A13" id="2F32684C-06BA-A0A7-AEE4-627348A6D45D">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>29222C7D-D6BE-3BB0-7C3D-2FF74568DB1E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A14" id="7009EF77-6C9E-3E2D-4671-A4009A431517">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>2E4BBCB5-8FAB-6973-A4BE-FAF697F752B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A15" id="4B1BD979-5A17-960D-61D4-BA401653B234">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>B051557E-3F4C-5749-C418-773BE30A8685</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A16" id="39BA9D72-095D-5E78-8547-9CF26D3BD680">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>0CA6DDE0-FB36-A56F-8657-03789E4FF037</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E16C9102-DEBE-0814-48D5-67545CB528ED" name="demographic_data PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E5F87D1-1E2D-9749-F5E7-43A3FCD12FB5</attributeRef>
+<attributeRef>88847F50-AD84-701C-B940-276D236DA2BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

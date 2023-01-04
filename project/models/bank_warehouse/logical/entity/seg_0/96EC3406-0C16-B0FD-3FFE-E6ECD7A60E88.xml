@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96EC3406-0C16-B0FD-3FFE-E6ECD7A60E88" name="s_client">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:33:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client_id" id="69506176-EB9C-2E35-8497-CE83FAE3769E">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:40:28 UTC</createdTime>
+<generatorID>5DCF3175-E1E8-C949-BE39-120C74C93428</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<referedAttribute>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loaded_at" id="B685F1F8-0BD1-184B-9ADA-6FB2E0495834">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:33:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="source" id="934AC095-B0F1-1EC3-2DCD-562EEC5035DF">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:33:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_number" id="52805470-92C7-BB69-E603-8E2C5BF987E2">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:33:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A1D8FB7-E0DF-076B-C96F-410FDAFAF48F" name="s_client PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 21:33:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B685F1F8-0BD1-184B-9ADA-6FB2E0495834,69506176-EB9C-2E35-8497-CE83FAE3769E</newElementsIDs>
+<usedAttributes>
+<attributeRef>B685F1F8-0BD1-184B-9ADA-6FB2E0495834</attributeRef>
+<attributeRef>69506176-EB9C-2E35-8497-CE83FAE3769E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

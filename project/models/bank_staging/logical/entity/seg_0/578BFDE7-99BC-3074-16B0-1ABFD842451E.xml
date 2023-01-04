@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="578BFDE7-99BC-3074-16B0-1ABFD842451E" name="transaction">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staged_at" id="E5820CF0-B2C7-6E3A-459A-3A8E35AAF4B6">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:36:26 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trans_id" id="7743D470-6492-547D-3C8F-3D40E60CE268">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>02176B75-99BF-8F3C-2A9C-45063213D190</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_id" id="E344CFE9-4F04-A297-054C-77FEB4CF1A6E">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-21 20:13:10 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="709A0364-D9DA-9D9B-CC1E-4244D0F90F8D">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>FECD19B2-0105-82BE-D675-E9C6FFE68A27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="23F26D7B-F158-BEEB-216D-3237539DA61D">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>7264172E-F63A-30F5-C530-4EC632E3B263</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operation" id="FB9EB527-3D7D-0678-AE47-B23523E846D3">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>394F321B-2A43-8863-E78E-738AB0B39DBD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="6DFDA49D-BD92-E503-C80E-1EC0331C84DB">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>7A493850-5966-0D4D-E86B-4EE9CDFC452B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="balance" id="E696F3BE-32AE-F9DB-BA24-362E3C493BBC">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>C91EAE22-CE27-F145-6D20-1030829291AB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="k_symbol" id="344C2A51-3F47-0824-E480-5A4829D77DA1">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>6BE3076B-BA3A-8F88-D47B-F068103F524E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank" id="CAF4F4D7-CBE0-E6CC-9EB9-F6F61F10F958">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>735154D6-35A5-575D-2680-1A41B6747F7C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account" id="36BE648F-0956-CE87-F07F-BD0ED0888D8E">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>637C4CA5-F176-F953-805E-0BFC3494468A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21C7DCD5-247C-21D4-0970-1827FCD9AACA" name="transaction PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7743D470-6492-547D-3C8F-3D40E60CE268</attributeRef>
+<attributeRef>E5820CF0-B2C7-6E3A-459A-3A8E35AAF4B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

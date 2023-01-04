@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="h_credit_card_s_credit_card" directorySegmentName="seg_0" id="AE209084-C856-6AF0-74C9-C8F1E84BC1CD">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:21:40 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<sourcePk>C792DB45-1262-2720-F551-C30786795738</sourcePk>
+<targetPk>4772B12F-65A7-30CB-5BC0-AB0066002845</targetPk>
+<identifying>true</identifying>
+<nameOnTarget>card_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4B10FF7-9727-8BD7-8151-76C32387F9D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>944216F4-A486-2196-2010-2BB8FA314C49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

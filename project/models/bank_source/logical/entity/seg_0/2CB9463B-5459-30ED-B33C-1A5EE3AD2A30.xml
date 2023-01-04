@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CB9463B-5459-30ED-B33C-1A5EE3AD2A30" name="client">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:25:39 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client_id" id="019A2672-39F5-A18A-16DB-E06D55FF8B52">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:36:05 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="district_id" id="73C28877-E62E-E3E6-2267-D67AB1E4697B">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:49:00 UTC</createdTime>
+<generatorID>B228824A-042D-3600-981B-8A376E713B0B</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<referedAttribute>BF84914C-1A89-905D-3CDB-EEF9D3D92591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth_number" id="A681377F-072F-71D1-09D3-2E6CC4A0880B">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:17:28 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCFAEFF8-0AF4-8988-FA72-702AF7D3E50F" name="client PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:41:15 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>019A2672-39F5-A18A-16DB-E06D55FF8B52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="419D0BAD-04A3-6F6A-1F42-2FCDDB2E7C0B" name="permanent_order">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:26:05 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order_id" id="D21F6814-0497-6CF1-0127-32949A2D6D07">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:36:39 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_id" id="58F8D7C7-F62D-6093-4A3F-5F5A1C3ACFE8">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:54:33 UTC</createdTime>
+<generatorID>81A43F52-88AF-2437-834E-99DC892229BE</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3698CD3E-4FA5-4EF6-5342-22725459EAC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank_to" id="D949C1CD-E5D2-F2F0-81DB-7A029A20C2BA">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:18:13 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_to" id="822489FA-0BDE-1704-95EC-89D04BADDF91">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:18:19 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="524BB1CA-9586-6F41-2DC0-540AA038C05F">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:18:24 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="k_symbol" id="72CA232C-EA78-B695-7E05-5563A7947B02">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:18:28 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FFA0D2B-499C-E61E-B317-57C67756C144" name="permanent_order PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:41:10 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<engineerTo>
+<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D21F6814-0497-6CF1-0127-32949A2D6D07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

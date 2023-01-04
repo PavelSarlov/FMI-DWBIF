@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="290E20AD-59B2-7609-1533-8D78426F7BE1" mainViewID="C334A93E-F49D-4D62-CBC2-F4B9FB5D0FCF">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 20:06:55 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<mainView class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="C334A93E-F49D-4D62-CBC2-F4B9FB5D0FCF">
+<createdBy>muchd</createdBy>
+<modifiedBy>muchd</modifiedBy>
+<createdTime>2023-01-04 20:07:00 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+</mainView>
+</relationalModel>

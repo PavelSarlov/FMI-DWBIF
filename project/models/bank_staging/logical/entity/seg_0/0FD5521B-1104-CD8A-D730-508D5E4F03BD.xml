@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FD5521B-1104-CD8A-D730-508D5E4F03BD" name="permanent_order">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staged_at" id="5F59A315-C665-EE20-D694-589A4286985D">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:40:06 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order_id" id="561479EB-915C-FE5E-38C2-D18C816B44C8">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>D21F6814-0497-6CF1-0127-32949A2D6D07</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_id" id="134C562C-E3D6-1366-597F-A8E8FD0F0376">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-21 20:13:50 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank_to" id="C688FBAF-4E9F-1656-3C8F-8B33C42F39CC">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>D949C1CD-E5D2-F2F0-81DB-7A029A20C2BA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_to" id="E159ADEA-F6F7-D4AE-712F-FBA07AD208B8">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>822489FA-0BDE-1704-95EC-89D04BADDF91</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="EBB895DA-322D-6983-B668-DA4979A05478">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>524BB1CA-9586-6F41-2DC0-540AA038C05F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="k_symbol" id="3A75B4EA-29EA-25B4-46FC-1A81A966E671">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<importedID>72CA232C-EA78-B695-7E05-5563A7947B02</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77F88AD6-C5F0-4C96-83A1-130286E7EA2F" name="permanent_order PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:30:58 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>561479EB-915C-FE5E-38C2-D18C816B44C8</attributeRef>
+<attributeRef>5F59A315-C665-EE20-D694-589A4286985D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

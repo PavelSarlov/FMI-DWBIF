@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bank_staging" id="E2DAEE23-D4A8-0D3B-28FB-4D383DE006D3" version="3.5">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:24:07 UTC</createdTime>
+<ownerDesignName>bank_staging</ownerDesignName>
+<modelPersistence>2</modelPersistence>
+<capitalNames>false</capitalNames>
+<designId>E2DAEE23-D4A8-0D3B-28FB-4D383DE006D3</designId>
+</OSDM_Design>

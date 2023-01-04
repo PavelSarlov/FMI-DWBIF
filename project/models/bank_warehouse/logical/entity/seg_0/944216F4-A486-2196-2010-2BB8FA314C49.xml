@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="944216F4-A486-2196-2010-2BB8FA314C49" name="s_credit_card">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="card_id" id="CDE711FC-4580-E330-0538-BA060BA3DBB8">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:21:40 UTC</createdTime>
+<generatorID>AE209084-C856-6AF0-74C9-C8F1E84BC1CD</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<referedAttribute>13320A3C-371E-9565-A8EA-A2B38DB1B020</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>128 BYTE</dataTypeSize>
+<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loaded_at" id="98F3FEB0-BF8B-B0A8-C5B5-4B09F47DB0A4">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="source" id="374B1620-C66D-B464-1958-2C9BBADB78A3">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="3566C3E2-EF54-6498-6665-2370C95C4A37">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="issued" id="89DEEA1E-B63B-FF62-23F9-0C6541F4B653">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4772B12F-65A7-30CB-5BC0-AB0066002845" name="s_credit_card PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:13:55 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>98F3FEB0-BF8B-B0A8-C5B5-4B09F47DB0A4,CDE711FC-4580-E330-0538-BA060BA3DBB8</newElementsIDs>
+<usedAttributes>
+<attributeRef>98F3FEB0-BF8B-B0A8-C5B5-4B09F47DB0A4</attributeRef>
+<attributeRef>CDE711FC-4580-E330-0538-BA060BA3DBB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

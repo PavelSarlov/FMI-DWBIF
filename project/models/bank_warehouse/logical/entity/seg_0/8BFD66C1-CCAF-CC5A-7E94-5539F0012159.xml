@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BFD66C1-CCAF-CC5A-7E94-5539F0012159" name="account">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:23:24 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="account_id" id="3698CD3E-4FA5-4EF6-5342-22725459EAC6">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:30:34 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="5933AF45-CED5-DE5D-A3EA-6A3FCA3F0BB4">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:31:04 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequency" id="134F4D8D-6D4E-18D9-F032-1419D9FD4ED7">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:31:09 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="district_id" id="841A8E21-705B-20C3-C8FA-D4B59D0B2593">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:43:54 UTC</createdTime>
+<generatorID>C2DAC5D2-0B7F-6D2C-7FF2-EC0C299C915C</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<referedAttribute>BF84914C-1A89-905D-3CDB-EEF9D3D92591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loan_id" id="F06101D3-1EA6-CD19-98B6-124B5BCB9FD9">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 20:02:49 UTC</createdTime>
+<generatorID>6500AFF7-D289-E6F7-096C-9548B038AE08</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<referedAttribute>5DB4A4B5-EB5D-5043-0FBA-2918C97E2AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E3767E7-6B43-2672-0347-F4D7E4B8D5B4" name="account PK">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:31:23 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DA16FDDE-6E7B-6155-7D28-70594BB155D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3698CD3E-4FA5-4EF6-5342-22725459EAC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="h_transaction_s_transaction" directorySegmentName="seg_0" id="A0734C29-D746-187A-9CB8-B1DA22DC67AC">
+<createdBy>muchd</createdBy>
+<createdTime>2022-12-12 22:39:10 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<sourcePk>2DF25348-A9F0-B349-2A14-FB1676F342D7</sourcePk>
+<targetPk>841CC314-B593-3A46-A173-FC435550A46F</targetPk>
+<identifying>true</identifying>
+<nameOnTarget>transaction_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CC3130C-E780-E404-A0E9-FE9CA888FAB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60E385C0-1408-1B56-DE43-D7D69877893D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

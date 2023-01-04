@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C37DDC37-6025-80BB-9F42-A0991C38E399">
+<createdBy>muchd</createdBy>
+<createdTime>2022-11-13 19:08:21 UTC</createdTime>
+<ownerDesignName>bank_source</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
