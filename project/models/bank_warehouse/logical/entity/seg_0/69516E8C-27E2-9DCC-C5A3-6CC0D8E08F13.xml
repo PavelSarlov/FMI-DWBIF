@@ -53,9 +53,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A2" id="0BA71302-A83F-9D96-15E6-07C684C7C88E">
+<Attribute name="district_name" id="0BA71302-A83F-9D96-15E6-07C684C7C88E">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -67,9 +68,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A3" id="598B3C58-7320-F3CA-31F3-78683B41DFC2">
+<Attribute name="region" id="598B3C58-7320-F3CA-31F3-78683B41DFC2">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -81,9 +83,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A4" id="F9624426-A9B0-C042-7A8C-470A21D51014">
+<Attribute name="inhabitants" id="F9624426-A9B0-C042-7A8C-470A21D51014">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -94,10 +97,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A5" id="5CD1883C-1A4B-A690-A1D1-AEA8C7572585">
+<Attribute name="municip_inhabitants_0_499" id="5CD1883C-1A4B-A690-A1D1-AEA8C7572585">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -108,10 +111,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A6" id="5103FB5C-90D3-817A-D382-2DB5D000DD7A">
+<Attribute name="municip_inhabitants_500_1999" id="5103FB5C-90D3-817A-D382-2DB5D000DD7A">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -122,10 +125,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A7" id="4F5C0183-EF93-B17B-EEAA-F49410DBA67D">
+<Attribute name="municip_inhabitants_2000_9999" id="4F5C0183-EF93-B17B-EEAA-F49410DBA67D">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -136,10 +139,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A8" id="DA554A9E-DEFA-3C7B-CE9A-C042CF9612C1">
+<Attribute name="municip_inhabitants_10000_inf" id="DA554A9E-DEFA-3C7B-CE9A-C042CF9612C1">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -150,10 +153,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A9" id="9B21D917-9F71-3B80-EBD6-D65F34D27DE9">
+<Attribute name="cities" id="9B21D917-9F71-3B80-EBD6-D65F34D27DE9">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -164,10 +167,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A10" id="1C495271-7335-8D38-94DF-9C2530EC96A9">
+<Attribute name="urban_inhabitants_ratio" id="1C495271-7335-8D38-94DF-9C2530EC96A9">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -178,10 +181,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A11" id="7B38FC68-37EE-55FF-62CD-87EA50F3F7FA">
+<Attribute name="avg_salary" id="7B38FC68-37EE-55FF-62CD-87EA50F3F7FA">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -192,10 +195,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A12" id="5EAF22C4-1559-AFE2-E8E0-2D75315F5AB9">
+<Attribute name="unemployment_rate_95" id="5EAF22C4-1559-AFE2-E8E0-2D75315F5AB9">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -206,10 +209,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A13" id="39C5E769-B45D-BDF1-3BC5-5FBDE93327A4">
+<Attribute name="unemployment_rate_96" id="39C5E769-B45D-BDF1-3BC5-5FBDE93327A4">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -220,10 +223,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A14" id="A808507F-0C63-6CD5-D9E0-6E4A5B99C3A2">
+<Attribute name="enterpreneurs_per_1000_inhabitants" id="A808507F-0C63-6CD5-D9E0-6E4A5B99C3A2">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -234,10 +237,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A15" id="BF3D9687-DC02-8B42-B44F-99CFBEFB36B3">
+<Attribute name="commited_crimes_95" id="BF3D9687-DC02-8B42-B44F-99CFBEFB36B3">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -248,10 +251,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A16" id="84C70FD6-7064-0696-C6AE-9CBFB743745B">
+<Attribute name="commited_crimes_96" id="84C70FD6-7064-0696-C6AE-9CBFB743745B">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -262,7 +265,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

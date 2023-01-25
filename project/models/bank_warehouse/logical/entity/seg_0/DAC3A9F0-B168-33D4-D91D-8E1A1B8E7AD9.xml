@@ -50,9 +50,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="A1" id="CD9F6DC4-793B-89FD-3371-336DF79F1946">
+<Attribute name="district_id" id="CD9F6DC4-793B-89FD-3371-336DF79F1946">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:03:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>

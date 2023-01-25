@@ -28,8 +28,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loaded_at" id="8A61E38A-97DA-4B5C-6AF1-A39A419F4AD3">
 <createdBy>muchd</createdBy>
@@ -53,7 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="type" id="77326258-F94F-2823-8330-77D2A8D71399">
 <createdBy>muchd</createdBy>
@@ -63,6 +63,7 @@
 <engineerTo>
 <item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

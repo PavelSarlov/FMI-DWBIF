@@ -50,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loan_id" id="6CE6A12D-ECD4-A443-DFE1-DB3381F1E53E">
 <createdBy>muchd</createdBy>
@@ -64,10 +65,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="D4707D07-F885-A60D-D641-156CEBFE66EF">
+<Attribute name="account_id" id="D4707D07-F885-A60D-D641-156CEBFE66EF">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-28 09:01:59 UTC</createdTime>
 <generatorID>36020ABC-363A-B7DB-E93C-FD5225E10842</generatorID>
@@ -79,8 +79,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

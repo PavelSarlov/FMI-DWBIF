@@ -53,7 +53,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="client_id" id="09270F18-977B-0DED-3920-E4B224B0994E">
 <createdBy>muchd</createdBy>
@@ -67,10 +68,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="district_id" id="8A8B1E35-D6E7-30DB-A03A-7944EC6F8A15">
+<Attribute name="demographic_id" id="8A8B1E35-D6E7-30DB-A03A-7944EC6F8A15">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:29:17 UTC</createdTime>
 <generatorID>7D941497-D345-DEB1-F607-FC765AE182D6</generatorID>
@@ -82,8 +82,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

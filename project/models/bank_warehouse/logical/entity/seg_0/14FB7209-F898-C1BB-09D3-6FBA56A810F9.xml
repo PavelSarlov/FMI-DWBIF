@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14FB7209-F898-C1BB-09D3-6FBA56A810F9" name="r_partner">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:51:25 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A80B393D-4D90-C03A-74CD-9550C791FC4C">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:51:25 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank" id="119CFA14-C256-AFFB-5616-2EB60C1AF4E5">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:51:25 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account" id="E7378964-EBF7-DE8F-20F8-49A5449B9E10">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:15:38 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="273C2ABC-5331-C721-1852-1530E93E8E16" name="r_partner PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:51:25 UTC</createdTime>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A80B393D-4D90-C03A-74CD-9550C791FC4C</newElementsIDs>
+<usedAttributes>
+<attributeRef>A80B393D-4D90-C03A-74CD-9550C791FC4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

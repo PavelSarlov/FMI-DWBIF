@@ -4,7 +4,7 @@
 <createdTime>2022-11-13 19:27:07 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,10 +20,11 @@
 <createdTime>2022-11-13 19:32:50 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A2" id="39348FB7-9EDD-3CEF-1AE9-53BB8E457ECC">
@@ -31,35 +32,40 @@
 <createdTime>2022-11-13 19:32:56 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A3" id="05863B08-934B-AE64-F323-19D9CF543CD4">
 <createdBy>muchd</createdBy>
 <createdTime>2022-11-13 19:33:13 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A4" id="DFDE438C-E0A4-EE25-FF9F-C0897F3B9572">
 <createdBy>muchd</createdBy>
 <createdTime>2022-11-13 19:33:16 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A5" id="48125C89-41D7-7323-9630-B9C8602F9CFC">
@@ -67,11 +73,12 @@
 <createdTime>2022-11-13 19:33:18 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A6" id="C72530C7-FED7-E0D2-8716-A897F2DD0AF7">
@@ -79,11 +86,12 @@
 <createdTime>2022-11-13 19:33:27 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A7" id="7E53F375-8F39-4EE8-0DA9-0C7760247533">
@@ -91,11 +99,12 @@
 <createdTime>2022-11-13 19:33:31 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A8" id="370D94BC-5B80-56A3-E465-B2A3E8AD4C51">
@@ -103,11 +112,12 @@
 <createdTime>2022-11-13 19:34:20 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A9" id="0C9C2DF0-E655-4676-6FBC-C595654E2605">
@@ -115,11 +125,12 @@
 <createdTime>2022-11-13 19:34:23 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A10" id="EB5B67E5-E0AF-79AD-6BDC-502C2538F67C">
@@ -127,11 +138,12 @@
 <createdTime>2022-11-13 19:34:26 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A11" id="6A806C3D-9011-7499-C24B-FCB3A8EF1B05">
@@ -139,11 +151,12 @@
 <createdTime>2022-11-13 19:34:34 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A12" id="E5737849-B74B-CA84-1796-87C663F19DC0">
@@ -151,11 +164,12 @@
 <createdTime>2022-11-13 19:34:37 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A13" id="29222C7D-D6BE-3BB0-7C3D-2FF74568DB1E">
@@ -163,11 +177,12 @@
 <createdTime>2022-11-13 19:34:39 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A14" id="2E4BBCB5-8FAB-6973-A4BE-FAF697F752B0">
@@ -175,11 +190,12 @@
 <createdTime>2022-11-13 19:34:40 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A15" id="B051557E-3F4C-5749-C418-773BE30A8685">
@@ -187,11 +203,12 @@
 <createdTime>2022-11-13 19:34:41 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="A16" id="0CA6DDE0-FB36-A56F-8657-03789E4FF037">
@@ -199,11 +216,12 @@
 <createdTime>2022-11-13 19:34:43 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -213,7 +231,7 @@
 <createdTime>2022-11-13 19:40:52 UTC</createdTime>
 <ownerDesignName>bank_source</ownerDesignName>
 <engineerTo>
-<item key="37A40304-8E2F-4442-C690-22A87945C3B5" value="true"/>
+<item key="F6DD321B-E378-3D6A-56D1-AAA0F09C99F5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

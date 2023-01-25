@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="701EBE43-71A1-92B2-352F-8D1CC69472AE" name="d_account_frequency">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B6CD3CD0-FBF2-91DB-A82E-38B596EA2677">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>59C48BC6-7A71-62CB-9A66-E0E8DCB04993</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="D24DDBE7-BC8D-1F8C-4AE4-32C507B69DF7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>21142855-9AE6-26B6-3D03-BBDB17550730</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B284752E-C56C-D676-BFFA-00FF4CF9AF98" name="d_account_frequency PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B6CD3CD0-FBF2-91DB-A82E-38B596EA2677</newElementsIDs>
+<usedAttributes>
+<attributeRef>B6CD3CD0-FBF2-91DB-A82E-38B596EA2677</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

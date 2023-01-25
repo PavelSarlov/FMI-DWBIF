@@ -28,8 +28,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loaded_at" id="8697D121-CF3A-3E82-C02A-F0CA631F2A01">
 <createdBy>muchd</createdBy>
@@ -53,9 +52,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bank_to" id="31CD1A20-6235-5DBE-7E75-5A9107A67E79">
+<Attribute name="partner" id="31CD1A20-6235-5DBE-7E75-5A9107A67E79">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -65,20 +65,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="account_to" id="3B9A7823-7D2F-F6C4-AA26-FE473A759767">
-<createdBy>muchd</createdBy>
-<createdTime>2022-12-12 22:49:07 UTC</createdTime>
-<ownerDesignName>bank_warehouse</ownerDesignName>
-<engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="amount" id="3FE8E600-45CD-468E-68A6-98D2DFB8A74A">

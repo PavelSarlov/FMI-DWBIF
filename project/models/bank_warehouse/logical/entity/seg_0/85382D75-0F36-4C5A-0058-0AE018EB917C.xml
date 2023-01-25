@@ -50,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="E165C558-49F0-19CD-3371-24CEFAFB6475">
 <createdBy>muchd</createdBy>
@@ -64,8 +65,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="transaction_id" id="FC6AEC84-34A5-FB95-741C-83EA31264B4A">
 <createdBy>muchd</createdBy>
@@ -79,12 +79,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FA1E2E2B-B623-EC85-D590-7CA4E7EAA5B7" name="transaction PK">
+<identifier id="FA1E2E2B-B623-EC85-D590-7CA4E7EAA5B7" name="l_transaction PK">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -92,6 +91,7 @@
 <item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>FCD48B2F-7C84-142C-6F9C-5D36D2BC463B</newElementsIDs>
 <usedAttributes>
 <attributeRef>FCD48B2F-7C84-142C-6F9C-5D36D2BC463B</attributeRef>
 </usedAttributes>

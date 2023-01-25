@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17594B22-8E19-C044-7627-FBB16A564808" name="r_payment_k_symbol">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17594B22-8E19-C044-7627-FBB16A564808" name="r_k_symbol">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:59:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -37,11 +37,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F4B9AAC8-7D9F-6A55-D7BF-059C205CF2C0" name="r_payment_k_symbol PK">
+<identifier id="F4B9AAC8-7D9F-6A55-D7BF-059C205CF2C0" name="r_k_symbol PK">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-17 12:01:02 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -49,6 +50,7 @@
 <item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</newElementsIDs>
 <usedAttributes>
 <attributeRef>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</attributeRef>
 </usedAttributes>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6103BF3-9095-8170-CB11-9A80E232DDA5" name="d_transaction_operation">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7C5A1A40-1348-4CDE-A18A-052348BD6103">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>62F3A1A5-EED5-153D-54D6-1623F111B5BC</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="733D50DB-FA9D-E085-4C26-C0995D372D6E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>1BF70820-37CD-4233-084A-6CD0935B2E37</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B35DFF87-3636-18CC-D514-5A447D9DEA24" name="d_transaction_operation PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7C5A1A40-1348-4CDE-A18A-052348BD6103</newElementsIDs>
+<usedAttributes>
+<attributeRef>7C5A1A40-1348-4CDE-A18A-052348BD6103</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

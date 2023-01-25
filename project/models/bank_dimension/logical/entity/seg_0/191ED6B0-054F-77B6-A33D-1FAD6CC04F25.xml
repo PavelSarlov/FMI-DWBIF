@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="191ED6B0-054F-77B6-A33D-1FAD6CC04F25" name="d_loan_status">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:33 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="55699992-AFCE-B936-EB60-1A96CC7754E1">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:33 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>D7AAF3DD-7842-33E6-8A57-CA013ED843B2</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="5CC21F1D-AC1A-371A-0F82-D88AC358EE4E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:33 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>ACB65349-A95D-D741-9FE8-D35B7522A2E9</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFD329DC-70ED-D87C-0280-461D7CC8BEF6" name="d_loan_status PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:33 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>55699992-AFCE-B936-EB60-1A96CC7754E1</newElementsIDs>
+<usedAttributes>
+<attributeRef>55699992-AFCE-B936-EB60-1A96CC7754E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

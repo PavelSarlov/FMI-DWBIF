@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08B88F44-2CE7-E4BA-58DA-9844A87A4872" name="d_k_symbol">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8D1D3C97-21DF-E18C-A124-D297D0CF69CC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="2528F41F-C8F5-5BB7-8E94-FF2BE313CE71">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>0762FD04-AE86-DB9D-BDDB-4E5BCA627CAF</importedID>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CBDDFF7-6C82-E6C0-44E8-16561A2EA293" name="d_k_symbol PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:58:48 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</newElementsIDs>
+<usedAttributes>
+<attributeRef>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
