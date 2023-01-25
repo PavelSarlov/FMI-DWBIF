@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88819329-151D-3C40-5C89-F0827C4B899E" name="r_account_frequency">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>331447B1-6DAE-5077-A250-205D89B18A42</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0D0EDDBC-185C-9BC0-5FE8-D75A1B8CD4E0">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>59C48BC6-7A71-62CB-9A66-E0E8DCB04993</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="value" id="6260B85D-1AC8-0795-5DDE-1A31600E875F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>21142855-9AE6-26B6-3D03-BBDB17550730</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ABC5D8E-3BBA-B119-B183-F7A9BD5CA6E6" name="r_account_frequency_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>5F0C1C38-9550-93B5-DC5B-A3E415F45F87</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D0EDDBC-185C-9BC0-5FE8-D75A1B8CD4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

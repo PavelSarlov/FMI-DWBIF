@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,7 +22,7 @@
 <generatorID>F670BFA0-2052-D1F8-8BA4-C9732613ABA7</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>1D8CF065-028C-773F-1880-DD68A942B5E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,7 +35,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,11 +47,11 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -61,7 +61,7 @@
 <generatorID>5DCF3175-E1E8-C949-BE39-120C74C93428</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>8A61E38A-97DA-4B5C-6AF1-A39A419F4AD3,12BCDB52-20EA-6A15-BF33-D0354599ADDB</newElementsIDs>

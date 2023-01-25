@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,7 +21,7 @@
 <createdTime>2022-12-12 22:46:34 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>5F59A315-C665-EE20-D694-589A4286985D</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,11 +46,11 @@
 <createdTime>2022-12-12 22:46:48 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -60,7 +60,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>561479EB-915C-FE5E-38C2-D18C816B44C8</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,8 +73,9 @@
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-17 11:58:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

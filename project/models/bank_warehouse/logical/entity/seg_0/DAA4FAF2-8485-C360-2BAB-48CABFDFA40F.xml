@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,7 +21,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,11 +45,11 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -59,7 +59,7 @@
 <generatorID>060E27BB-CD04-0199-D5E4-B0A187C0AB31</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>0833841F-25E2-D1D2-4D51-59BEFF3A71A0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,7 +73,7 @@
 <generatorID>36020ABC-363A-B7DB-E93C-FD5225E10842</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,8 +87,9 @@
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-17 12:25:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1AF75880-7D19-8EDD-8BFB-C9387A55093A</newElementsIDs>

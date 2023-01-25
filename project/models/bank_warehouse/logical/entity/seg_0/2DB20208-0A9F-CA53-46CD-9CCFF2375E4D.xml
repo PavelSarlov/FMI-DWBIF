@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,7 +22,7 @@
 <generatorID>20F24825-B0D9-8CD0-D8F0-7F56E4E81D38</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,7 +36,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>E5B722BB-B8BD-2C08-6803-D0C01D7D9AEE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,11 +48,11 @@
 <createdTime>2022-12-12 21:42:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -62,7 +62,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>F50A61AF-68C2-0DD9-D3FA-97B0B5B5596F</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>A94A9AA7-8B7E-9703-DB05-9069A2813BE1</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,8 +90,9 @@
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>0E6006CE-2838-BE28-8C37-AD00CEB8336E,20F24825-B0D9-8CD0-D8F0-7F56E4E81D38</newElementsIDs>

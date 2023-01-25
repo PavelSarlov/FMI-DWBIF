@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B17FFCA-0692-0283-8247-8B3E7F227417" name="s_client">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>96EC3406-0C16-B0FD-3FFE-E6ECD7A60E88</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id" id="9EAE4F96-A757-DA1D-6100-7B55A9E269B7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>69506176-EB9C-2E35-8497-CE83FAE3769E</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C436CFD-3280-F9AE-6887-961CDB39496E" referredColumn="683A8568-E9FD-4731-F7F6-D12A4C5D1EE4"/>
+</associations>
+</Column>
+<Column name="loaded_at" id="843376C8-F372-04FA-8C7D-3BC9980710FA">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>B685F1F8-0BD1-184B-9ADA-6FB2E0495834</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="69526F10-B4EB-99A9-1D49-C4713809D5C3">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>934AC095-B0F1-1EC3-2DCD-562EEC5035DF</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_number" id="CF516041-0D82-2829-DDE8-9F9CA6DC962F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>52805470-92C7-BB69-E603-8E2C5BF987E2</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD3697B9-B366-0610-FD81-B3BC6080B318" name="s_client_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>4A1D8FB7-E0DF-076B-C96F-410FDAFAF48F</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843376C8-F372-04FA-8C7D-3BC9980710FA"/>
+<colUsage columnID="9EAE4F96-A757-DA1D-6100-7B55A9E269B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AA3E13C-D749-9EBD-29A3-D7DAD28950D1" name="h_client_s_client">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:26:11 UTC</createdTime>
+<generatorID>5DCF3175-E1E8-C949-BE39-120C74C93428</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAE4F96-A757-DA1D-6100-7B55A9E269B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

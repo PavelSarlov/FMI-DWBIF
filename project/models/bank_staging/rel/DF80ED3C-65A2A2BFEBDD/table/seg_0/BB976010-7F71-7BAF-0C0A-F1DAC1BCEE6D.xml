@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB976010-7F71-7BAF-0C0A-F1DAC1BCEE6D" name="loan">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>A486C27F-73AC-FB56-5ECC-FFF1BCC21CE9</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staged_at" id="C9E61885-CEEB-7BB0-A918-E08521150C8C">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>98D508BE-24EC-AB24-9AF8-279AC3E2BC7C</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loan_id" id="98493724-29CB-67EE-1706-10686C35A265">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>239839F7-88E7-D4D0-6CA5-93D04CDDE9E1</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_id" id="BAF089D2-BB0D-7D99-D5D1-5B1816E39CD4">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>1A392487-9038-9D93-7DF3-46E9E7B6EBCF</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="C9C08409-FAC6-FC81-DE5F-1B6DFB887016">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>68330EC7-EA90-5D4E-FCF0-0E8F8FF4F7FD</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="C0DD235D-06A1-65AF-0453-07804CDAE3EF">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>0197082D-BB0C-2E79-B0B6-4F256854BFE2</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="3DCC3823-8979-B26C-37C9-FB8D8DC09FFD">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>A42661AF-9177-DE19-AD28-11250E64CBE1</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payments" id="7E56401B-3978-7121-9A96-20162760EEBD">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>6DD34155-B1E7-E9E4-4AB0-C20459BB5224</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CE60333D-D875-E960-3D59-1F438442F958">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>C033C15F-5B31-46EA-7E37-0C9EE33F3A7B</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F54EDEB6-81D9-A3D2-5BBF-76982943FAF1" name="loan_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>C7E8DBC2-C1A2-768B-52EC-50782E018819</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98493724-29CB-67EE-1706-10686C35A265"/>
+<colUsage columnID="C9E61885-CEEB-7BB0-A918-E08521150C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

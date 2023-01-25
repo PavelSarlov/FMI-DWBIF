@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11893AE4-EED0-C8C4-FA6C-A57E46D61C5E" name="disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>A778D293-E50F-CCF4-2FF0-56DB80C53A16</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="disp_id" id="1D84A138-405E-D4D1-2B83-859C4740AD6C">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>041300CE-5763-3F97-DEE6-7C23C4F234DD</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="10D4B535-BC28-B6A1-EA77-D80C26C21EEE">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>F33ADEE1-7F33-7DC3-0EAC-7AD14C80A785</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="165C2768-245C-EC35-1674-72C9380F9C25" referredColumn="8AD87851-3649-8D60-E4E7-1972BAC527AF"/>
+</associations>
+</Column>
+<Column name="account_id" id="24ABAEFC-E485-9A98-C975-44F8B66B1107">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>2A1208ED-CF41-F10A-B0C6-19A5EA6B1345</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C5D749-CD26-F770-2F63-0A429FC4EEC6" referredColumn="9A143BB9-3659-E798-0E14-69EBD6109B5F"/>
+</associations>
+</Column>
+<Column name="type" id="98C79170-CD0B-8845-78A8-89C4BE794B03">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>7C844574-03A8-E656-64D5-AE987BD577CF</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBE4671E-201C-9C48-9161-7B845865DD8C" name="disposition_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>4B5839B6-8861-7B6C-DE0E-3AFE4EE05663</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D84A138-405E-D4D1-2B83-859C4740AD6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B212FBCA-3C69-7742-B2CF-B4192E878E49" name="account__disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>EDB71469-098F-004B-5A8C-7A022F8F3377</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24ABAEFC-E485-9A98-C975-44F8B66B1107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C9049E8-48F8-0A3C-7273-341D864113E9" name="client__disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 21:46:38 UTC</createdTime>
+<generatorID>4DDDA7C8-887E-6C39-9DBB-7FC6C1CFDACF</generatorID>
+<ownerDesignName>bank_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D4B535-BC28-B6A1-EA77-D80C26C21EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

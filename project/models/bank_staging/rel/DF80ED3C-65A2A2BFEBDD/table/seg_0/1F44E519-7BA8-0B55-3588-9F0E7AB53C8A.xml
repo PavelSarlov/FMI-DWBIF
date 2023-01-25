@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F44E519-7BA8-0B55-3588-9F0E7AB53C8A" name="credit_card">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>DC4E0930-7C7B-CB9D-A2E3-216D99FDAE42</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staged_at" id="3961C9FF-C29C-7ACD-AA3E-712210F55D35">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>9EBDCB98-6EC0-A6FD-8CFD-AB3AA062243C</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_id" id="42DAE164-C2C5-5F78-2323-FA00A0BBFC60">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>80960229-7314-C8B0-7E32-479CD208068E</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disp_id" id="EEFEDEF1-E5EE-B5CE-2732-FCBF394C1497">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>379E14FA-7163-A6F9-E552-25465CBE149B</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="6687398D-B09F-5C1E-E6AA-ABF7D0B2735F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>E68804F3-7B2E-9A08-B2D3-469AC3FD3FC7</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="issued" id="6F29064E-4AA4-D0D7-03A1-C4B8C5E61CB2">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>1CE406DD-CFA1-4E21-535E-14CCE92AB8ED</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61180963-7DE2-5C32-ACC4-65E6825DD453" name="credit_card_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-25 22:06:53 UTC</createdTime>
+<generatorID>B2DD32FB-0220-CA7B-5CFE-FDB71D6E0913</generatorID>
+<ownerDesignName>bank_staging</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DAE164-C2C5-5F78-2323-FA00A0BBFC60"/>
+<colUsage columnID="3961C9FF-C29C-7ACD-AA3E-712210F55D35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

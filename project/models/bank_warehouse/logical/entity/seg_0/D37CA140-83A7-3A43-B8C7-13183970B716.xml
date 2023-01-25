@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -17,16 +17,16 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="8F5972EC-E3E5-1F27-971F-A759269A4AD6">
+<Attribute name="id" id="B2D53CA4-CE44-FC57-B2A5-75504A875354">
 <createdBy>muchd</createdBy>
-<createdTime>2022-12-12 21:23:40 UTC</createdTime>
+<createdTime>2023-01-25 22:19:41 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loaded_at" id="1E7C8983-9CBE-8DD8-C34D-F4FF9CBA858A">
@@ -35,7 +35,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>CF4D103B-A3BB-17C4-A9ED-D1D6CCFBC6CA</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,11 +48,11 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>68029782-C8A4-00A1-5973-FFF7B8F184CE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -62,7 +62,7 @@
 <generatorID>1A4DF2CF-50EE-F728-6BDE-D5B6BCFA1F5D</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>DC8963D1-3FE1-3678-7D59-3FCCF9A8F7F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <generatorID>7D941497-D345-DEB1-F607-FC765AE182D6</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <referedAttribute>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,17 +86,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5E1FBEA8-B81E-0881-B8EA-A0A53D8A883B" name="l_client_demographic PK">
+<identifier id="CBFC832F-B975-E9F8-2191-23F9494106A8" name="l_client_demographic PK">
 <createdBy>muchd</createdBy>
-<createdTime>2022-12-12 20:53:19 UTC</createdTime>
+<createdTime>2023-01-25 22:19:48 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>8F5972EC-E3E5-1F27-971F-A759269A4AD6</newElementsIDs>
 <usedAttributes>
-<attributeRef>8F5972EC-E3E5-1F27-971F-A759269A4AD6</attributeRef>
+<attributeRef>B2D53CA4-CE44-FC57-B2A5-75504A875354</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

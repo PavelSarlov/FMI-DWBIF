@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E23DD49E-1B72-4AEE-8565-E0730A2A3981" mainViewID="A9A9DF97-9FC3-1AF4-1069-AF824355BB4C">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E23DD49E-1B72-4AEE-8565-E0730A2A3981">
 <createdBy>muchd</createdBy>
 <createdTime>2022-11-13 20:32:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
@@ -10,7 +10,7 @@
 <createdTime>2022-12-12 21:30:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -27,7 +27,7 @@
 <createdTime>2022-12-12 21:31:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,7 +39,7 @@
 <createdTime>2022-12-12 21:30:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,19 +51,20 @@
 <createdTime>2022-12-12 21:41:49 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="27BFC3E6-A93A-C7F4-2834-22DFD1CBDC6D">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:30:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,7 +78,7 @@
 <createdTime>2022-12-17 11:58:33 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -91,7 +92,7 @@
 <createdTime>2022-12-12 21:16:45 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -108,7 +109,7 @@
 <createdTime>2022-12-12 21:16:45 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -120,7 +121,7 @@
 <createdTime>2022-12-12 21:16:45 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -132,19 +133,20 @@
 <createdTime>2022-12-12 21:20:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="client_id" id="B2E632B0-CC71-D13B-A316-884DB8CDA73F">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:32:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -158,7 +160,7 @@
 <createdTime>2022-12-12 21:16:45 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</newElementsIDs>
@@ -173,7 +175,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -190,7 +192,7 @@
 <createdTime>2022-12-12 22:12:36 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -203,7 +205,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>9EBDCB98-6EC0-A6FD-8CFD-AB3AA062243C</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -215,13 +217,14 @@
 <createdTime>2022-12-12 22:12:52 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="card_id" id="51CD48AB-F592-5EDD-DDAF-770E58762C9F">
 <createdBy>muchd</createdBy>
@@ -229,7 +232,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>80960229-7314-C8B0-7E32-479CD208068E</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -243,7 +246,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>13320A3C-371E-9565-A8EA-A2B38DB1B020</newElementsIDs>
@@ -258,7 +261,7 @@
 <createdTime>2022-12-12 21:00:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -275,7 +278,7 @@
 <createdTime>2022-12-12 21:00:47 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -287,7 +290,7 @@
 <createdTime>2022-12-12 21:03:11 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -299,19 +302,20 @@
 <createdTime>2022-12-12 21:05:27 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="district_id" id="CD9F6DC4-793B-89FD-3371-336DF79F1946">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:03:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -325,7 +329,7 @@
 <createdTime>2022-12-12 21:03:05 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -339,7 +343,7 @@
 <createdTime>2022-12-12 22:18:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -356,7 +360,7 @@
 <createdTime>2022-12-12 22:18:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -368,7 +372,7 @@
 <createdTime>2022-12-12 22:18:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -380,19 +384,20 @@
 <createdTime>2022-12-12 22:18:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="disp_id" id="778A292D-6A14-B8E2-D779-B8918B166EE9">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:19:34 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -406,7 +411,7 @@
 <createdTime>2022-12-12 22:18:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1D8CF065-028C-773F-1880-DD68A942B5E2</newElementsIDs>
@@ -421,7 +426,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -438,7 +443,7 @@
 <createdTime>2022-12-12 22:40:11 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -451,7 +456,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>98D508BE-24EC-AB24-9AF8-279AC3E2BC7C</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -463,19 +468,20 @@
 <createdTime>2022-12-12 22:40:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loan_id" id="FC2D2C93-864B-9228-993B-D6464CC3CEA7">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:43:27 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -489,7 +495,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>0833841F-25E2-D1D2-4D51-59BEFF3A71A0</newElementsIDs>
@@ -504,7 +510,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -521,7 +527,7 @@
 <createdTime>2022-12-12 22:46:34 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -534,7 +540,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>5F59A315-C665-EE20-D694-589A4286985D</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -546,12 +552,13 @@
 <createdTime>2022-12-12 22:46:48 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="order_id" id="17EC0EC0-0C83-48E3-C230-0DA8AB957D4B">
 <createdBy>muchd</createdBy>
@@ -559,7 +566,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>561479EB-915C-FE5E-38C2-D18C816B44C8</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -573,7 +580,7 @@
 <createdTime>2022-12-17 11:58:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -587,7 +594,7 @@
 <createdTime>2022-12-12 22:36:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -604,7 +611,7 @@
 <createdTime>2022-12-12 22:36:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -616,7 +623,7 @@
 <createdTime>2022-12-12 22:36:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -628,19 +635,20 @@
 <createdTime>2022-12-12 22:36:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="trans_id" id="8C5B9553-1D7E-0C07-4BF0-F09B1ABCBD49">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:36:26 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -654,7 +662,7 @@
 <createdTime>2022-12-12 22:36:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>2C54606E-9445-B2DD-2743-9759ADA20644</newElementsIDs>
@@ -669,7 +677,7 @@
 <createdTime>2022-12-12 21:56:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -686,7 +694,7 @@
 <createdTime>2022-12-12 21:56:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -698,7 +706,7 @@
 <createdTime>2022-12-12 21:56:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -710,12 +718,13 @@
 <createdTime>2022-12-12 21:56:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="5044F938-3B80-95CC-CD52-FF1244C182E1">
 <createdBy>muchd</createdBy>
@@ -723,14 +732,13 @@
 <generatorID>2AAB5103-3A5F-94F0-F8F0-EC2481993061</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="demographic_id" id="A7334135-AF68-BC75-EB26-D0B835D2BB2A">
 <createdBy>muchd</createdBy>
@@ -738,7 +746,7 @@
 <generatorID>6B28700F-F802-0B85-5A15-3E7BF1109328</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>DC8963D1-3FE1-3678-7D59-3FCCF9A8F7F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -753,7 +761,7 @@
 <createdTime>2022-12-17 11:53:22 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -767,7 +775,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -784,7 +792,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -796,7 +804,7 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -808,12 +816,13 @@
 <createdTime>2022-12-12 22:43:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loan_id" id="6CE6A12D-ECD4-A443-DFE1-DB3381F1E53E">
 <createdBy>muchd</createdBy>
@@ -821,14 +830,13 @@
 <generatorID>060E27BB-CD04-0199-D5E4-B0A187C0AB31</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>0833841F-25E2-D1D2-4D51-59BEFF3A71A0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="D4707D07-F885-A60D-D641-156CEBFE66EF">
 <createdBy>muchd</createdBy>
@@ -836,7 +844,7 @@
 <generatorID>36020ABC-363A-B7DB-E93C-FD5225E10842</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -851,7 +859,7 @@
 <createdTime>2022-12-17 12:25:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1AF75880-7D19-8EDD-8BFB-C9387A55093A</newElementsIDs>
@@ -866,7 +874,7 @@
 <createdTime>2022-12-12 22:49:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -883,7 +891,7 @@
 <createdTime>2022-12-12 22:49:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -895,7 +903,7 @@
 <createdTime>2022-12-12 22:49:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -907,12 +915,13 @@
 <createdTime>2022-12-12 22:49:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="permanent_order_id" id="36424651-E2F1-43E0-3D82-B47B7455284E">
 <createdBy>muchd</createdBy>
@@ -920,14 +929,13 @@
 <generatorID>298D6470-935C-8B90-6647-0D2FF2C52952</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADD2C5-AD3D-0E78-6D01-93503573834E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="4402F0EB-C065-37A1-F940-FD0A3BCC654C">
 <createdBy>muchd</createdBy>
@@ -935,14 +943,13 @@
 <generatorID>11ECB0AB-7B9F-EEBA-D938-6FEDE75F3E16</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -951,7 +958,7 @@
 <createdTime>2022-12-17 12:28:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -965,7 +972,7 @@
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -982,7 +989,7 @@
 <createdTime>2022-12-12 22:30:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -994,7 +1001,7 @@
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1006,12 +1013,13 @@
 <createdTime>2022-12-12 22:30:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="E165C558-49F0-19CD-3371-24CEFAFB6475">
 <createdBy>muchd</createdBy>
@@ -1019,14 +1027,13 @@
 <generatorID>80F8177D-F6ED-CB49-08F9-65B1AE1D35F5</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>2C54606E-9445-B2DD-2743-9759ADA20644</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="transaction_id" id="FC6AEC84-34A5-FB95-741C-83EA31264B4A">
 <createdBy>muchd</createdBy>
@@ -1034,14 +1041,13 @@
 <generatorID>83A6516B-823A-B914-5451-4D13BF69063B</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1050,7 +1056,7 @@
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>FCD48B2F-7C84-142C-6F9C-5D36D2BC463B</newElementsIDs>
@@ -1065,7 +1071,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1083,7 +1089,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>72B71F6D-7CD0-92C8-7913-73E8726E705F</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1096,7 +1102,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>1E796584-DB5C-6F58-4A4F-B1C891293406</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1108,12 +1114,13 @@
 <createdTime>2022-12-12 22:11:16 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account_id" id="3894DED0-2ADD-D71B-2DD6-EF15E7E7F1E0">
 <createdBy>muchd</createdBy>
@@ -1121,14 +1128,13 @@
 <generatorID>C36C6929-7EB2-0356-0E54-EF25EE7BC90D</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="disposition_id" id="EDFBD42D-AC4C-569E-8486-C7BC78D68026">
 <createdBy>muchd</createdBy>
@@ -1136,14 +1142,13 @@
 <generatorID>D49A5712-8F1A-1946-8BC3-F6F1191A6DB8</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>1D8CF065-028C-773F-1880-DD68A942B5E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="client_id" id="7672412B-A9B2-77A5-3A78-ACA974C412C3">
 <createdBy>muchd</createdBy>
@@ -1151,14 +1156,13 @@
 <generatorID>617DFBE9-35F1-B15A-C4F5-224F2BF2D584</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1167,7 +1171,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>31524AE6-FABF-C75A-D6F5-FF94216C5A1D</newElementsIDs>
@@ -1182,7 +1186,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1195,16 +1199,16 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="8F5972EC-E3E5-1F27-971F-A759269A4AD6">
+<Attribute name="id" id="B2D53CA4-CE44-FC57-B2A5-75504A875354">
 <createdBy>muchd</createdBy>
-<createdTime>2022-12-12 21:23:40 UTC</createdTime>
+<createdTime>2023-01-25 22:19:41 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loaded_at" id="1E7C8983-9CBE-8DD8-C34D-F4FF9CBA858A">
@@ -1213,7 +1217,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>CF4D103B-A3BB-17C4-A9ED-D1D6CCFBC6CA</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1226,12 +1230,13 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>68029782-C8A4-00A1-5973-FFF7B8F184CE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="client_id" id="09270F18-977B-0DED-3920-E4B224B0994E">
 <createdBy>muchd</createdBy>
@@ -1239,14 +1244,13 @@
 <generatorID>1A4DF2CF-50EE-F728-6BDE-D5B6BCFA1F5D</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>DC8963D1-3FE1-3678-7D59-3FCCF9A8F7F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="demographic_id" id="8A8B1E35-D6E7-30DB-A03A-7944EC6F8A15">
 <createdBy>muchd</createdBy>
@@ -1254,7 +1258,7 @@
 <generatorID>7D941497-D345-DEB1-F607-FC765AE182D6</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1264,17 +1268,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5E1FBEA8-B81E-0881-B8EA-A0A53D8A883B" name="l_client_demographic PK">
+<identifier id="CBFC832F-B975-E9F8-2191-23F9494106A8" name="l_client_demographic PK">
 <createdBy>muchd</createdBy>
-<createdTime>2022-12-12 20:53:19 UTC</createdTime>
+<createdTime>2023-01-25 22:19:48 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>8F5972EC-E3E5-1F27-971F-A759269A4AD6</newElementsIDs>
 <usedAttributes>
-<attributeRef>8F5972EC-E3E5-1F27-971F-A759269A4AD6</attributeRef>
+<attributeRef>B2D53CA4-CE44-FC57-B2A5-75504A875354</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
@@ -1284,7 +1287,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1301,7 +1304,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1313,7 +1316,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1325,12 +1328,13 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="disposition_id" id="2766ECEE-FF40-0C65-9041-647E18F5DDD3">
 <createdBy>muchd</createdBy>
@@ -1338,14 +1342,13 @@
 <generatorID>5C5ABFE7-10AF-0957-3C3D-3D710E7CB46B</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>13320A3C-371E-9565-A8EA-A2B38DB1B020</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="card_id" id="67A2E4EE-0882-9C19-317A-CCC46486D90C">
 <createdBy>muchd</createdBy>
@@ -1353,14 +1356,13 @@
 <generatorID>4451651A-F885-CAFE-35AF-A01DA92B9DDA</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>1D8CF065-028C-773F-1880-DD68A942B5E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>128 BYTE</dataTypeSize>
-<ownDataTypeParameters>128 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1369,7 +1371,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>5805E2D4-175D-2A22-5D29-F008687E79BB</newElementsIDs>
@@ -1384,7 +1386,7 @@
 <createdTime>2022-12-12 21:51:44 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1400,7 +1402,7 @@
 <createdTime>2022-12-12 21:51:44 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1412,12 +1414,13 @@
 <createdTime>2022-12-12 21:51:44 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1426,7 +1429,7 @@
 <createdTime>2022-12-17 12:01:21 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1440,7 +1443,7 @@
 <createdTime>2022-12-12 22:02:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1456,7 +1459,7 @@
 <createdTime>2022-12-12 22:02:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1468,12 +1471,13 @@
 <createdTime>2022-12-12 22:02:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1482,7 +1486,7 @@
 <createdTime>2022-12-17 12:01:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1496,7 +1500,7 @@
 <createdTime>2022-12-12 22:09:29 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1512,7 +1516,7 @@
 <createdTime>2022-12-12 22:09:29 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1524,12 +1528,13 @@
 <createdTime>2022-12-12 22:09:29 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1538,7 +1543,7 @@
 <createdTime>2022-12-17 12:01:42 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1552,7 +1557,7 @@
 <createdTime>2022-12-12 21:59:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1568,7 +1573,7 @@
 <createdTime>2022-12-12 21:59:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1580,12 +1585,13 @@
 <createdTime>2022-12-12 21:59:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1594,7 +1600,7 @@
 <createdTime>2022-12-17 12:01:02 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</newElementsIDs>
@@ -1609,7 +1615,7 @@
 <createdTime>2022-12-12 22:01:42 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1625,7 +1631,7 @@
 <createdTime>2022-12-12 22:01:42 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1637,12 +1643,13 @@
 <createdTime>2022-12-12 22:01:42 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1651,7 +1658,7 @@
 <createdTime>2022-12-17 12:01:37 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1665,7 +1672,7 @@
 <createdTime>2023-01-04 17:51:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1681,7 +1688,7 @@
 <createdTime>2023-01-04 17:51:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1693,19 +1700,20 @@
 <createdTime>2023-01-04 17:51:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="account" id="E7378964-EBF7-DE8F-20F8-49A5449B9E10">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:15:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1719,7 +1727,7 @@
 <createdTime>2023-01-04 17:51:25 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>A80B393D-4D90-C03A-74CD-9550C791FC4C</newElementsIDs>
@@ -1734,7 +1742,7 @@
 <createdTime>2022-12-12 22:00:21 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1750,7 +1758,7 @@
 <createdTime>2022-12-12 22:00:21 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1762,12 +1770,13 @@
 <createdTime>2022-12-12 22:00:21 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1776,7 +1785,7 @@
 <createdTime>2022-12-17 12:01:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1790,7 +1799,7 @@
 <createdTime>2022-12-12 22:00:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1806,7 +1815,7 @@
 <createdTime>2022-12-12 22:00:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1818,12 +1827,13 @@
 <createdTime>2022-12-12 22:00:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -1832,7 +1842,7 @@
 <createdTime>2022-12-17 12:01:12 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1846,7 +1856,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1864,7 +1874,7 @@
 <generatorID>20F24825-B0D9-8CD0-D8F0-7F56E4E81D38</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1878,7 +1888,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>E5B722BB-B8BD-2C08-6803-D0C01D7D9AEE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1890,12 +1900,13 @@
 <createdTime>2022-12-12 21:42:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date" id="2AF2632A-0572-F859-8C97-D7CBB6426313">
 <createdBy>muchd</createdBy>
@@ -1903,7 +1914,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>F50A61AF-68C2-0DD9-D3FA-97B0B5B5596F</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1917,7 +1928,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>A94A9AA7-8B7E-9703-DB05-9069A2813BE1</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1932,7 +1943,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>0E6006CE-2838-BE28-8C37-AD00CEB8336E,20F24825-B0D9-8CD0-D8F0-7F56E4E81D38</newElementsIDs>
@@ -1948,7 +1959,7 @@
 <createdTime>2022-12-12 21:33:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1966,7 +1977,7 @@
 <generatorID>5DCF3175-E1E8-C949-BE39-120C74C93428</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>75CDE82B-2A83-0DD0-7F13-BD125CEF8E20</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1979,7 +1990,7 @@
 <createdTime>2022-12-12 21:33:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1991,24 +2002,25 @@
 <createdTime>2022-12-12 21:33:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="birth_number" id="52805470-92C7-BB69-E603-8E2C5BF987E2">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 21:33:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -2018,7 +2030,7 @@
 <createdTime>2022-12-12 21:33:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>B685F1F8-0BD1-184B-9ADA-6FB2E0495834,69506176-EB9C-2E35-8497-CE83FAE3769E</newElementsIDs>
@@ -2034,7 +2046,7 @@
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2052,7 +2064,7 @@
 <generatorID>AE209084-C856-6AF0-74C9-C8F1E84BC1CD</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>13320A3C-371E-9565-A8EA-A2B38DB1B020</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2065,7 +2077,7 @@
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2077,19 +2089,20 @@
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="type" id="3566C3E2-EF54-6498-6665-2370C95C4A37">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2102,13 +2115,14 @@
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -2117,7 +2131,7 @@
 <createdTime>2022-12-12 22:13:55 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>98F3FEB0-BF8B-B0A8-C5B5-4B09F47DB0A4,CDE711FC-4580-E330-0538-BA060BA3DBB8</newElementsIDs>
@@ -2133,7 +2147,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2151,7 +2165,7 @@
 <generatorID>C835C87E-EB9B-B5C2-CFF9-C151E9BC41E5</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>DC8963D1-3FE1-3678-7D59-3FCCF9A8F7F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2165,7 +2179,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>88847F50-AD84-701C-B940-276D236DA2BE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2177,12 +2191,13 @@
 <createdTime>2022-12-12 21:19:42 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="district_name" id="0BA71302-A83F-9D96-15E6-07C684C7C88E">
 <createdBy>muchd</createdBy>
@@ -2190,13 +2205,14 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>21F10B08-6D1B-4775-3518-896418E6A4E0</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="region" id="598B3C58-7320-F3CA-31F3-78683B41DFC2">
 <createdBy>muchd</createdBy>
@@ -2204,13 +2220,14 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>41253B1C-C908-E612-06FA-56500E423C4A</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="inhabitants" id="F9624426-A9B0-C042-7A8C-470A21D51014">
 <createdBy>muchd</createdBy>
@@ -2218,7 +2235,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>FFE27C61-FC21-3DA5-D4A3-E31584E6A445</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2232,7 +2249,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>961C9883-8F77-C2FF-1B03-3D8F05AAADEF</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2246,7 +2263,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>0732C42B-1C73-7480-A695-B0DD5D89E8BE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2260,7 +2277,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>905BE7C9-74F3-916F-3516-5344D1B881AE</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2274,7 +2291,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>9F32E755-B206-D1A9-CEE7-D17027E5ADD9</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2288,7 +2305,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>239761E3-7F79-AEF2-F0F7-38852FA03030</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2302,7 +2319,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>7DCAC21C-C420-2B6E-84CD-A971B7A643C6</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2316,7 +2333,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>5A095CF4-8501-6D0C-FF6B-618A0AE8B855</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2330,7 +2347,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>2E93554A-622C-FA20-79AF-DF3EBDF69E02</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2344,7 +2361,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>2F32684C-06BA-A0A7-AEE4-627348A6D45D</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2358,7 +2375,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>7009EF77-6C9E-3E2D-4671-A4009A431517</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2372,7 +2389,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>4B1BD979-5A17-960D-61D4-BA401653B234</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2386,7 +2403,7 @@
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <importedID>39BA9D72-095D-5E78-8547-9CF26D3BD680</importedID>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2401,7 +2418,7 @@
 <createdTime>2022-12-12 20:53:19 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>2D43C49E-F48A-AE06-5CB2-B4416710C297,C835C87E-EB9B-B5C2-CFF9-C151E9BC41E5</newElementsIDs>
@@ -2417,7 +2434,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2435,7 +2452,7 @@
 <generatorID>F670BFA0-2052-D1F8-8BA4-C9732613ABA7</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>1D8CF065-028C-773F-1880-DD68A942B5E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2448,7 +2465,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2460,12 +2477,13 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="type" id="77326258-F94F-2823-8330-77D2A8D71399">
 <createdBy>muchd</createdBy>
@@ -2473,7 +2491,7 @@
 <generatorID>5DCF3175-E1E8-C949-BE39-120C74C93428</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2488,7 +2506,7 @@
 <createdTime>2022-12-12 22:08:39 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>8A61E38A-97DA-4B5C-6AF1-A39A419F4AD3,12BCDB52-20EA-6A15-BF33-D0354599ADDB</newElementsIDs>
@@ -2504,7 +2522,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2522,7 +2540,7 @@
 <generatorID>8FAA682C-7F2F-5413-35B2-326BB09ADF35</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>0833841F-25E2-D1D2-4D51-59BEFF3A71A0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2535,7 +2553,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2547,19 +2565,20 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date" id="ED04A0FC-7C5C-ED78-E53B-B9245B9DB63E">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2572,7 +2591,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2585,7 +2604,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2598,7 +2617,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2611,7 +2630,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2626,7 +2645,7 @@
 <createdTime>2022-12-12 22:42:32 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>A112953F-3878-9A8D-16E2-C1D422B25AEB,DA6B7875-58EF-26F7-68C1-F5DE6661A218</newElementsIDs>
@@ -2642,7 +2661,7 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2660,7 +2679,7 @@
 <generatorID>0CE0C282-5198-6E7C-7AE2-B3305BBAC15B</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>F2ADD2C5-AD3D-0E78-6D01-93503573834E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2673,7 +2692,7 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2685,19 +2704,20 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="partner" id="31CD1A20-6235-5DBE-7E75-5A9107A67E79">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2710,7 +2730,7 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2723,7 +2743,7 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2738,7 +2758,7 @@
 <createdTime>2022-12-12 22:49:07 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>8697D121-CF3A-3E82-C02A-F0CA631F2A01,0CE0C282-5198-6E7C-7AE2-B3305BBAC15B</newElementsIDs>
@@ -2754,7 +2774,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -2772,7 +2792,7 @@
 <generatorID>A0734C29-D746-187A-9CB8-B1DA22DC67AC</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <referedAttribute>2C54606E-9445-B2DD-2743-9759ADA20644</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2785,7 +2805,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -2797,19 +2817,20 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date" id="5B7D5B14-94F0-BB71-8329-89419D2F85A2">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2822,7 +2843,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2835,7 +2856,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2848,7 +2869,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2861,7 +2882,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2874,7 +2895,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2887,7 +2908,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -2902,7 +2923,7 @@
 <createdTime>2022-12-12 22:31:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>8EA18637-DC70-39FD-9A72-AF2766CC6E1F,DA8F0E07-94AC-E406-AD24-4EE1C601532B</newElementsIDs>
@@ -2920,7 +2941,7 @@
 <createdTime>2022-12-17 11:53:31 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>false</identifying>
@@ -2939,7 +2960,7 @@
 <createdTime>2022-12-12 22:45:41 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>false</identifying>
@@ -2958,7 +2979,7 @@
 <createdTime>2022-12-12 22:51:20 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>false</identifying>
@@ -2977,7 +2998,7 @@
 <createdTime>2022-12-12 22:37:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>false</identifying>
@@ -2996,7 +3017,7 @@
 <createdTime>2022-12-12 22:10:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>false</identifying>
@@ -3015,7 +3036,7 @@
 <createdTime>2022-12-17 12:06:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>EDA1AEFE-089F-A98C-3C2D-AC297789EFBB</sourcePk>
 <identifying>true</identifying>
@@ -3034,7 +3055,7 @@
 <createdTime>2022-12-12 22:11:03 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>DE02F1A7-8305-ED1C-5A49-82FE4D583A9F</sourcePk>
 <identifying>false</identifying>
@@ -3053,7 +3074,7 @@
 <createdTime>2022-12-12 21:29:17 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>DE02F1A7-8305-ED1C-5A49-82FE4D583A9F</sourcePk>
 <identifying>false</identifying>
@@ -3072,7 +3093,7 @@
 <createdTime>2022-12-12 21:40:28 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>DE02F1A7-8305-ED1C-5A49-82FE4D583A9F</sourcePk>
 <identifying>true</identifying>
@@ -3091,7 +3112,7 @@
 <createdTime>2022-12-12 22:23:47 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>C792DB45-1262-2720-F551-C30786795738</sourcePk>
 <identifying>false</identifying>
@@ -3110,7 +3131,7 @@
 <createdTime>2022-12-12 22:21:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>C792DB45-1262-2720-F551-C30786795738</sourcePk>
 <identifying>true</identifying>
@@ -3129,7 +3150,7 @@
 <createdTime>2022-12-12 21:57:28 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>B7C788C8-CA35-04D5-EA0E-DD993546855E</sourcePk>
 <identifying>false</identifying>
@@ -3148,7 +3169,7 @@
 <createdTime>2022-12-12 21:27:38 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>B7C788C8-CA35-04D5-EA0E-DD993546855E</sourcePk>
 <identifying>false</identifying>
@@ -3167,7 +3188,7 @@
 <createdTime>2022-12-12 21:25:41 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>B7C788C8-CA35-04D5-EA0E-DD993546855E</sourcePk>
 <dominantRole>DAC3A9F0-B168-33D4-D91D-8E1A1B8E7AD9</dominantRole>
@@ -3187,7 +3208,7 @@
 <createdTime>2022-12-12 22:24:08 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>E41197AA-7BF6-3B19-11EC-4A7C400794FF</sourcePk>
 <identifying>false</identifying>
@@ -3206,7 +3227,7 @@
 <createdTime>2022-12-12 22:19:50 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>E41197AA-7BF6-3B19-11EC-4A7C400794FF</sourcePk>
 <identifying>false</identifying>
@@ -3225,7 +3246,7 @@
 <createdTime>2022-12-12 22:21:13 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>E41197AA-7BF6-3B19-11EC-4A7C400794FF</sourcePk>
 <identifying>true</identifying>
@@ -3244,7 +3265,7 @@
 <createdTime>2022-12-12 22:45:26 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>5ADBA304-CFDD-158C-A7F8-89CD8C35BE21</sourcePk>
 <identifying>false</identifying>
@@ -3263,7 +3284,7 @@
 <createdTime>2022-12-12 22:45:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>5ADBA304-CFDD-158C-A7F8-89CD8C35BE21</sourcePk>
 <identifying>true</identifying>
@@ -3282,7 +3303,7 @@
 <createdTime>2022-12-12 22:51:41 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>26D1182F-E31D-578D-202B-52E77ABD343B</sourcePk>
 <identifying>false</identifying>
@@ -3301,7 +3322,7 @@
 <createdTime>2022-12-12 22:52:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>26D1182F-E31D-578D-202B-52E77ABD343B</sourcePk>
 <identifying>true</identifying>
@@ -3320,7 +3341,7 @@
 <createdTime>2022-12-12 22:39:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>2DF25348-A9F0-B349-2A14-FB1676F342D7</sourcePk>
 <identifying>true</identifying>
@@ -3339,7 +3360,7 @@
 <createdTime>2022-12-12 22:39:10 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="DF09D221-A149-5432-78EF-EB2015DFE8D4" value="true"/>
+<item key="1E4E9A26-8B60-1F56-422F-6FBFBAFBC49A" value="true"/>
 </engineerTo>
 <sourcePk>2DF25348-A9F0-B349-2A14-FB1676F342D7</sourcePk>
 <identifying>true</identifying>
@@ -3354,7 +3375,7 @@
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
 </Relationships>
-<mainView class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="A9A9DF97-9FC3-1AF4-1069-AF824355BB4C">
+<mainView class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical">
 <createdBy>muchd</createdBy>
 <modifiedBy>muchd</modifiedBy>
 <createdTime>2022-11-13 20:32:42 UTC</createdTime>
@@ -3371,19 +3392,19 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="14FB7209-F898-C1BB-09D3-6FBA56A810F9" otype="Entity" vid="4C1E7630-B513-E8A8-87A5-0FC4F36152EA">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="224" y="1412" width="167" height="88"/>
+<bounds x="232" y="1412" width="175" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="17594B22-8E19-C044-7627-FBB16A564808" otype="Entity" vid="2C5ABD89-9718-8C2A-B85B-3C47C18A5C73">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="655" y="1188" width="154" height="74"/>
+<bounds x="677" y="1188" width="168" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="28136D5B-932C-6F5A-20F2-28701C1F71EB" otype="Entity" vid="27AB8827-598A-2DCF-ED8F-222C674A30FC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="210" width="176" height="102"/>
+<bounds x="20" y="210" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2DB20208-0A9F-CA53-46CD-9CCFF2375E4D" otype="Entity" vid="792F7DE4-80E4-A792-AB34-18DB9D5B4EB6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1365" y="20" width="218" height="116"/>
+<bounds x="1418" y="20" width="218" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="331447B1-6DAE-5077-A250-205D89B18A42" otype="Entity" vid="B5BADD20-E312-E500-462B-1786495A8FB9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -3391,55 +3412,55 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="37F328CC-01CD-1443-8B56-36D7F50BF567" otype="Entity" vid="AE9F8754-F8C8-0969-2CF2-1A31A19B7F84">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1103" y="182" width="212" height="116"/>
+<bounds x="1142" y="182" width="220" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3CC3130C-E780-E404-A0E9-FE9CA888FAB8" otype="Entity" vid="BB680498-7C3C-9BA5-D8F0-873C9C9B2469">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2045" y="358" width="176" height="102"/>
+<bounds x="2100" y="358" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="481E2A00-F618-37EB-F4FA-504A60093143" otype="Entity" vid="43F17CED-D581-4EA3-4A3B-0A09C0BE5407">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1663" y="358" width="176" height="102"/>
+<bounds x="1718" y="358" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="60E385C0-1408-1B56-DE43-D7D69877893D" otype="Entity" vid="01867C48-2CBD-DA61-8EF6-02A6E36B23CB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2045" y="520" width="244" height="186"/>
+<bounds x="2100" y="520" width="244" height="186"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="66630091-E318-074A-2E64-D95FE5991C95" otype="Entity" vid="BD9323DE-9CAB-78BC-278F-8ACC0BA11829">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1395" y="520" width="182" height="158"/>
+<bounds x="1442" y="520" width="190" height="158"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="69516E8C-27E2-9DCC-C5A3-6CC0D8E08F13" otype="Entity" vid="2EEEB81B-9EB1-804B-2275-4E0A3C839B6A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="710" width="301" height="298"/>
+<bounds x="20" y="710" width="315" height="298"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="847A0F87-DFDB-15BE-4F85-FF22DA073C31" otype="Entity" vid="14AB2BA3-80EF-2E0A-097D-AC488CB5BE15">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="673" y="1412" width="157" height="74"/>
+<bounds x="689" y="1412" width="168" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="85382D75-0F36-4C5A-0058-0AE018EB917C" otype="Entity" vid="5F953A11-6BEC-9BD8-EEE5-E14F5B6373C5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2045" y="182" width="201" height="116"/>
+<bounds x="2100" y="182" width="209" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="8785699F-0536-1E66-25F8-7C0213C7C2EE" otype="Entity" vid="2A631C17-01C4-6527-967E-737368C3E34D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="550" y="372" width="199" height="116"/>
+<bounds x="575" y="372" width="207" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="917EF6A1-48B0-609D-A6DB-6580CE1292D8" otype="Entity" vid="18796C50-37AC-5347-455C-C71AC4570A58">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="806" y="210" width="217" height="102"/>
+<bounds x="845" y="210" width="217" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="944216F4-A486-2196-2010-2BB8FA314C49" otype="Entity" vid="73921C2F-AD17-2A9C-74C2-6D82156B6CE9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="550" y="710" width="215" height="116"/>
+<bounds x="575" y="710" width="215" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="96EC3406-0C16-B0FD-3FFE-E6ECD7A60E88" otype="Entity" vid="718DDA33-C194-DF84-9E99-741551829B9B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="276" y="210" width="194" height="102"/>
+<bounds x="290" y="210" width="205" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A4D8B356-6BB4-B46E-0387-EB924A8B10C0" otype="Entity" vid="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1103" y="20" width="182" height="102"/>
+<bounds x="1142" y="20" width="196" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A9E0108D-8139-7D0C-28DC-6A512C958E5A" otype="Entity" vid="D6FE05FE-2358-FBFE-CF36-BC5650045C3B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -3447,51 +3468,51 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AAF29AC5-0E49-C472-E0EC-A7EA2663897D" otype="Entity" vid="1A9D89FB-BF04-B963-1B56-37F0DAE6190E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="241" y="1188" width="159" height="74"/>
+<bounds x="241" y="1188" width="168" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AB49CEE8-AB51-BFDE-B7C3-8EE3D31C4FE2" otype="Entity" vid="D99C4834-82AC-B925-9479-9E191EA2A5B0">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="441" y="1412" width="182" height="74"/>
+<bounds x="457" y="1412" width="182" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C30BBA0E-B59F-F9BA-3429-41204F21D347" otype="Entity" vid="B9A4FF54-9238-0B75-9A72-F840C5E2E97E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1395" y="358" width="176" height="102"/>
+<bounds x="1442" y="358" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C8CF628D-4132-EDD6-19CE-3759EC0C37DA" otype="Entity" vid="F95C9A59-413F-ABFD-2468-15C3F2973396">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="1412" width="154" height="74"/>
+<bounds x="20" y="1412" width="162" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D37CA140-83A7-3A43-B8C7-13183970B716" otype="Entity" vid="81D2DCA7-9532-075D-A95E-FC30A425173F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="372" width="212" height="116"/>
+<bounds x="20" y="372" width="220" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D7ADE293-2A61-FC94-2334-BD6615BD548C" otype="Entity" vid="EF868FE4-69E2-B04F-BA7B-EC58F9D6F7B8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1663" y="520" width="302" height="130"/>
+<bounds x="1718" y="520" width="302" height="130"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D838BB84-D71A-10B7-D0F4-7E1597A54356" otype="Entity" vid="7E5785DD-2B45-4260-5EEB-53399F05C246">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="550" y="210" width="176" height="102"/>
+<bounds x="575" y="210" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DAA4FAF2-8485-C360-2BAB-48CABFDFA40F" otype="Entity" vid="85952A41-630C-C09F-47B3-59AC744D752E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1395" y="182" width="188" height="116"/>
+<bounds x="1442" y="182" width="196" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DAC3A9F0-B168-33D4-D91D-8E1A1B8E7AD9" otype="Entity" vid="99AFAF08-1091-4B9D-8EB7-66DB4DCD99CF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="548" width="176" height="102"/>
+<bounds x="20" y="548" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E394DECA-5462-61BF-E3E6-A56131B39EFC" otype="Entity" vid="F3C292F8-6A01-8DCA-1CE1-D99124598BA4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="450" y="1188" width="155" height="74"/>
+<bounds x="459" y="1188" width="168" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E4B10FF7-9727-8BD7-8151-76C32387F9D1" otype="Entity" vid="595E8CC7-3E8D-DF40-C37F-8CC0B556CD05">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="550" y="548" width="176" height="102"/>
+<bounds x="575" y="548" width="190" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F41F0EF1-6021-F710-96AB-F890862F4E43" otype="Entity" vid="08F4E3FE-1193-BD7E-B6E3-8CD745DD3810">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1663" y="182" width="230" height="116"/>
+<bounds x="1718" y="182" width="238" height="116"/>
 </OView>
 </objectViews>
 <connectors>
@@ -3500,8 +3521,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1483" y="358"/>
-<point x="1483" y="298"/>
+<point x="1537" y="358"/>
+<point x="1537" y="298"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0CE0C282-5198-6E7C-7AE2-B3305BBAC15B" otype="Relation" vid_source="43F17CED-D581-4EA3-4A3B-0A09C0BE5407" vid_target="EF868FE4-69E2-B04F-BA7B-EC58F9D6F7B8">
@@ -3509,8 +3530,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1751" y="460"/>
-<point x="1751" y="520"/>
+<point x="1813" y="460"/>
+<point x="1813" y="520"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="11ECB0AB-7B9F-EEBA-D938-6FEDE75F3E16" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="08F4E3FE-1193-BD7E-B6E3-8CD745DD3810">
@@ -3518,8 +3539,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1285" y="97"/>
-<point x="1663" y="206"/>
+<point x="1338" y="98"/>
+<point x="1718" y="206"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1A4DF2CF-50EE-F728-6BDE-D5B6BCFA1F5D" otype="Relation" vid_source="99AFAF08-1091-4B9D-8EB7-66DB4DCD99CF" vid_target="81D2DCA7-9532-075D-A95E-FC30A425173F">
@@ -3527,8 +3548,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="108" y="548"/>
-<point x="108" y="488"/>
+<point x="115" y="548"/>
+<point x="115" y="488"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="20F24825-B0D9-8CD0-D8F0-7F56E4E81D38" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="792F7DE4-80E4-A792-AB34-18DB9D5B4EB6">
@@ -3536,8 +3557,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1285" y="71"/>
-<point x="1365" y="71"/>
+<point x="1338" y="71"/>
+<point x="1418" y="71"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="298D6470-935C-8B90-6647-0D2FF2C52952" otype="Relation" vid_source="43F17CED-D581-4EA3-4A3B-0A09C0BE5407" vid_target="08F4E3FE-1193-BD7E-B6E3-8CD745DD3810">
@@ -3545,8 +3566,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1751" y="358"/>
-<point x="1751" y="298"/>
+<point x="1813" y="358"/>
+<point x="1813" y="298"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2AAB5103-3A5F-94F0-F8F0-EC2481993061" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="AE9F8754-F8C8-0969-2CF2-1A31A19B7F84">
@@ -3554,8 +3575,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1194" y="122"/>
-<point x="1194" y="182"/>
+<point x="1240" y="122"/>
+<point x="1240" y="182"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="36020ABC-363A-B7DB-E93C-FD5225E10842" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="85952A41-630C-C09F-47B3-59AC744D752E">
@@ -3563,8 +3584,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1283" y="122"/>
-<point x="1395" y="186"/>
+<point x="1330" y="122"/>
+<point x="1442" y="184"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4451651A-F885-CAFE-35AF-A01DA92B9DDA" otype="Relation" vid_source="7E5785DD-2B45-4260-5EEB-53399F05C246" vid_target="2A631C17-01C4-6527-967E-737368C3E34D">
@@ -3572,8 +3593,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="638" y="312"/>
-<point x="638" y="372"/>
+<point x="670" y="312"/>
+<point x="670" y="372"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5C5ABFE7-10AF-0957-3C3D-3D710E7CB46B" otype="Relation" vid_source="595E8CC7-3E8D-DF40-C37F-8CC0B556CD05" vid_target="2A631C17-01C4-6527-967E-737368C3E34D">
@@ -3581,8 +3602,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="638" y="548"/>
-<point x="638" y="488"/>
+<point x="670" y="548"/>
+<point x="670" y="488"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5DCF3175-E1E8-C949-BE39-120C74C93428" otype="Relation" vid_source="27AB8827-598A-2DCF-ED8F-222C674A30FC" vid_target="718DDA33-C194-DF84-9E99-741551829B9B">
@@ -3590,8 +3611,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="196" y="261"/>
-<point x="276" y="261"/>
+<point x="210" y="261"/>
+<point x="290" y="261"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="617DFBE9-35F1-B15A-C4F5-224F2BF2D584" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="D6FE05FE-2358-FBFE-CF36-BC5650045C3B">
@@ -3599,7 +3620,7 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1103" y="71"/>
+<point x="1142" y="71"/>
 <point x="227" y="71"/>
 </points>
 </Connector>
@@ -3608,8 +3629,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="196" y="570"/>
-<point x="1103" y="274"/>
+<point x="210" y="569"/>
+<point x="1142" y="274"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7D941497-D345-DEB1-F607-FC765AE182D6" otype="Relation" vid_source="27AB8827-598A-2DCF-ED8F-222C674A30FC" vid_target="81D2DCA7-9532-075D-A95E-FC30A425173F">
@@ -3617,8 +3638,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="108" y="312"/>
-<point x="108" y="372"/>
+<point x="115" y="312"/>
+<point x="115" y="372"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="80F8177D-F6ED-CB49-08F9-65B1AE1D35F5" otype="Relation" vid_source="BB680498-7C3C-9BA5-D8F0-873C9C9B2469" vid_target="5F953A11-6BEC-9BD8-EEE5-E14F5B6373C5">
@@ -3626,8 +3647,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2133" y="358"/>
-<point x="2133" y="298"/>
+<point x="2195" y="358"/>
+<point x="2195" y="298"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="83A6516B-823A-B914-5451-4D13BF69063B" otype="Relation" vid_source="7FF16A7B-3726-C2EA-E8DC-33A14EE84C25" vid_target="5F953A11-6BEC-9BD8-EEE5-E14F5B6373C5">
@@ -3635,8 +3656,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1285" y="87"/>
-<point x="2045" y="222"/>
+<point x="1338" y="88"/>
+<point x="2100" y="221"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8FAA682C-7F2F-5413-35B2-326BB09ADF35" otype="Relation" vid_source="B9A4FF54-9238-0B75-9A72-F840C5E2E97E" vid_target="BD9323DE-9CAB-78BC-278F-8ACC0BA11829">
@@ -3644,8 +3665,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1483" y="460"/>
-<point x="1483" y="520"/>
+<point x="1537" y="460"/>
+<point x="1537" y="520"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A0734C29-D746-187A-9CB8-B1DA22DC67AC" otype="Relation" vid_source="BB680498-7C3C-9BA5-D8F0-873C9C9B2469" vid_target="01867C48-2CBD-DA61-8EF6-02A6E36B23CB">
@@ -3653,8 +3674,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2133" y="460"/>
-<point x="2133" y="520"/>
+<point x="2195" y="460"/>
+<point x="2195" y="520"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AE209084-C856-6AF0-74C9-C8F1E84BC1CD" otype="Relation" vid_source="595E8CC7-3E8D-DF40-C37F-8CC0B556CD05" vid_target="73921C2F-AD17-2A9C-74C2-6D82156B6CE9">
@@ -3662,8 +3683,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="638" y="650"/>
-<point x="638" y="710"/>
+<point x="670" y="650"/>
+<point x="670" y="710"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C36C6929-7EB2-0356-0E54-EF25EE7BC90D" otype="Relation" vid_source="27AB8827-598A-2DCF-ED8F-222C674A30FC" vid_target="D6FE05FE-2358-FBFE-CF36-BC5650045C3B">
@@ -3671,8 +3692,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="108" y="210"/>
-<point x="108" y="150"/>
+<point x="115" y="210"/>
+<point x="115" y="150"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C835C87E-EB9B-B5C2-CFF9-C151E9BC41E5" otype="Relation" vid_source="99AFAF08-1091-4B9D-8EB7-66DB4DCD99CF" vid_target="2EEEB81B-9EB1-804B-2275-4E0A3C839B6A">
@@ -3680,8 +3701,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="108" y="650"/>
-<point x="108" y="710"/>
+<point x="115" y="650"/>
+<point x="115" y="710"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D49A5712-8F1A-1946-8BC3-F6F1191A6DB8" otype="Relation" vid_source="7E5785DD-2B45-4260-5EEB-53399F05C246" vid_target="D6FE05FE-2358-FBFE-CF36-BC5650045C3B">
@@ -3689,8 +3710,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="550" y="230"/>
-<point x="227" y="120"/>
+<point x="575" y="230"/>
+<point x="227" y="118"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F670BFA0-2052-D1F8-8BA4-C9732613ABA7" otype="Relation" vid_source="7E5785DD-2B45-4260-5EEB-53399F05C246" vid_target="18796C50-37AC-5347-455C-C71AC4570A58">
@@ -3698,8 +3719,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="726" y="261"/>
-<point x="806" y="261"/>
+<point x="765" y="261"/>
+<point x="845" y="261"/>
 </points>
 </Connector>
 </connectors>
