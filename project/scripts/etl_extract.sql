@@ -1,6 +1,6 @@
 CREATE EXTENSION IF NOT EXISTS postgres_fdw;
 
-CREATE FUNCTION clean_up() RETURNS void
+CREATE OR REPLACE FUNCTION clean_up() RETURNS void
 AS 
 $$
   DROP SCHEMA IF EXISTS public_foreign CASCADE;
@@ -21,6 +21,31 @@ IMPORT FOREIGN SCHEMA public FROM SERVER fdw_foreign INTO public_foreign;
 
 
 -- QUERY SECTION
+
+
+INSERT INTO public.account
+SELECT NOW(), * FROM public_foreign.account;
+
+INSERT INTO public.client
+SELECT NOW(), * FROM public_foreign.client;
+
+INSERT INTO public.credit_card
+SELECT NOW(), * FROM public_foreign.credit_card;
+
+INSERT INTO public.demographic_data
+SELECT NOW(), * FROM public_foreign.demographic_data;
+
+INSERT INTO public.disposition
+SELECT NOW(), * FROM public_foreign.disposition;
+
+INSERT INTO public.loan
+SELECT NOW(), * FROM public_foreign.loan;
+
+INSERT INTO public.permanent_order
+SELECT NOW(), * FROM public_foreign.permanent_order;
+
+INSERT INTO public.transaction
+SELECT NOW(), * FROM public_foreign.transaction;
 
 
 -- END QUERY SECTION

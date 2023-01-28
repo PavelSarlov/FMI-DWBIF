@@ -10,21 +10,21 @@
 -- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE d_account (
-    id         INTEGER NOT NULL,
+    id         SERIAL NOT NULL,
     account_id INTEGER NOT NULL
 );
 
 ALTER TABLE d_account ADD CONSTRAINT d_account_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_account_frequency (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(30) NOT NULL
 );
 
 ALTER TABLE d_account_frequency ADD CONSTRAINT d_account_frequency_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_client (
-    id           INTEGER NOT NULL,
+    id           SERIAL NOT NULL,
     client_id    INTEGER NOT NULL,
     birth_number INTEGER
 );
@@ -32,21 +32,21 @@ CREATE TABLE d_client (
 ALTER TABLE d_client ADD CONSTRAINT d_client_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_credit_card (
-    id      INTEGER NOT NULL,
+    id      SERIAL NOT NULL,
     card_id INTEGER NOT NULL
 );
 
 ALTER TABLE d_credit_card ADD CONSTRAINT d_credit_card_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_credit_card_type (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(10) NOT NULL
 );
 
 ALTER TABLE d_credit_card_type ADD CONSTRAINT d_credit_card_type_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_date (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     year  INTEGER,
     month SMALLINT,
     day   SMALLINT
@@ -55,7 +55,7 @@ CREATE TABLE d_date (
 ALTER TABLE d_date ADD CONSTRAINT d_date_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_demographic (
-    id                                 INTEGER NOT NULL,
+    id                                 SERIAL NOT NULL,
     district_id                        INTEGER NOT NULL,
     district_name                      VARCHAR(50),
     region                             VARCHAR(50),
@@ -78,21 +78,21 @@ CREATE TABLE d_demographic (
 ALTER TABLE d_demographic ADD CONSTRAINT d_demographic_data_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_disposition_type (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(10) NOT NULL
 );
 
 ALTER TABLE d_disposition_type ADD CONSTRAINT d_disposition_type_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_k_symbol (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(20) NOT NULL
 );
 
 ALTER TABLE d_k_symbol ADD CONSTRAINT d_k_symbol_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_loan (
-    id       INTEGER NOT NULL,
+    id       SERIAL NOT NULL,
     loan_id  INTEGER NOT NULL,
     duration INTEGER
 );
@@ -100,14 +100,14 @@ CREATE TABLE d_loan (
 ALTER TABLE d_loan ADD CONSTRAINT d_loan_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_loan_status (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(1) NOT NULL
 );
 
 ALTER TABLE d_loan_status ADD CONSTRAINT d_loan_status_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_partner (
-    id      INTEGER NOT NULL,
+    id      SERIAL NOT NULL,
     bank    VARCHAR(2) NOT NULL,
     account INTEGER NOT NULL
 );
@@ -115,14 +115,14 @@ CREATE TABLE d_partner (
 ALTER TABLE d_partner ADD CONSTRAINT d_partner_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_permanent_order (
-    id       INTEGER NOT NULL,
+    id       SERIAL NOT NULL,
     order_id INTEGER NOT NULL
 );
 
 ALTER TABLE d_permanent_order ADD CONSTRAINT d_permanent_order_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_time (
-    id     INTEGER NOT NULL,
+    id     SERIAL NOT NULL,
     hour   SMALLINT,
     minute SMALLINT
 );
@@ -130,21 +130,21 @@ CREATE TABLE d_time (
 ALTER TABLE d_time ADD CONSTRAINT d_time_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_transaction (
-    id       INTEGER NOT NULL,
+    id       SERIAL NOT NULL,
     trans_id INTEGER NOT NULL
 );
 
 ALTER TABLE d_transaction ADD CONSTRAINT d_transaction_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_transaction_operation (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(30) NOT NULL
 );
 
 ALTER TABLE d_transaction_operation ADD CONSTRAINT d_transaction_operation_pk PRIMARY KEY ( id );
 
 CREATE TABLE d_transaction_type (
-    id    INTEGER NOT NULL,
+    id    SERIAL NOT NULL,
     value VARCHAR(10) NOT NULL
 );
 

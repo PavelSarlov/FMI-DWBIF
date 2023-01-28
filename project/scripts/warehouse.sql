@@ -10,213 +10,213 @@
 -- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE h_account (
-    id         INTEGER NOT NULL,
+    id         SERIAL NOT NULL,
     loaded_at  DATE NOT NULL,
     source     VARCHAR(50) NOT NULL,
-    account_id INTEGER NOT NULL
+    account_id SERIAL NOT NULL
 );
 
 ALTER TABLE h_account ADD CONSTRAINT h_account_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_client (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    client_id INTEGER NOT NULL
+    client_id SERIAL NOT NULL
 );
 
 ALTER TABLE h_client ADD CONSTRAINT h_client_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_credit_card (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50),
-    card_id   INTEGER NOT NULL
+    card_id   SERIAL NOT NULL
 );
 
 ALTER TABLE h_credit_card ADD CONSTRAINT h_credit_card_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_demographic (
-    id          INTEGER NOT NULL,
+    id          SERIAL NOT NULL,
     loaded_at   DATE NOT NULL,
     source      VARCHAR(50) NOT NULL,
-    district_id INTEGER NOT NULL
+    district_id SERIAL NOT NULL
 );
 
 ALTER TABLE h_demographic ADD CONSTRAINT h_demographic_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_disposition (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    disp_id   INTEGER NOT NULL
+    disp_id   SERIAL NOT NULL
 );
 
 ALTER TABLE h_disposition ADD CONSTRAINT h_disposition_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_loan (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    loan_id   INTEGER NOT NULL
+    loan_id   SERIAL NOT NULL
 );
 
 ALTER TABLE h_loan ADD CONSTRAINT h_loan_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_permanent_order (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    order_id  INTEGER NOT NULL
+    order_id  SERIAL NOT NULL
 );
 
 ALTER TABLE h_permanent_order ADD CONSTRAINT h_permanent_order_pk PRIMARY KEY ( id );
 
 CREATE TABLE h_transaction (
-    id        INTEGER NOT NULL,
+    id        SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    trans_id  INTEGER NOT NULL
+    trans_id  SERIAL NOT NULL
 );
 
 ALTER TABLE h_transaction ADD CONSTRAINT h_transaction_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_account_demographic (
-    id             INTEGER NOT NULL,
+    id             SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    account_id     INTEGER NOT NULL,
-    demographic_id INTEGER NOT NULL
+    account_id     SERIAL NOT NULL,
+    demographic_id SERIAL NOT NULL
 );
 
 ALTER TABLE l_account_demographic ADD CONSTRAINT l_account_demographic_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_account_loan (
-    id         INTEGER NOT NULL,
+    id         SERIAL NOT NULL,
     loaded_at  DATE NOT NULL,
     source     VARCHAR(50) NOT NULL,
-    loan_id    INTEGER NOT NULL,
-    account_id INTEGER NOT NULL
+    loan_id    SERIAL NOT NULL,
+    account_id SERIAL NOT NULL
 );
 
 ALTER TABLE l_account_loan ADD CONSTRAINT l_account_loan_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_account_permanent_order (
-    id                 INTEGER NOT NULL,
+    id                 SERIAL NOT NULL,
     loaded_at          DATE NOT NULL,
     source             VARCHAR(50) NOT NULL,
-    permanent_order_id INTEGER NOT NULL,
-    account_id         INTEGER NOT NULL
+    permanent_order_id SERIAL NOT NULL,
+    account_id         SERIAL NOT NULL
 );
 
 ALTER TABLE l_account_permanent_order ADD CONSTRAINT l_account_permanent_order_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_account_transaction (
-    id             INTEGER NOT NULL,
+    id             SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    account_id     INTEGER NOT NULL,
-    transaction_id INTEGER NOT NULL
+    account_id     SERIAL NOT NULL,
+    transaction_id SERIAL NOT NULL
 );
 
 ALTER TABLE l_account_transaction ADD CONSTRAINT l_transaction_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_client_account_disposition (
-    id             INTEGER NOT NULL,
+    id             SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    account_id     INTEGER NOT NULL,
-    disposition_id INTEGER NOT NULL,
-    client_id      INTEGER NOT NULL
+    account_id     SERIAL NOT NULL,
+    disposition_id SERIAL NOT NULL,
+    client_id      SERIAL NOT NULL
 );
 
 --  ERROR: PK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_client_account_disposition ADD CONSTRAINT l_client_account_disposition_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_client_demographic (
-    id             INTEGER NOT NULL,
+    id             SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    client_id      INTEGER NOT NULL,
-    demographic_id INTEGER NOT NULL
+    client_id      SERIAL NOT NULL,
+    demographic_id SERIAL NOT NULL
 );
 
-ALTER TABLE l_client_demographic ADD CONSTRAINT l_client_demographic_pkv1 PRIMARY KEY ( id );
-
-ALTER TABLE l_client_demographic ADD CONSTRAINT l_client_demographic_pk UNIQUE ( id );
+ALTER TABLE l_client_demographic ADD CONSTRAINT l_client_demographic_pk PRIMARY KEY ( id );
 
 CREATE TABLE l_disposition_credit_card (
-    id             INTEGER NOT NULL,
+    id             SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    disposition_id INTEGER NOT NULL,
-    card_id        INTEGER NOT NULL
+    disposition_id SERIAL NOT NULL,
+    card_id        SERIAL NOT NULL
 );
 
 ALTER TABLE l_disposition_credit_card ADD CONSTRAINT l_disposition_credit_card_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_account_frequency (
-    id    INTEGER NOT NULL,
-    value VARCHAR(30) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(30) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_account_frequency ADD CONSTRAINT r_account_frequency_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_credit_card_type (
-    id    INTEGER NOT NULL,
-    value VARCHAR(10) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(10) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_credit_card_type ADD CONSTRAINT r_credit_card_type_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_disposition_type (
-    id    INTEGER NOT NULL,
-    value VARCHAR(10) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(10) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_disposition_type ADD CONSTRAINT r_disposition_type_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_k_symbol (
-    id    INTEGER NOT NULL,
-    value VARCHAR(20) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(20) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_k_symbol ADD CONSTRAINT r_k_symbol_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_loan_status (
-    id    INTEGER NOT NULL,
-    value VARCHAR(1) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(1) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_loan_status ADD CONSTRAINT r_loan_status_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_partner (
-    id      INTEGER NOT NULL,
+    id      SERIAL NOT NULL,
     bank    VARCHAR(2) NOT NULL,
-    account INTEGER NOT NULL
+    account INTEGER NOT NULL,
+
+    UNIQUE(bank, account)
 );
 
 ALTER TABLE r_partner ADD CONSTRAINT r_partner_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_transaction_operation (
-    id    INTEGER NOT NULL,
-    value VARCHAR(30) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(30) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_transaction_operation ADD CONSTRAINT r_transaction_operation_pk PRIMARY KEY ( id );
 
 CREATE TABLE r_transaction_type (
-    id    INTEGER NOT NULL,
-    value VARCHAR(10) NOT NULL
+    id    SERIAL NOT NULL,
+    value VARCHAR(10) NOT NULL UNIQUE
 );
 
 ALTER TABLE r_transaction_type ADD CONSTRAINT r_transaction_type_pk PRIMARY KEY ( id );
 
 CREATE TABLE s_account (
-    account_id INTEGER NOT NULL,
+    account_id SERIAL NOT NULL,
     loaded_at  DATE NOT NULL,
     source     VARCHAR(50) NOT NULL,
-    "date"     INTEGER,
+    "date"     DATE,
     frequency  INTEGER
 );
 
@@ -224,7 +224,7 @@ ALTER TABLE s_account ADD CONSTRAINT s_account_pk PRIMARY KEY ( loaded_at,
                                                                 account_id );
 
 CREATE TABLE s_client (
-    client_id    INTEGER NOT NULL,
+    client_id    SERIAL NOT NULL,
     loaded_at    DATE NOT NULL,
     source       VARCHAR(50) NOT NULL,
     birth_number INTEGER
@@ -234,18 +234,18 @@ ALTER TABLE s_client ADD CONSTRAINT s_client_pk PRIMARY KEY ( loaded_at,
                                                               client_id );
 
 CREATE TABLE s_credit_card (
-    card_id   INTEGER NOT NULL,
+    card_id   SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
     type      INTEGER,
-    issued    VARCHAR(20)
+    issued    TIMESTAMP
 );
 
 ALTER TABLE s_credit_card ADD CONSTRAINT s_credit_card_pk PRIMARY KEY ( loaded_at,
                                                                         card_id );
 
 CREATE TABLE s_demographic (
-    demographic_id                     INTEGER NOT NULL,
+    demographic_id                     SERIAL NOT NULL,
     loaded_at                          DATE NOT NULL,
     source                             VARCHAR(50) NOT NULL,
     district_name                      VARCHAR(50),
@@ -270,7 +270,7 @@ ALTER TABLE s_demographic ADD CONSTRAINT s_demographic_data_pk PRIMARY KEY ( loa
                                                                              demographic_id );
 
 CREATE TABLE s_disposition (
-    disposition_id INTEGER NOT NULL,
+    disposition_id SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
     type           INTEGER
@@ -280,10 +280,10 @@ ALTER TABLE s_disposition ADD CONSTRAINT s_client_pkv1 PRIMARY KEY ( loaded_at,
                                                                      disposition_id );
 
 CREATE TABLE s_loan (
-    loan_id   INTEGER NOT NULL,
+    loan_id   SERIAL NOT NULL,
     loaded_at DATE NOT NULL,
     source    VARCHAR(50) NOT NULL,
-    "date"    INTEGER,
+    "date"    DATE,
     amount    INTEGER,
     duration  INTEGER,
     payments  DECIMAL,
@@ -294,7 +294,7 @@ ALTER TABLE s_loan ADD CONSTRAINT s_loan_pk PRIMARY KEY ( loaded_at,
                                                           loan_id );
 
 CREATE TABLE s_permanent_order (
-    permanent_order_id INTEGER NOT NULL,
+    permanent_order_id SERIAL NOT NULL,
     loaded_at          DATE NOT NULL,
     source             VARCHAR(50) NOT NULL,
     partner            INTEGER,
@@ -306,10 +306,10 @@ ALTER TABLE s_permanent_order ADD CONSTRAINT s_permanent_order_pk PRIMARY KEY ( 
                                                                                 permanent_order_id );
 
 CREATE TABLE s_transaction (
-    transaction_id INTEGER NOT NULL,
+    transaction_id SERIAL NOT NULL,
     loaded_at      DATE NOT NULL,
     source         VARCHAR(50) NOT NULL,
-    "date"         INTEGER,
+    "date"         DATE,
     type           INTEGER,
     operation      INTEGER,
     amount         DECIMAL,
@@ -341,13 +341,13 @@ ALTER TABLE l_account_permanent_order
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_account_transaction
     ADD CONSTRAINT h_account_l_account_transaction FOREIGN KEY ( transaction_id )
-        REFERENCES h_account ( id )
+        REFERENCES h_transaction ( id )
             ON DELETE CASCADE;
 
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_client_account_disposition
     ADD CONSTRAINT h_account_l_client_account_disposition FOREIGN KEY ( client_id )
-        REFERENCES h_account ( id )
+        REFERENCES h_client ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE s_account
@@ -358,12 +358,12 @@ ALTER TABLE s_account
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_client_account_disposition
     ADD CONSTRAINT h_client_l_client_account_disposition FOREIGN KEY ( account_id )
-        REFERENCES h_client ( id )
+        REFERENCES h_account ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE l_client_demographic
     ADD CONSTRAINT h_client_l_client_demographic FOREIGN KEY ( demographic_id )
-        REFERENCES h_client ( id )
+        REFERENCES h_demographic ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE s_client
@@ -374,7 +374,7 @@ ALTER TABLE s_client
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_disposition_credit_card
     ADD CONSTRAINT h_credit_card_l_card_disposition FOREIGN KEY ( disposition_id )
-        REFERENCES h_credit_card ( id )
+        REFERENCES h_disposition ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE s_credit_card
@@ -391,7 +391,7 @@ ALTER TABLE l_account_demographic
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_client_demographic
     ADD CONSTRAINT h_demographic_l_client_demographic FOREIGN KEY ( client_id )
-        REFERENCES h_demographic ( id )
+        REFERENCES h_client ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE s_demographic
@@ -402,7 +402,7 @@ ALTER TABLE s_demographic
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_disposition_credit_card
     ADD CONSTRAINT h_disposition_l_card_disposition FOREIGN KEY ( card_id )
-        REFERENCES h_disposition ( id )
+        REFERENCES h_credit_card ( id )
             ON DELETE CASCADE;
 
 --  ERROR: FK name length exceeds maximum allowed length(30) 
@@ -440,7 +440,7 @@ ALTER TABLE s_permanent_order
 --  ERROR: FK name length exceeds maximum allowed length(30) 
 ALTER TABLE l_account_transaction
     ADD CONSTRAINT h_transaction_l_account_transaction FOREIGN KEY ( account_id )
-        REFERENCES h_transaction ( id )
+        REFERENCES h_account ( id )
             ON DELETE CASCADE;
 
 ALTER TABLE s_transaction
