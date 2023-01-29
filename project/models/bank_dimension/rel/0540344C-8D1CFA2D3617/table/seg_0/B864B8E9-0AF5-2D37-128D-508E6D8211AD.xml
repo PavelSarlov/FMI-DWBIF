@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B864B8E9-0AF5-2D37-128D-508E6D8211AD" name="d_transaction">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>2C5558DD-7E19-4ACB-3FCA-3DD2BC3F165F</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="686DB323-1E0D-03DB-8B16-6F6B421B20FA">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>2E598458-2993-1A01-B33F-7A8CB878C068</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trans_id" id="B0E801C6-006A-19ED-6760-540818E9D4CF">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>8E6BB67A-D5D7-632B-6A3A-8C7F47522BCB</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="k_symbol" id="DDAF0358-E426-EBDA-3686-5F328BF22A84">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>E6BD70BD-4569-F318-3FE9-D7288A03C2A0</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bank" id="813EB4AF-4844-401A-EB01-8DB0F45739CE">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>61A18076-3316-60EC-6FC3-7AF049028998</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account" id="038F99A8-2D39-A980-5CBE-36E9AC3BD271">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>9461B11F-1977-8AE3-8664-A404A1D95327</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="AAE52CB9-438F-CFEB-DB1E-5A9B36EB4753">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>7AC74C09-8F70-DD2E-A687-EB94ED3FE3BA</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operation" id="C5F3679E-923A-E326-4415-F479A92490F4">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>61CC9253-059D-7CFF-921E-89112FECEC29</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ABE27C6-6FF1-C5AA-19B0-BB53BD84EE3F" name="d_transaction_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>FFF26CA6-8789-4E2D-67CD-C701BF4DD612</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686DB323-1E0D-03DB-8B16-6F6B421B20FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2551FACD-690B-D4FF-4706-D852EE294143" name="d_transaction__IDX">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:59:57 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686DB323-1E0D-03DB-8B16-6F6B421B20FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

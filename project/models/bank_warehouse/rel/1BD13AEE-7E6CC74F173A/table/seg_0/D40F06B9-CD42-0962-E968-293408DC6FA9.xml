@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D40F06B9-CD42-0962-E968-293408DC6FA9" name="l_disposition_credit_card">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>8785699F-0536-1E66-25F8-7C0213C7C2EE</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EF87F5BB-2745-57D1-8DE0-000DC1ADA503">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>5805E2D4-175D-2A22-5D29-F008687E79BB</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loaded_at" id="584B4479-D0F7-090E-6783-359B5390DAB6">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>D932E48B-BB1D-C9BD-103E-D191F15F25FF</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="211798ED-DF0D-672D-4D3C-A080E4766725">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>8C2D8A07-705F-E037-F415-E249593828AF</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disposition_id" id="3B890159-6F13-F828-6065-CE92B7943580">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>67A2E4EE-0882-9C19-317A-CCC46486D90C</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E5B2295-B96C-447C-A126-71D8536F0975" referredColumn="7308750E-6092-648E-80AE-305C7C78997C"/>
+</associations>
+</Column>
+<Column name="card_id" id="9CAFEE97-06A4-04F0-22BB-AB2CA13595CE">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>3D644399-E6E0-266D-F0AE-EDC6F4DDC0C5</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E243915-418D-C55F-2A8C-186D07FAE0A3" referredColumn="F4DE86C5-8798-7EBA-7CF0-57A9D3ACEECC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98B853E3-CA3C-5924-1404-8DF3EB211AD6" name="l_disposition_credit_card_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>37812CEA-F029-33BD-141D-09066443383E</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF87F5BB-2745-57D1-8DE0-000DC1ADA503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F9989D-1E5B-61E9-14F9-AD338F973B35" name="h_credit_card_l_card_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>4598956F-A5C6-E046-AD32-91F2617119BD</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CAFEE97-06A4-04F0-22BB-AB2CA13595CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8634D3A-8BF0-DFBF-9978-A19C224C62EF" name="h_disposition_l_card_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>4451651A-F885-CAFE-35AF-A01DA92B9DDA</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B890159-6F13-F828-6065-CE92B7943580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

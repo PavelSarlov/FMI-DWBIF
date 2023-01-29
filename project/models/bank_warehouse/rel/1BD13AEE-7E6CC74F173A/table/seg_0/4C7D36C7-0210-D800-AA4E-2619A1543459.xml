@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C7D36C7-0210-D800-AA4E-2619A1543459" name="h_demographic">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>DAC3A9F0-B168-33D4-D91D-8E1A1B8E7AD9</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>6484D025-4DE6-F975-DECA-3A9FFEB06A1F</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="217D260A-2AF8-5C88-C63C-089DA88601C0">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>DC8963D1-3FE1-3678-7D59-3FCCF9A8F7F3</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loaded_at" id="9B11E9D2-8C38-3C51-2886-B31AF522B4CD">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>8DC8E136-F649-C271-DD7E-CFEA50E63ED9</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="078C7D5E-0911-1717-C9D6-D3BF05421C80">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>BF6A93C9-DA3A-84F4-ED42-4E6BD0803E95</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="district_id" id="99EBC969-B975-A769-D008-574E049FE8EC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>CD9F6DC4-793B-89FD-3371-336DF79F1946</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAB81DC7-60C9-E6AB-5AE4-01FDA3044687" name="h_demographic_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:21:45 UTC</createdTime>
+<generatorID>B7C788C8-CA35-04D5-EA0E-DD993546855E</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217D260A-2AF8-5C88-C63C-089DA88601C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

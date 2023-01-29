@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d client FK" directorySegmentName="seg_0" id="D6A1350D-DD9E-5E06-B3B1-A9FB77B9024A">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:47:19 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<sourcePk>53B8B2EE-BDC9-B844-F521-99520AE4E978</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAD12353-BF79-A6FB-5682-EDE9AFE2407B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14C9ED5F-3E33-3248-2AB1-C847B3105FC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

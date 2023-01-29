@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A4F469F-C234-844F-84C6-CC44BCEC1D9C" name="d_date">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>1D72182C-5932-2716-A5E6-288F6B3A45DA</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9F974F8A-3A9A-155C-2258-C95FD2AE4AE5">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="E2010730-1688-3C6C-68DD-5400BF150097">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>ED977208-B6D3-640C-E85D-1B8C52281F93</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="month" id="245A4DAC-DFF2-F0A5-7985-911DBA41FAEC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>AF352297-8531-6B8A-D798-21D1915622CB</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day" id="215CDA00-62A6-4FFB-2101-C42F1BCB2E41">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>58104D31-5786-8419-8133-088173D85557</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B487A952-E0EF-EE1D-487A-7073A018E565" name="d_date_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>98DEC92F-C77B-E500-3965-A88E1C7AB440</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F974F8A-3A9A-155C-2258-C95FD2AE4AE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

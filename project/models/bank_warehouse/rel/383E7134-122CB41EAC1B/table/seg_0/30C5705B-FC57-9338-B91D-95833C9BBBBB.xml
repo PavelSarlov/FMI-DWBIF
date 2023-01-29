@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30C5705B-FC57-9338-B91D-95833C9BBBBB" name="s_account">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>2DB20208-0A9F-CA53-46CD-9CCFF2375E4D</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_id" id="F26F4652-7715-C87D-AFAA-75844F88C920">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>6244175A-C1C8-330A-1D0A-6A0C5AB333EF</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73F08BE6-E059-FE7A-EC7E-2302FE269B28" referredColumn="6CF6B374-5C41-1EBB-DFBE-F2EBC6EEA3A2"/>
+</associations>
+</Column>
+<Column name="loaded_at" id="39D4893A-0D94-DD8D-98A3-7A2FE1D4007E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>0E6006CE-2838-BE28-8C37-AD00CEB8336E</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="D4D87987-0F46-B01F-5969-622BE75CB78D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>BCD0E326-1331-C23A-B0CC-A70051323C22</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="BEED79F4-FE1E-9354-76E7-864BC1517A51">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>2AF2632A-0572-F859-8C97-D7CBB6426313</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frequency" id="A3975943-231B-E425-D0A9-DD0B4FC6CB0D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>8B5CBE54-8E3B-7006-EFFC-208C579A5C76</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A70B4AF-3702-9A08-2D89-FCE5CB0A62FE" name="s_account_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>3D83D094-973F-03B8-C09A-C90AD7D78521</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D4893A-0D94-DD8D-98A3-7A2FE1D4007E"/>
+<colUsage columnID="F26F4652-7715-C87D-AFAA-75844F88C920"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FEECD69-3890-028F-FE3C-8680035FDA28" name="h_account_s_account">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>20F24825-B0D9-8CD0-D8F0-7F56E4E81D38</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F26F4652-7715-C87D-AFAA-75844F88C920"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7784831C-BA4E-CEAC-7618-F986B2BE9245" name="d_loan">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>B685BDBB-B1C7-4FB4-E61B-4780C573E997</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F11D53F3-79FF-3D56-F643-2FE3E347959D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>B20FD40C-261E-A0AE-DDEF-CCE8C4415545</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loan_id" id="C0DD9A9B-093E-325B-4D32-92E9801A6473">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>CA9F4EC4-8130-AC92-E7FD-E221E023FAAC</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="8D69E2FC-4516-7E8E-D05F-173C028ACE3F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>0E878517-EA73-F1D8-FFE1-450F2B946927</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="194F3EFC-236A-E5E8-0298-C18959152D8E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>9EB6758E-717D-A857-D7EA-3E7C4F2D2054</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76B8C52B-23CD-F34C-D3A6-04D9B15E240E" name="d_loan_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>12CD66DC-714E-80ED-28B8-691045F87971</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F11D53F3-79FF-3D56-F643-2FE3E347959D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

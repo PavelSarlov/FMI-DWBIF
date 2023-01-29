@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="310CFB4E-BD18-3900-6160-C23B45AE27D6" name="s_transaction">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>60E385C0-1408-1B56-DE43-D7D69877893D</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>4291E4CC-656F-6204-5281-D1D39858EBFC</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="E8DBA745-7ECC-CBA3-9C5F-EF914A5B7BD2">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>DA8F0E07-94AC-E406-AD24-4EE1C601532B</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ABB9BA3-C693-857C-74A7-41CDE7E66B3D" referredColumn="509B1586-4439-7347-0259-3F3ABBAE7309"/>
+</associations>
+</Column>
+<Column name="loaded_at" id="82782B33-4493-C97A-F3E2-356825B012DC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>8EA18637-DC70-39FD-9A72-AF2766CC6E1F</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="728A29B8-8860-530D-E2E9-A563368FD4E7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>0820169A-6A29-28DA-3D30-C28EBA1E8FC3</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="DE26E397-5C96-CB1C-430A-D8BE44E313E7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>5B7D5B14-94F0-BB71-8329-89419D2F85A2</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="13567E87-FA35-503B-A7A3-DA9B0D8634D8">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>AD9B2A9A-4FF8-367B-8369-59391931BFC9</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operation" id="EF753AD3-8BA4-40EA-07E5-D3324CBB3823">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>B4A78546-818F-F28E-449A-D63E7441A4C6</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="54E9F318-B9D3-DD64-EC32-C0B772753023">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>C709093B-8D40-606B-9C02-74E88E9F9A92</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="balance" id="102F6250-9D1C-6AF8-5B5D-34DA705D3ED0">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>91DD6540-4F21-1E09-4B94-2EE6C7D8246B</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="k_symbol" id="EA59A0C3-270E-D989-B755-5CDDA142AA2B">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>D9D0EB58-5591-EF72-F4E0-7E8A328679FF</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partner" id="BACCB0B5-6705-CEC9-929F-231E91CD3D34">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>BA9DE17F-EC3E-9E54-ADAB-6B880C6DE3C8</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="267975CD-83E3-A3C7-E6C0-6BB887E49AE2" name="s_transaction_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>841CC314-B593-3A46-A173-FC435550A46F</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82782B33-4493-C97A-F3E2-356825B012DC"/>
+<colUsage columnID="E8DBA745-7ECC-CBA3-9C5F-EF914A5B7BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="162468C1-B081-377F-466A-4934A47B0755" name="h_transaction_s_transaction">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>A0734C29-D746-187A-9CB8-B1DA22DC67AC</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8DBA745-7ECC-CBA3-9C5F-EF914A5B7BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

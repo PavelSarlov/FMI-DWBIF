@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="f permanent order d account FK" directorySegmentName="seg_0" id="36276A49-BC42-BB30-9BFD-418D661CA1FA">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:14:47 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>account_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

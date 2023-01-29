@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77CEF3D3-D393-7BD8-D870-CCC6A2C21B69" name="d_disposition_type">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77CEF3D3-D393-7BD8-D870-CCC6A2C21B69" name="d disposition type">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:58:33 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,7 +22,7 @@
 <ownerDesignName>bank_dimension</ownerDesignName>
 <importedID>9EEB0B59-9540-D46E-667A-59AF50653D6D</importedID>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <ownerDesignName>bank_dimension</ownerDesignName>
 <importedID>CCAFFC40-141F-C81F-F2B7-0AAD290AF00C</importedID>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,12 +45,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="104A6862-19E4-A795-E9BD-3C28A6F62EE3" name="d_disposition_type PK">
+<identifier id="104A6862-19E4-A795-E9BD-3C28A6F62EE3" name="d_disposition_type_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:58:33 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>F1838FA1-70EC-0227-A637-220DF36748AF</newElementsIDs>

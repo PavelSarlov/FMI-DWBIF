@@ -5,12 +5,83 @@
 <ownerDesignName>bank_dimension</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 <Entities>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="560F46E9-21B0-6364-ACC8-13A6152BE418" name="d_account">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C5E56C9-630B-84F2-92EC-61D6B4C8559E" name="d_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:00:37 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5430AF34-ABC9-497E-585C-413B2B1C8617">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:00:49 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disp_id" id="B4BF41AB-2526-364D-6C83-143149D1AF56">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:05:51 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="1B434DD4-0B67-65FA-8DD2-3F46F3DA231B">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:01:11 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A1D5646-7920-7610-FA8B-6156171F125F" name="d_disposition PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:00:59 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5430AF34-ABC9-497E-585C-413B2B1C8617</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="560F46E9-21B0-6364-ACC8-13A6152BE418" name="d account">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:46:35 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -27,33 +98,47 @@
 <createdTime>2023-01-02 16:46:56 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="account_id" id="E576A467-FA87-E090-E9FF-8C9ABD93B15C">
+<Attribute name="account id" id="E576A467-FA87-E090-E9FF-8C9ABD93B15C">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:27:34 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="frequency" id="C01BCDBF-5ADC-CB40-757F-9617B20AF81A">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:48:33 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5" name="d_account PK">
+<identifier id="B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5" name="d_account_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:46:35 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1EF529BF-F90D-8EBF-E619-06275C392C14</newElementsIDs>
@@ -63,73 +148,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="701EBE43-71A1-92B2-352F-8D1CC69472AE" name="d_account_frequency">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="B6CD3CD0-FBF2-91DB-A82E-38B596EA2677">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>59C48BC6-7A71-62CB-9A66-E0E8DCB04993</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="D24DDBE7-BC8D-1F8C-4AE4-32C507B69DF7">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>21142855-9AE6-26B6-3D03-BBDB17550730</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B284752E-C56C-D676-BFFA-00FF4CF9AF98" name="d_account_frequency PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>B6CD3CD0-FBF2-91DB-A82E-38B596EA2677</newElementsIDs>
-<usedAttributes>
-<attributeRef>B6CD3CD0-FBF2-91DB-A82E-38B596EA2677</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAD12353-BF79-A6FB-5682-EDE9AFE2407B" name="d_client">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAD12353-BF79-A6FB-5682-EDE9AFE2407B" name="d client">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:41:32 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -146,32 +170,32 @@
 <createdTime>2023-01-02 16:41:42 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="client_id" id="96CBE0ED-4B3C-7EA1-5D2A-C96646E09C40">
+<Attribute name="client id" id="96CBE0ED-4B3C-7EA1-5D2A-C96646E09C40">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:26:53 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="birth_number" id="58F0690D-F044-621D-D64E-DBA67CFB99FA">
+<Attribute name="birth number" id="58F0690D-F044-621D-D64E-DBA67CFB99FA">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:41:32 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <importedID>52805470-92C7-BB69-E603-8E2C5BF987E2</importedID>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -181,12 +205,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="53B8B2EE-BDC9-B844-F521-99520AE4E978" name="d_client PK">
+<identifier id="53B8B2EE-BDC9-B844-F521-99520AE4E978" name="d_client_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:41:32 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1278DF3C-5C15-6D10-CB9F-66D92D48CD24</newElementsIDs>
@@ -196,12 +220,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B35FBC16-1102-A62A-2623-AA9448B024A2" name="d_credit_card">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B35FBC16-1102-A62A-2623-AA9448B024A2" name="d credit card">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:39:24 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -218,33 +242,47 @@
 <createdTime>2023-01-02 16:40:35 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="card_id" id="76E4551D-177E-63AB-CA77-FAE55B2AAF63">
+<Attribute name="card id" id="76E4551D-177E-63AB-CA77-FAE55B2AAF63">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:41:02 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="type" id="E3F5FBAD-A205-4F9D-38A2-060D2892E148">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:43:46 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D288E6A9-630C-0FE4-BF96-FA7040A6B3A3" name="d_credit_card PK">
+<identifier id="D288E6A9-630C-0FE4-BF96-FA7040A6B3A3" name="d_credit_card_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:39:24 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>52E2C64C-A33D-8826-ECEC-3C181FD05486</newElementsIDs>
@@ -254,73 +292,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC2F5016-938D-AA8A-D223-F450ECA0CDED" name="d_credit_card_type">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="661F366F-05F6-974C-3DC7-3FC2D19C654D">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>6D273311-63C7-1A75-508D-20CB96D9B65D</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="A89D528C-88BF-A3CF-F25F-152EE88B3B3D">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>59710CDE-B3A1-9862-A0B9-350701FEE2A2</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="085BE89F-DAB6-32C0-1D0D-A19D1B0CDA3C" name="d_credit_card_type PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>661F366F-05F6-974C-3DC7-3FC2D19C654D</newElementsIDs>
-<usedAttributes>
-<attributeRef>661F366F-05F6-974C-3DC7-3FC2D19C654D</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D72182C-5932-2716-A5E6-288F6B3A45DA" name="d_date">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D72182C-5932-2716-A5E6-288F6B3A45DA" name="d date">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:31:39 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -337,7 +314,7 @@
 <createdTime>2023-01-04 17:31:55 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -349,7 +326,7 @@
 <createdTime>2023-01-04 17:32:03 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -362,7 +339,7 @@
 <createdTime>2023-01-04 17:32:15 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -375,7 +352,7 @@
 <createdTime>2023-01-04 17:32:23 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -385,12 +362,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="98DEC92F-C77B-E500-3965-A88E1C7AB440" name="d_date PK">
+<identifier id="98DEC92F-C77B-E500-3965-A88E1C7AB440" name="d_date_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:32:01 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -399,12 +376,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7703147E-B4BF-BB09-FF32-380EEAD94E77" name="d_demographic">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7703147E-B4BF-BB09-FF32-380EEAD94E77" name="d demographic">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:36:29 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -421,31 +398,31 @@
 <createdTime>2023-01-02 16:37:52 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="district_id" id="DC03DEC6-4607-0D7F-D44E-817BCF7B20AB">
+<Attribute name="district id" id="DC03DEC6-4607-0D7F-D44E-817BCF7B20AB">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:27:07 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="district_name" id="5FF923F1-BFF7-A78B-31C6-B6ADF4ABF683">
+<Attribute name="district name" id="5FF923F1-BFF7-A78B-31C6-B6ADF4ABF683">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -459,7 +436,7 @@
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -473,7 +450,7 @@
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -481,12 +458,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municip_inhabitants_0_499" id="BB8ED0EA-5501-6E4D-38C0-E59B284B8C58">
+<Attribute name="municip inhabitants 0 499" id="BB8ED0EA-5501-6E4D-38C0-E59B284B8C58">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -494,12 +471,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municip_inhabitants_500_1999" id="D131EA35-78ED-43A1-A946-7F9EB3ED68F1">
+<Attribute name="municip inhabitants 500 1999" id="D131EA35-78ED-43A1-A946-7F9EB3ED68F1">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -507,12 +484,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municip_inhabitants_2000_9999" id="DDF14065-A4F9-DD49-88A6-5FDB0F714BD7">
+<Attribute name="municip inhabitants 2000 9999" id="DDF14065-A4F9-DD49-88A6-5FDB0F714BD7">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -520,12 +497,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municip_inhabitants_10000_inf" id="F29B7A27-35AD-C43A-2909-2099310D3FB9">
+<Attribute name="municip inhabitants 10000 inf" id="F29B7A27-35AD-C43A-2909-2099310D3FB9">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -538,7 +515,7 @@
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -546,12 +523,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="urban_inhabitants_ratio" id="4FB86F66-2B41-E8DA-EF0A-78BAB10BEC55">
+<Attribute name="urban inhabitants ratio" id="4FB86F66-2B41-E8DA-EF0A-78BAB10BEC55">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -559,12 +536,12 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="avg_salary" id="ADD372F1-9BEB-EDAF-9963-30D90E52D81E">
+<Attribute name="avg salary" id="ADD372F1-9BEB-EDAF-9963-30D90E52D81E">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -572,12 +549,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="unemployment_rate_95" id="97A1B1AB-CAC8-F554-AD15-78A66267FBDC">
+<Attribute name="unemployment rate 95" id="97A1B1AB-CAC8-F554-AD15-78A66267FBDC">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -585,12 +562,12 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="unemployment_rate_96" id="D9FC1562-E157-F070-9302-BFA2CE9F265A">
+<Attribute name="unemployment rate 96" id="D9FC1562-E157-F070-9302-BFA2CE9F265A">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -598,12 +575,12 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="enterpreneurs_per_1000_inhabitants" id="C3F94A9D-5EE0-BFC9-592C-2B04252CF75E">
+<Attribute name="enterpreneurs per 1000 inhabitants" id="C3F94A9D-5EE0-BFC9-592C-2B04252CF75E">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -611,12 +588,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="commited_crimes_95" id="7B2A3090-BA35-17F2-88A7-ED3CA9B7A1A4">
+<Attribute name="commited crimes 95" id="7B2A3090-BA35-17F2-88A7-ED3CA9B7A1A4">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -624,12 +601,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="commited_crimes_96" id="DF995396-0DA4-B3A4-5753-D82388D5B51D">
+<Attribute name="commited crimes 96" id="DF995396-0DA4-B3A4-5753-D82388D5B51D">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:26:59 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -639,12 +616,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="068CFE2C-A9C9-077E-A49D-6EB2450ACB05" name="d_demographic_data PK">
+<identifier id="068CFE2C-A9C9-077E-A49D-6EB2450ACB05" name="d_demographic_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:36:29 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>9D40FD1A-E779-F12D-29EA-C20803E3ACC1</newElementsIDs>
@@ -654,134 +631,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77CEF3D3-D393-7BD8-D870-CCC6A2C21B69" name="d_disposition_type">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="F1838FA1-70EC-0227-A637-220DF36748AF">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>9EEB0B59-9540-D46E-667A-59AF50653D6D</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="6FE5D90A-B2B6-D4FD-18E6-09542E16A11C">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>CCAFFC40-141F-C81F-F2B7-0AAD290AF00C</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="104A6862-19E4-A795-E9BD-3C28A6F62EE3" name="d_disposition_type PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>F1838FA1-70EC-0227-A637-220DF36748AF</newElementsIDs>
-<usedAttributes>
-<attributeRef>F1838FA1-70EC-0227-A637-220DF36748AF</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08B88F44-2CE7-E4BA-58DA-9844A87A4872" name="d_k_symbol">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="8D1D3C97-21DF-E18C-A124-D297D0CF69CC">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>4F108F7C-55F3-E3FD-96B9-FF5F5B8F4BF3</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="2528F41F-C8F5-5BB7-8E94-FF2BE313CE71">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>0762FD04-AE86-DB9D-BDDB-4E5BCA627CAF</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1CBDDFF7-6C82-E6C0-44E8-16561A2EA293" name="d_k_symbol PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</newElementsIDs>
-<usedAttributes>
-<attributeRef>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B685BDBB-B1C7-4FB4-E61B-4780C573E997" name="d_loan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B685BDBB-B1C7-4FB4-E61B-4780C573E997" name="d loan">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:47:35 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -798,19 +653,19 @@
 <createdTime>2023-01-02 16:48:31 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="loan_id" id="CA9F4EC4-8130-AC92-E7FD-E221E023FAAC">
+<Attribute name="loan id" id="CA9F4EC4-8130-AC92-E7FD-E221E023FAAC">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:28:02 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -823,7 +678,7 @@
 <ownerDesignName>bank_dimension</ownerDesignName>
 <importedID>FF223C45-6F32-CCC3-9F8C-6BF389525720</importedID>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -831,14 +686,28 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="status" id="9EB6758E-717D-A857-D7EA-3E7C4F2D2054">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:44:16 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="12CD66DC-714E-80ED-28B8-691045F87971" name="d_loan PK">
+<identifier id="12CD66DC-714E-80ED-28B8-691045F87971" name="d_loan_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:47:35 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>B20FD40C-261E-A0AE-DDEF-CCE8C4415545</newElementsIDs>
@@ -848,146 +717,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="191ED6B0-054F-77B6-A33D-1FAD6CC04F25" name="d_loan_status">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="55699992-AFCE-B936-EB60-1A96CC7754E1">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>D7AAF3DD-7842-33E6-8A57-CA013ED843B2</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="5CC21F1D-AC1A-371A-0F82-D88AC358EE4E">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>ACB65349-A95D-D741-9FE8-D35B7522A2E9</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BFD329DC-70ED-D87C-0280-461D7CC8BEF6" name="d_loan_status PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>55699992-AFCE-B936-EB60-1A96CC7754E1</newElementsIDs>
-<usedAttributes>
-<attributeRef>55699992-AFCE-B936-EB60-1A96CC7754E1</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC561251-D14A-3C30-5352-A9341B73A945" name="d_partner">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:12:39 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="F5874587-EC88-9027-97F9-DB0229943EF4">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:12:39 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>A80B393D-4D90-C03A-74CD-9550C791FC4C</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bank" id="88E8DF24-5E69-AD6D-0A94-70506391ED47">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:12:39 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>119CFA14-C256-AFFB-5616-2EB60C1AF4E5</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="account" id="777C490A-F30F-B6E8-7B09-0E4335AF13C4">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:43:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E40D1786-EA32-CC60-9394-10A1007559A8" name="d_partner PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:12:39 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>F5874587-EC88-9027-97F9-DB0229943EF4</newElementsIDs>
-<usedAttributes>
-<attributeRef>F5874587-EC88-9027-97F9-DB0229943EF4</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13B7D928-CDE1-1AA5-B95D-987D97C0FD2C" name="d_permanent_order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13B7D928-CDE1-1AA5-B95D-987D97C0FD2C" name="d permanent order">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:49:01 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1004,20 +739,61 @@
 <createdTime>2023-01-02 16:49:37 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="order_id" id="F409BC0B-6DDE-E992-9515-C59D92323859">
+<Attribute name="order id" id="F409BC0B-6DDE-E992-9515-C59D92323859">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:27:22 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="k symbol" id="7579906A-535D-427A-075E-DAA2C982DF62">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:51:27 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank" id="45BE9833-0C45-02C9-0FCB-F60E1BB2172D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:51:35 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account" id="7CEE204B-2250-F613-A8D8-A4C0887DD636">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:52:52 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -1025,12 +801,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="60F335C8-3BCD-0A4A-F0BE-F516707942E3" name="d_permanent_order PK">
+<identifier id="60F335C8-3BCD-0A4A-F0BE-F516707942E3" name="d_permanent_order_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:49:01 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>9D514803-4886-A657-0AE6-9B248882FDDA</newElementsIDs>
@@ -1040,12 +816,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0AAAE12-7565-96A2-00CC-305D66FC7369" name="d_time">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0AAAE12-7565-96A2-00CC-305D66FC7369" name="d time">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:33:08 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1062,7 +838,7 @@
 <createdTime>2023-01-04 17:33:23 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -1074,7 +850,7 @@
 <createdTime>2023-01-04 17:33:29 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1087,7 +863,7 @@
 <createdTime>2023-01-04 17:33:40 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1097,12 +873,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9ADBC1F1-9421-77EF-2298-1BF847FF78CA" name="d_time PK">
+<identifier id="9ADBC1F1-9421-77EF-2298-1BF847FF78CA" name="d_time_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 18:18:58 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1111,12 +887,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C5558DD-7E19-4ACB-3FCA-3DD2BC3F165F" name="d_transaction">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C5558DD-7E19-4ACB-3FCA-3DD2BC3F165F" name="d transaction">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:50:57 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1133,33 +909,102 @@
 <createdTime>2023-01-02 16:51:03 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="trans_id" id="8E6BB67A-D5D7-632B-6A3A-8C7F47522BCB">
+<Attribute name="trans id" id="8E6BB67A-D5D7-632B-6A3A-8C7F47522BCB">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:51:11 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="k symbol" id="E6BD70BD-4569-F318-3FE9-D7288A03C2A0">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:49:27 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank" id="61A18076-3316-60EC-6FC3-7AF049028998">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:49:40 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account" id="9461B11F-1977-8AE3-8664-A404A1D95327">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:50:10 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="7AC74C09-8F70-DD2E-A687-EB94ED3FE3BA">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:50:26 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operation" id="61CC9253-059D-7CFF-921E-89112FECEC29">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:50:46 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FFF26CA6-8789-4E2D-67CD-C701BF4DD612" name="d_transaction PK">
+<identifier id="FFF26CA6-8789-4E2D-67CD-C701BF4DD612" name="d_transaction_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 16:50:57 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>2E598458-2993-1A01-B33F-7A8CB878C068</newElementsIDs>
@@ -1169,134 +1014,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6103BF3-9095-8170-CB11-9A80E232DDA5" name="d_transaction_operation">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7C5A1A40-1348-4CDE-A18A-052348BD6103">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>62F3A1A5-EED5-153D-54D6-1623F111B5BC</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="733D50DB-FA9D-E085-4C26-C0995D372D6E">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>1BF70820-37CD-4233-084A-6CD0935B2E37</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B35DFF87-3636-18CC-D514-5A447D9DEA24" name="d_transaction_operation PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>7C5A1A40-1348-4CDE-A18A-052348BD6103</newElementsIDs>
-<usedAttributes>
-<attributeRef>7C5A1A40-1348-4CDE-A18A-052348BD6103</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="880C703D-359C-1500-6F6E-57E8C78215B7" name="d_transaction_type">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<typeID>2</typeID>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="15752221-3217-9E9E-F4BC-5394091C79D8">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>ED762586-C34F-84B4-D9D2-3C5853C7660C</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="value" id="C9355363-280F-F190-DBEC-991651461317">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<importedID>F17737C1-A6FA-FBE8-D55A-006C7EA26A5C</importedID>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6AD9F7E0-0047-F887-8111-DA45FF6970A1" name="d_transaction_type PK">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:58:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>15752221-3217-9E9E-F4BC-5394091C79D8</newElementsIDs>
-<usedAttributes>
-<attributeRef>15752221-3217-9E9E-F4BC-5394091C79D8</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7" name="f_account">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7" name="f account">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:21:42 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1308,13 +1031,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="account_id" id="926B52CF-17A9-0519-7762-088C6A2253E8">
+<Attribute name="account id" id="926B52CF-17A9-0519-7762-088C6A2253E8">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:25:14 UTC</createdTime>
 <generatorID>44ADA3AE-ECE9-A00A-9FDD-8AB067D0E59B</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1322,13 +1045,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="client_id" id="4E028DDB-14E3-652C-5E8F-0775289253AD">
+<Attribute name="client id" id="4E028DDB-14E3-652C-5E8F-0775289253AD">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:25:30 UTC</createdTime>
 <generatorID>7D3EFB06-F2DA-C70B-1669-CFA8E7F16FD8</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1278DF3C-5C15-6D10-CB9F-66D92D48CD24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1336,15 +1059,29 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="demographic_id" id="B51A367A-4795-A897-E328-DFF8071DDFA8">
+<Attribute name="demographic id" id="B51A367A-4795-A897-E328-DFF8071DDFA8">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:29:41 UTC</createdTime>
 <generatorID>AFBEA32B-69A6-9318-ACD0-34CFAB437823</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>9D40FD1A-E779-F12D-29EA-C20803E3ACC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disposition_id" id="59F4A9B9-760C-FCD7-2B05-286233C454D3">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:01:41 UTC</createdTime>
+<generatorID>1FC3EB12-017A-2108-4F7D-33FFE82F459F</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<referedAttribute>5430AF34-ABC9-497E-585C-413B2B1C8617</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -1356,7 +1093,7 @@
 <generatorID>F9841D34-FE19-01DE-CC95-2F093F6AEAE8</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1364,61 +1101,32 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="disposition_type" id="1955FFF6-EFB1-AFC4-0FFA-65A661D090CE">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:27:48 UTC</createdTime>
-<generatorID>A1A8C6E3-710E-601D-EFFE-A96BE9968BB2</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>F1838FA1-70EC-0227-A637-220DF36748AF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="frequency" id="B12D71CA-1773-35FE-594D-333763E6CA43">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:31:09 UTC</createdTime>
-<generatorID>73C75646-94C4-78F0-786D-5962939A287D</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>B6CD3CD0-FBF2-91DB-A82E-38B596EA2677</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DAD362EE-1259-690E-D465-34D8AF9FA1DD" name="f_account PK">
+<identifier id="DAD362EE-1259-690E-D465-34D8AF9FA1DD" name="f_account_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:25:26 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>926B52CF-17A9-0519-7762-088C6A2253E8</attributeRef>
 <attributeRef>4E028DDB-14E3-652C-5E8F-0775289253AD</attributeRef>
-<attributeRef>3BCBF028-29D3-4EDA-8CF9-B8A9C0F48282</attributeRef>
-<attributeRef>1955FFF6-EFB1-AFC4-0FFA-65A661D090CE</attributeRef>
 <attributeRef>B51A367A-4795-A897-E328-DFF8071DDFA8</attributeRef>
-<attributeRef>B12D71CA-1773-35FE-594D-333763E6CA43</attributeRef>
+<attributeRef>3BCBF028-29D3-4EDA-8CF9-B8A9C0F48282</attributeRef>
+<attributeRef>59F4A9B9-760C-FCD7-2B05-286233C454D3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D921FC5-57BA-C783-71BE-17AD85735CE2" name="f_client">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D921FC5-57BA-C783-71BE-17AD85735CE2" name="f client">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:04:00 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1430,13 +1138,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="district_id" id="930B4AA3-7CB8-0D3B-D609-8DEE14C366D8">
+<Attribute name="demographic_id" id="930B4AA3-7CB8-0D3B-D609-8DEE14C366D8">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:04:49 UTC</createdTime>
 <generatorID>33718994-EEE1-7DCF-830A-A5D6F29061FC</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>9D40FD1A-E779-F12D-29EA-C20803E3ACC1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1444,13 +1152,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="client_id" id="8D9FA185-B124-A9B7-D622-E49115E11F9D">
+<Attribute name="client id" id="8D9FA185-B124-A9B7-D622-E49115E11F9D">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:05:12 UTC</createdTime>
 <generatorID>08317A4B-0D9A-81D8-98CF-7138AF3E9B4D</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1278DF3C-5C15-6D10-CB9F-66D92D48CD24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1460,12 +1168,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C208252C-3AA5-77D6-E25E-5D41EC08949F" name="f_client_demographic PK">
+<identifier id="C208252C-3AA5-77D6-E25E-5D41EC08949F" name="f_client_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:05:09 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1475,12 +1183,12 @@
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14C9ED5F-3E33-3248-2AB1-C847B3105FC2" name="f_credit_card">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14C9ED5F-3E33-3248-2AB1-C847B3105FC2" name="f credit card">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:06:14 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1492,13 +1200,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="card_id" id="CBA9E869-B89B-53CA-6B05-3B230C31808F">
+<Attribute name="card id" id="CBA9E869-B89B-53CA-6B05-3B230C31808F">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:07:10 UTC</createdTime>
 <generatorID>C292401C-33D2-0E6A-3B94-6BA7348BC47C</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>52E2C64C-A33D-8826-ECEC-3C181FD05486</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1506,13 +1214,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="account_id" id="9697B3CC-064B-A8FE-BA67-79EE02904A15">
+<Attribute name="account id" id="9697B3CC-064B-A8FE-BA67-79EE02904A15">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:23:49 UTC</createdTime>
 <generatorID>7DE26EFD-8901-87B2-0DF0-A22AD88AB0FE</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1520,13 +1228,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="client_id" id="8771600C-2BE7-3EF7-4CF0-5866D75E772F">
+<Attribute name="client id" id="8771600C-2BE7-3EF7-4CF0-5866D75E772F">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:47:19 UTC</createdTime>
 <generatorID>D6A1350D-DD9E-5E06-B3B1-A9FB77B9024A</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1278DF3C-5C15-6D10-CB9F-66D92D48CD24</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1534,13 +1242,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="issued_date" id="492BC594-52C5-6334-0D44-9DC911E86180">
+<Attribute name="issued date" id="492BC594-52C5-6334-0D44-9DC911E86180">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:33:33 UTC</createdTime>
 <generatorID>288DFAB0-3F09-507F-948E-F734612AE9C3</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1548,13 +1256,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="issued_time" id="A6B14E21-F560-B0FE-DDAC-576A651B6F51">
+<Attribute name="issued time" id="A6B14E21-F560-B0FE-DDAC-576A651B6F51">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:34:48 UTC</createdTime>
 <generatorID>E16C4C03-B940-2A18-8D3E-0A39313A0EB7</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>5FCBF8AE-D88C-5FA2-D12F-2B0A15ED48DC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1562,47 +1270,32 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="type" id="AF593F4C-AF6B-7210-AF07-0E1FC92CA0B2">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:35:37 UTC</createdTime>
-<generatorID>1E937DD1-C066-1EC0-1F83-9FE735C4EF48</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>661F366F-05F6-974C-3DC7-3FC2D19C654D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3B233050-6E5B-CD12-C82D-84B6D61D91D2" name="f_disposition_credit_card PK">
+<identifier id="3B233050-6E5B-CD12-C82D-84B6D61D91D2" name="f_credit_card_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:07:07 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CBA9E869-B89B-53CA-6B05-3B230C31808F</attributeRef>
 <attributeRef>9697B3CC-064B-A8FE-BA67-79EE02904A15</attributeRef>
+<attributeRef>8771600C-2BE7-3EF7-4CF0-5866D75E772F</attributeRef>
 <attributeRef>492BC594-52C5-6334-0D44-9DC911E86180</attributeRef>
 <attributeRef>A6B14E21-F560-B0FE-DDAC-576A651B6F51</attributeRef>
-<attributeRef>AF593F4C-AF6B-7210-AF07-0E1FC92CA0B2</attributeRef>
-<attributeRef>8771600C-2BE7-3EF7-4CF0-5866D75E772F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="499545BA-2967-0675-A78A-A320AB8D69A4" name="f_loan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="499545BA-2967-0675-A78A-A320AB8D69A4" name="f loan">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:10:58 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1614,13 +1307,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="account_id" id="B4FFB85D-3A56-1C05-CBDA-1CF4B3A005C1">
+<Attribute name="account id" id="B4FFB85D-3A56-1C05-CBDA-1CF4B3A005C1">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:12:24 UTC</createdTime>
 <generatorID>91049A44-0C41-2C99-8317-BAF1C2E0389D</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1628,13 +1321,13 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="loan_id" id="CAABB37D-6160-571D-B6B8-DCCEF2C9CC36">
+<Attribute name="loan id" id="CAABB37D-6160-571D-B6B8-DCCEF2C9CC36">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:12:50 UTC</createdTime>
 <generatorID>D86C3B67-DBA0-44B9-E84B-A96B45E7A02E</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>B20FD40C-261E-A0AE-DDEF-CCE8C4415545</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1648,7 +1341,7 @@
 <generatorID>92CDF596-52BE-8C4F-7B65-4FC3AA227A73</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1656,26 +1349,12 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status" id="5314A507-0DFA-9C86-26A1-3C1F4995EAE8">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:39:19 UTC</createdTime>
-<generatorID>E005CEE8-417A-75B6-7F8B-E69C7B94004A</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>55699992-AFCE-B936-EB60-1A96CC7754E1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="amount" id="27579C3F-38D2-6CF8-12C7-7DD915F8E46E">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:03:30 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1688,7 +1367,7 @@
 <createdTime>2023-01-04 19:03:39 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1698,29 +1377,28 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8F257EF1-BBEA-73AA-917D-38263D3180B9" name="f_account_loan PK">
+<identifier id="8F257EF1-BBEA-73AA-917D-38263D3180B9" name="f_loan_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:12:44 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B4FFB85D-3A56-1C05-CBDA-1CF4B3A005C1</attributeRef>
 <attributeRef>CAABB37D-6160-571D-B6B8-DCCEF2C9CC36</attributeRef>
 <attributeRef>17DB00C2-D390-41F6-36F5-5A27AA6C7788</attributeRef>
-<attributeRef>5314A507-0DFA-9C86-26A1-3C1F4995EAE8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43768CDA-C971-C0A0-1F95-E15AF8ED51CD" name="f_permanent_order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43768CDA-C971-C0A0-1F95-E15AF8ED51CD" name="f permanent order">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:13:39 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1732,13 +1410,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="account_id" id="C7B59264-EF28-1EF9-9979-A586422ABE23">
+<Attribute name="account id" id="C7B59264-EF28-1EF9-9979-A586422ABE23">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:14:47 UTC</createdTime>
 <generatorID>36276A49-BC42-BB30-9BFD-418D661CA1FA</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1746,43 +1424,15 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="order_id" id="7E27797A-AFB0-E722-F45C-E34FAC7DF915">
+<Attribute name="order id" id="7E27797A-AFB0-E722-F45C-E34FAC7DF915">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:15:12 UTC</createdTime>
 <generatorID>6EBA2568-A6CE-C99F-CBE9-C0E550FFF1CE</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>9D514803-4886-A657-0AE6-9B248882FDDA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="k_symbol" id="D2D4FC31-7B69-6DE6-D3C0-AAAE44DF77AF">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:37:41 UTC</createdTime>
-<generatorID>49D3B107-5499-A36B-66C0-179EE4FD49C5</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="partner" id="E6BC5760-85A0-4E71-5499-1764CF3E2285">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:48:54 UTC</createdTime>
-<generatorID>A8FE9D8E-9C62-E15C-164E-18FC1052B087</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>F5874587-EC88-9027-97F9-DB0229943EF4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -1793,7 +1443,7 @@
 <createdTime>2023-01-04 17:40:31 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1803,29 +1453,27 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2DC1F801-C92E-7FB2-A8D5-4E874A65BB1C" name="f_account_permanent_order PK">
+<identifier id="2DC1F801-C92E-7FB2-A8D5-4E874A65BB1C" name="f_permanent_order_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:14:28 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C7B59264-EF28-1EF9-9979-A586422ABE23</attributeRef>
 <attributeRef>7E27797A-AFB0-E722-F45C-E34FAC7DF915</attributeRef>
-<attributeRef>D2D4FC31-7B69-6DE6-D3C0-AAAE44DF77AF</attributeRef>
-<attributeRef>E6BC5760-85A0-4E71-5499-1764CF3E2285</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1993B38D-58D8-E15F-35B9-65C3D3A91A08" name="f_transaction">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1993B38D-58D8-E15F-35B9-65C3D3A91A08" name="f transaction">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:13:52 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -1837,13 +1485,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="transaction_id" id="48A133A0-0A99-B377-6F5E-0CA68B1E138B">
+<Attribute name="transaction id" id="48A133A0-0A99-B377-6F5E-0CA68B1E138B">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:17:18 UTC</createdTime>
 <generatorID>B59E1AE7-AE43-5D6D-CF52-A00E0F398F85</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>2E598458-2993-1A01-B33F-7A8CB878C068</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1851,43 +1499,15 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="account_id" id="571E31C4-DA09-68D5-0087-309C7A7F4DFC">
+<Attribute name="account id" id="571E31C4-DA09-68D5-0087-309C7A7F4DFC">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:17:58 UTC</createdTime>
 <generatorID>4B9C048A-229F-FD72-E930-3E63D532D3D4</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="k_symbol" id="E5AD6D0E-734E-B495-5D32-2D7D040E8BB4">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:55:33 UTC</createdTime>
-<generatorID>FFBD7B8B-413D-7AF5-38B5-149623A5B3AA</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="partner" id="4CE168D2-7638-35FA-0122-E4B6AD2CA33F">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:57:15 UTC</createdTime>
-<generatorID>524EA80B-EAC0-0C28-7CD7-1A845055EEA4</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>F5874587-EC88-9027-97F9-DB0229943EF4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -1899,7 +1519,7 @@
 <generatorID>C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <referedAttribute>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1907,40 +1527,12 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="type" id="B04C606F-B278-648E-3C9C-B519B378E9EB">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:37:07 UTC</createdTime>
-<generatorID>D66D5723-6B4C-9789-B9BA-83FFFDC3D351</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>15752221-3217-9E9E-F4BC-5394091C79D8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="operation" id="C1DB3A82-1626-D0CD-7BD5-C5DE7B12C11F">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:38:19 UTC</createdTime>
-<generatorID>60F744BA-D483-FF7E-66E3-C641DC305435</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>7C5A1A40-1348-4CDE-A18A-052348BD6103</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="amount" id="BDC8D59C-C099-8E79-C625-7902DC591AF5">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 17:08:47 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1953,7 +1545,7 @@
 <createdTime>2023-01-04 17:09:17 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -1963,34 +1555,49 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EFBF596C-B8C5-40DC-5847-6BC18513B7EE" name="f_account_transaction PK">
+<identifier id="14DBFE2B-441B-BE3D-B810-EA7C68AB2D15" name="f_transaction_PK">
 <createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:17:44 UTC</createdTime>
+<createdTime>2023-01-28 22:28:02 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>48A133A0-0A99-B377-6F5E-0CA68B1E138B</attributeRef>
 <attributeRef>571E31C4-DA09-68D5-0087-309C7A7F4DFC</attributeRef>
-<attributeRef>E5AD6D0E-734E-B495-5D32-2D7D040E8BB4</attributeRef>
-<attributeRef>4CE168D2-7638-35FA-0122-E4B6AD2CA33F</attributeRef>
 <attributeRef>D491200E-2B46-0C5D-3FF0-708EC04490DE</attributeRef>
-<attributeRef>B04C606F-B278-648E-3C9C-B519B378E9EB</attributeRef>
-<attributeRef>C1DB3A82-1626-D0CD-7BD5-C5DE7B12C11F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
 </Entities>
 <Relationships>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_f_account" directorySegmentName="seg_0" id="44ADA3AE-ECE9-A00A-9FDD-8AB067D0E59B">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_disposition_f_account" directorySegmentName="seg_0" id="1FC3EB12-017A-2108-4F7D-33FFE82F459F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:01:41 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>2A1D5646-7920-7610-FA8B-6156171F125F</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>disposition_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C5E56C9-630B-84F2-92EC-61D6B4C8559E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f account d account FK" directorySegmentName="seg_0" id="44ADA3AE-ECE9-A00A-9FDD-8AB067D0E59B">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:25:14 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
 <identifying>true</identifying>
@@ -2004,107 +1611,12 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_f_account_loan" directorySegmentName="seg_0" id="91049A44-0C41-2C99-8317-BAF1C2E0389D">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:12:24 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>account_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_f_account_permanent_order" directorySegmentName="seg_0" id="36276A49-BC42-BB30-9BFD-418D661CA1FA">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:14:47 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>account_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_f_account_transaction" directorySegmentName="seg_0" id="4B9C048A-229F-FD72-E930-3E63D532D3D4">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:17:58 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>account_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_f_credit_card" directorySegmentName="seg_0" id="7DE26EFD-8901-87B2-0DF0-A22AD88AB0FE">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:23:49 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>account_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>14C9ED5F-3E33-3248-2AB1-C847B3105FC2</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_account_frequency_f_account" directorySegmentName="seg_0" id="73C75646-94C4-78F0-786D-5962939A287D">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:31:09 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B284752E-C56C-D676-BFFA-00FF4CF9AF98</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>frequency</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>701EBE43-71A1-92B2-352F-8D1CC69472AE</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_client_f_account" directorySegmentName="seg_0" id="7D3EFB06-F2DA-C70B-1669-CFA8E7F16FD8">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f account d client FK" directorySegmentName="seg_0" id="7D3EFB06-F2DA-C70B-1669-CFA8E7F16FD8">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:25:30 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>53B8B2EE-BDC9-B844-F521-99520AE4E978</sourcePk>
 <identifying>true</identifying>
@@ -2118,12 +1630,50 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_client_f_client_demographic" directorySegmentName="seg_0" id="08317A4B-0D9A-81D8-98CF-7138AF3E9B4D">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f account d date FK" directorySegmentName="seg_0" id="F9841D34-FE19-01DE-CC95-2F093F6AEAE8">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:26:05 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>date</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f account d demographic FK" directorySegmentName="seg_0" id="AFBEA32B-69A6-9318-ACD0-34CFAB437823">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:29:41 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>068CFE2C-A9C9-077E-A49D-6EB2450ACB05</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>demographic_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7703147E-B4BF-BB09-FF32-380EEAD94E77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f client d client FK" directorySegmentName="seg_0" id="08317A4B-0D9A-81D8-98CF-7138AF3E9B4D">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:05:12 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>53B8B2EE-BDC9-B844-F521-99520AE4E978</sourcePk>
 <identifying>true</identifying>
@@ -2137,12 +1687,50 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_client_f_credit_card" directorySegmentName="seg_0" id="D6A1350D-DD9E-5E06-B3B1-A9FB77B9024A">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f client d demographic FK" directorySegmentName="seg_0" id="33718994-EEE1-7DCF-830A-A5D6F29061FC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:04:49 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>068CFE2C-A9C9-077E-A49D-6EB2450ACB05</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>demographic_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7703147E-B4BF-BB09-FF32-380EEAD94E77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D921FC5-57BA-C783-71BE-17AD85735CE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d account FK" directorySegmentName="seg_0" id="7DE26EFD-8901-87B2-0DF0-A22AD88AB0FE">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:23:49 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>account_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14C9ED5F-3E33-3248-2AB1-C847B3105FC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d client FK" directorySegmentName="seg_0" id="D6A1350D-DD9E-5E06-B3B1-A9FB77B9024A">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:47:19 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>53B8B2EE-BDC9-B844-F521-99520AE4E978</sourcePk>
 <identifying>true</identifying>
@@ -2155,12 +1743,12 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_credit_card_f_disposition_credit_card" directorySegmentName="seg_0" id="C292401C-33D2-0E6A-3B94-6BA7348BC47C">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d credit card FK" directorySegmentName="seg_0" id="C292401C-33D2-0E6A-3B94-6BA7348BC47C">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:07:10 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>D288E6A9-630C-0FE4-BF96-FA7040A6B3A3</sourcePk>
 <identifying>true</identifying>
@@ -2174,69 +1762,12 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_credit_card_type_f_credit_card" directorySegmentName="seg_0" id="1E937DD1-C066-1EC0-1F83-9FE735C4EF48">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:35:37 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>085BE89F-DAB6-32C0-1D0D-A19D1B0CDA3C</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>type</nameOnTarget>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>CC2F5016-938D-AA8A-D223-F450ECA0CDED</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>14C9ED5F-3E33-3248-2AB1-C847B3105FC2</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_date_f_account" directorySegmentName="seg_0" id="F9841D34-FE19-01DE-CC95-2F093F6AEAE8">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:26:05 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>date</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_date_f_account_loan" directorySegmentName="seg_0" id="92CDF596-52BE-8C4F-7B65-4FC3AA227A73">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:59:55 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>date</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_date_f_credit_card" directorySegmentName="seg_0" id="288DFAB0-3F09-507F-948E-F734612AE9C3">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d date FK" directorySegmentName="seg_0" id="288DFAB0-3F09-507F-948E-F734612AE9C3">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:33:33 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
 <identifying>true</identifying>
@@ -2250,221 +1781,12 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_date_f_transaction" directorySegmentName="seg_0" id="C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:36:32 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>date</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_demographic_f_account" directorySegmentName="seg_0" id="AFBEA32B-69A6-9318-ACD0-34CFAB437823">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:29:41 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>068CFE2C-A9C9-077E-A49D-6EB2450ACB05</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>demographic_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>7703147E-B4BF-BB09-FF32-380EEAD94E77</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_demographic_f_client_demographic" directorySegmentName="seg_0" id="33718994-EEE1-7DCF-830A-A5D6F29061FC">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:04:49 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>068CFE2C-A9C9-077E-A49D-6EB2450ACB05</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>demographic_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>7703147E-B4BF-BB09-FF32-380EEAD94E77</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0D921FC5-57BA-C783-71BE-17AD85735CE2</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_disposition_type" directorySegmentName="seg_0" id="A1A8C6E3-710E-601D-EFFE-A96BE9968BB2">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:27:48 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>104A6862-19E4-A795-E9BD-3C28A6F62EE3</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>disposition_type</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>77CEF3D3-D393-7BD8-D870-CCC6A2C21B69</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_k_symbol_f_account_transaction" directorySegmentName="seg_0" id="FFBD7B8B-413D-7AF5-38B5-149623A5B3AA">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:55:33 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>1CBDDFF7-6C82-E6C0-44E8-16561A2EA293</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>k_symbol</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>08B88F44-2CE7-E4BA-58DA-9844A87A4872</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_loan_f_account_loan" directorySegmentName="seg_0" id="D86C3B67-DBA0-44B9-E84B-A96B45E7A02E">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:12:50 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>12CD66DC-714E-80ED-28B8-691045F87971</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>loan_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>B685BDBB-B1C7-4FB4-E61B-4780C573E997</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_loan_status_f_loan" directorySegmentName="seg_0" id="E005CEE8-417A-75B6-7F8B-E69C7B94004A">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:39:19 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>BFD329DC-70ED-D87C-0280-461D7CC8BEF6</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>status</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>191ED6B0-054F-77B6-A33D-1FAD6CC04F25</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_partner_f_account_permanent_order" directorySegmentName="seg_0" id="A8FE9D8E-9C62-E15C-164E-18FC1052B087">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:48:54 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>E40D1786-EA32-CC60-9394-10A1007559A8</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>partner</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>FC561251-D14A-3C30-5352-A9341B73A945</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_partner_f_account_transaction" directorySegmentName="seg_0" id="524EA80B-EAC0-0C28-7CD7-1A845055EEA4">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:57:15 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>E40D1786-EA32-CC60-9394-10A1007559A8</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>partner</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>FC561251-D14A-3C30-5352-A9341B73A945</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_payment_k_symbol_f_account_permanent_order" directorySegmentName="seg_0" id="49D3B107-5499-A36B-66C0-179EE4FD49C5">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:37:41 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>1CBDDFF7-6C82-E6C0-44E8-16561A2EA293</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>payment_k_symbol_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>08B88F44-2CE7-E4BA-58DA-9844A87A4872</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_permanent_order_f_account_permanent_order" directorySegmentName="seg_0" id="6EBA2568-A6CE-C99F-CBE9-C0E550FFF1CE">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-02 17:15:12 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>60F335C8-3BCD-0A4A-F0BE-F516707942E3</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>order_id</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>13B7D928-CDE1-1AA5-B95D-987D97C0FD2C</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_time_f_credit_card" directorySegmentName="seg_0" id="E16C4C03-B940-2A18-8D3E-0A39313A0EB7">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f credit card d time FK" directorySegmentName="seg_0" id="E16C4C03-B940-2A18-8D3E-0A39313A0EB7">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-04 19:34:48 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>9ADBC1F1-9421-77EF-2298-1BF847FF78CA</sourcePk>
 <identifying>true</identifying>
@@ -2478,12 +1800,145 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_transaction_f_account_transaction" directorySegmentName="seg_0" id="B59E1AE7-AE43-5D6D-CF52-A00E0F398F85">
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f loan d account FK" directorySegmentName="seg_0" id="91049A44-0C41-2C99-8317-BAF1C2E0389D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:12:24 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>account_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f loan d date FK" directorySegmentName="seg_0" id="92CDF596-52BE-8C4F-7B65-4FC3AA227A73">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 18:59:55 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>date</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f loan d loan FK" directorySegmentName="seg_0" id="D86C3B67-DBA0-44B9-E84B-A96B45E7A02E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:12:50 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>12CD66DC-714E-80ED-28B8-691045F87971</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>loan_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B685BDBB-B1C7-4FB4-E61B-4780C573E997</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>499545BA-2967-0675-A78A-A320AB8D69A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f permanent order d account FK" directorySegmentName="seg_0" id="36276A49-BC42-BB30-9BFD-418D661CA1FA">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:14:47 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>account_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f permanent order d permanent order FK" directorySegmentName="seg_0" id="6EBA2568-A6CE-C99F-CBE9-C0E550FFF1CE">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:15:12 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>60F335C8-3BCD-0A4A-F0BE-F516707942E3</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>order_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13B7D928-CDE1-1AA5-B95D-987D97C0FD2C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43768CDA-C971-C0A0-1F95-E15AF8ED51CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f transaction d account FK" directorySegmentName="seg_0" id="4B9C048A-229F-FD72-E930-3E63D532D3D4">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:17:58 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>B8EFFA2C-BBEC-ED20-6868-2203BDD3C7C5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>account_id</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>560F46E9-21B0-6364-ACC8-13A6152BE418</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f transaction d date FK" directorySegmentName="seg_0" id="C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:36:32 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>date</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="f transaction d transaction FK" directorySegmentName="seg_0" id="B59E1AE7-AE43-5D6D-CF52-A00E0F398F85">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:17:18 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
 </engineerTo>
 <sourcePk>FFF26CA6-8789-4E2D-67CD-C701BF4DD612</sourcePk>
 <identifying>true</identifying>
@@ -2492,44 +1947,6 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2C5558DD-7E19-4ACB-3FCA-3DD2BC3F165F</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_transaction_operation_f_transaction" directorySegmentName="seg_0" id="60F744BA-D483-FF7E-66E3-C641DC305435">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:38:19 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>B35DFF87-3636-18CC-D514-5A447D9DEA24</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>operation</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>F6103BF3-9095-8170-CB11-9A80E232DDA5</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
-<transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="d_transaction_type" directorySegmentName="seg_0" id="D66D5723-6B4C-9789-B9BA-83FFFDC3D351">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 19:37:07 UTC</createdTime>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<sourcePk>6AD9F7E0-0047-F887-8111-DA45FF6970A1</sourcePk>
-<identifying>true</identifying>
-<nameOnTarget>type</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>880C703D-359C-1500-6F6E-57E8C78215B7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
 <transferable>true</transferable>
@@ -2551,97 +1968,69 @@
 <display>false</display>
 <notation>2</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="08B88F44-2CE7-E4BA-58DA-9844A87A4872" otype="Entity" vid="783DD490-576B-AA25-5932-51FB9D5AD7FD">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="268" y="252" width="168" height="74"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0D921FC5-57BA-C783-71BE-17AD85735CE2" otype="Entity" vid="6C0B78AF-E0DE-850D-4209-88254C030D70">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1234" y="948" width="260" height="74"/>
+<bounds x="20" y="540" width="223" height="74"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="13B7D928-CDE1-1AA5-B95D-987D97C0FD2C" otype="Entity" vid="474DC042-C7FA-1B06-8898-886D878C7DF4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="268" y="562" width="163" height="74"/>
+<bounds x="1765" y="492" width="182" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="14C9ED5F-3E33-3248-2AB1-C847B3105FC2" otype="Entity" vid="1D558C11-3C00-87A3-B73A-5A4FB2707165">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1879" y="414" width="474" height="130"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="191ED6B0-054F-77B6-A33D-1FAD6CC04F25" otype="Entity" vid="DDB8F821-DF0A-C994-8FBD-9D3FB709CE83">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="3027" y="252" width="162" height="74"/>
+<bounds x="406" y="344" width="380" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1993B38D-58D8-E15F-35B9-65C3D3A91A08" otype="Entity" vid="EAC76A75-9916-97D7-2772-9837B25D008E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="20" width="486" height="172"/>
+<bounds x="1412" y="196" width="273" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1D72182C-5932-2716-A5E6-288F6B3A45DA" otype="Entity" vid="3C5AA425-CE06-E555-60CA-88A87D3ABF1B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="986" y="252" width="143" height="102"/>
+<bounds x="1121" y="196" width="143" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2C5558DD-7E19-4ACB-3FCA-3DD2BC3F165F" otype="Entity" vid="69E04BBC-120E-433A-B653-D489C054F733">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="586" y="20" width="144" height="74"/>
+<bounds x="1412" y="372" width="187" height="144"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="43768CDA-C971-C0A0-1F95-E15AF8ED51CD" otype="Entity" vid="069F054E-CEAC-FA49-F402-F50A7C288252">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="268" y="386" width="383" height="116"/>
+<bounds x="1765" y="344" width="247" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="499545BA-2967-0675-A78A-A320AB8D69A4" otype="Entity" vid="646DE4AE-831E-3958-2C99-79AEDE166890">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2656" y="252" width="291" height="130"/>
+<bounds x="1121" y="358" width="211" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="560F46E9-21B0-6364-ACC8-13A6152BE418" otype="Entity" vid="75814B0C-43A1-C4C4-9098-2E1605D8A134">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="3269" y="252" width="161" height="74"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="701EBE43-71A1-92B2-352F-8D1CC69472AE" otype="Entity" vid="2E1A79F4-7922-1BD0-C0C2-8B3089E97441">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1523" y="414" width="174" height="74"/>
+<bounds x="1765" y="196" width="193" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7703147E-B4BF-BB09-FF32-380EEAD94E77" otype="Entity" vid="EACCEB84-1CEA-48FF-42B0-831151A549CC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1234" y="604" width="315" height="284"/>
+<bounds x="20" y="196" width="306" height="284"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="77CEF3D3-D393-7BD8-D870-CCC6A2C21B69" otype="Entity" vid="BBD45674-2639-0A91-82B9-23D0941560FB">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7C5E56C9-630B-84F2-92EC-61D6B4C8559E" otype="Entity" vid="E6428463-7ECB-1525-9497-749B9B0C9816">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="986" y="604" width="168" height="74"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="880C703D-359C-1500-6F6E-57E8C78215B7" otype="Entity" vid="80018B89-7D5B-F26C-E2BD-D7FB3328915D">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="20" y="252" width="168" height="74"/>
+<bounds x="487" y="20" width="176" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B35FBC16-1102-A62A-2623-AA9448B024A2" otype="Entity" vid="4645B973-002F-C9F5-94A8-98F71870A12D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2433" y="414" width="143" height="74"/>
+<bounds x="866" y="344" width="175" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B685BDBB-B1C7-4FB4-E61B-4780C573E997" otype="Entity" vid="035946D2-EDD9-D5FA-39CC-6B960D4B13A9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2656" y="442" width="146" height="88"/>
+<bounds x="1121" y="534" width="175" height="102"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C0AAAE12-7565-96A2-00CC-305D66FC7369" otype="Entity" vid="BA3BBE2B-6AD2-4C03-4557-4417FF9C5DB5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2127" y="604" width="146" height="88"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CC2F5016-938D-AA8A-D223-F450ECA0CDED" otype="Entity" vid="EA1390AC-6C56-04FB-15A8-863F2D1EACD9">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1879" y="604" width="168" height="74"/>
+<bounds x="406" y="520" width="146" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E5A9C35F-0D49-B299-7B9C-06D4A57DFBA7" otype="Entity" vid="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="986" y="414" width="457" height="130"/>
+<bounds x="20" y="20" width="387" height="116"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EAD12353-BF79-A6FB-5682-EDE9AFE2407B" otype="Entity" vid="5BB1908B-4816-E913-F634-73171DE1EC90">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1629" y="604" width="170" height="88"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F6103BF3-9095-8170-CB11-9A80E232DDA5" otype="Entity" vid="57D97C0D-6856-015C-9A05-260EE722E31B">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="586" y="114" width="185" height="74"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FC561251-D14A-3C30-5352-A9341B73A945" otype="Entity" vid="60AA6541-D1B7-6B2D-54C6-B3C08AD34C33">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="731" y="252" width="175" height="88"/>
+<bounds x="406" y="196" width="167" height="88"/>
 </OView>
 </objectViews>
 <connectors>
@@ -2650,17 +2039,17 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1668" y="692"/>
-<point x="1402" y="948"/>
+<point x="442" y="284"/>
+<point x="170" y="540"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1E937DD1-C066-1EC0-1F83-9FE735C4EF48" otype="Relation" vid_source="EA1390AC-6C56-04FB-15A8-863F2D1EACD9" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1FC3EB12-017A-2108-4F7D-33FFE82F459F" otype="Relation" vid_source="E6428463-7ECB-1525-9497-749B9B0C9816" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1978" y="604"/>
-<point x="1978" y="544"/>
+<point x="487" y="64"/>
+<point x="407" y="64"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="288DFAB0-3F09-507F-948E-F734612AE9C3" otype="Relation" vid_source="3C5AA425-CE06-E555-60CA-88A87D3ABF1B" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
@@ -2668,8 +2057,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1129" y="314"/>
-<point x="1879" y="439"/>
+<point x="1121" y="265"/>
+<point x="786" y="352"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="33718994-EEE1-7DCF-830A-A5D6F29061FC" otype="Relation" vid_source="EACCEB84-1CEA-48FF-42B0-831151A549CC" vid_target="6C0B78AF-E0DE-850D-4209-88254C030D70">
@@ -2677,8 +2066,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1364" y="888"/>
-<point x="1364" y="948"/>
+<point x="131" y="480"/>
+<point x="131" y="540"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="36276A49-BC42-BB30-9BFD-418D661CA1FA" otype="Relation" vid_source="75814B0C-43A1-C4C4-9098-2E1605D8A134" vid_target="069F054E-CEAC-FA49-F402-F50A7C288252">
@@ -2686,8 +2075,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="3269" y="293"/>
-<point x="651" y="433"/>
+<point x="1861" y="284"/>
+<point x="1861" y="344"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="44ADA3AE-ECE9-A00A-9FDD-8AB067D0E59B" otype="Relation" vid_source="75814B0C-43A1-C4C4-9098-2E1605D8A134" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
@@ -2695,17 +2084,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="3269" y="296"/>
-<point x="1443" y="473"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="49D3B107-5499-A36B-66C0-179EE4FD49C5" otype="Relation" vid_source="783DD490-576B-AA25-5932-51FB9D5AD7FD" vid_target="069F054E-CEAC-FA49-F402-F50A7C288252">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="352" y="326"/>
-<point x="352" y="386"/>
+<point x="1765" y="230"/>
+<point x="407" y="97"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4B9C048A-229F-FD72-E930-3E63D532D3D4" otype="Relation" vid_source="75814B0C-43A1-C4C4-9098-2E1605D8A134" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
@@ -2713,26 +2093,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="3269" y="284"/>
-<point x="506" y="120"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="524EA80B-EAC0-0C28-7CD7-1A845055EEA4" otype="Relation" vid_source="60AA6541-D1B7-6B2D-54C6-B3C08AD34C33" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="731" y="266"/>
-<point x="506" y="189"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="60F744BA-D483-FF7E-66E3-C641DC305435" otype="Relation" vid_source="57D97C0D-6856-015C-9A05-260EE722E31B" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="586" y="151"/>
-<point x="506" y="151"/>
+<point x="1765" y="210"/>
+<point x="1685" y="210"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6EBA2568-A6CE-C99F-CBE9-C0E550FFF1CE" otype="Relation" vid_source="474DC042-C7FA-1B06-8898-886D878C7DF4" vid_target="069F054E-CEAC-FA49-F402-F50A7C288252">
@@ -2740,17 +2102,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="349" y="562"/>
-<point x="349" y="502"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="73C75646-94C4-78F0-786D-5962939A287D" otype="Relation" vid_source="2E1A79F4-7922-1BD0-C0C2-8B3089E97441" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1523" y="451"/>
-<point x="1443" y="451"/>
+<point x="1856" y="492"/>
+<point x="1856" y="432"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7D3EFB06-F2DA-C70B-1669-CFA8E7F16FD8" otype="Relation" vid_source="5BB1908B-4816-E913-F634-73171DE1EC90" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
@@ -2758,8 +2111,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1629" y="619"/>
-<point x="1406" y="544"/>
+<point x="406" y="196"/>
+<point x="406" y="136"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7DE26EFD-8901-87B2-0DF0-A22AD88AB0FE" otype="Relation" vid_source="75814B0C-43A1-C4C4-9098-2E1605D8A134" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
@@ -2767,8 +2120,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="3269" y="301"/>
-<point x="2353" y="442"/>
+<point x="1765" y="252"/>
+<point x="786" y="377"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="91049A44-0C41-2C99-8317-BAF1C2E0389D" otype="Relation" vid_source="75814B0C-43A1-C4C4-9098-2E1605D8A134" vid_target="646DE4AE-831E-3958-2C99-79AEDE166890">
@@ -2776,8 +2129,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="3269" y="274"/>
-<point x="2947" y="274"/>
+<point x="1765" y="266"/>
+<point x="1332" y="386"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="92CDF596-52BE-8C4F-7B65-4FC3AA227A73" otype="Relation" vid_source="3C5AA425-CE06-E555-60CA-88A87D3ABF1B" vid_target="646DE4AE-831E-3958-2C99-79AEDE166890">
@@ -2785,26 +2138,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1129" y="303"/>
-<point x="2656" y="303"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A1A8C6E3-710E-601D-EFFE-A96BE9968BB2" otype="Relation" vid_source="BBD45674-2639-0A91-82B9-23D0941560FB" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1070" y="604"/>
-<point x="1070" y="544"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A8FE9D8E-9C62-E15C-164E-18FC1052B087" otype="Relation" vid_source="60AA6541-D1B7-6B2D-54C6-B3C08AD34C33" vid_target="069F054E-CEAC-FA49-F402-F50A7C288252">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="731" y="332"/>
-<point x="600" y="386"/>
+<point x="1192" y="298"/>
+<point x="1192" y="358"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="AFBEA32B-69A6-9318-ACD0-34CFAB437823" otype="Relation" vid_source="EACCEB84-1CEA-48FF-42B0-831151A549CC" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
@@ -2812,8 +2147,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1338" y="604"/>
-<point x="1338" y="544"/>
+<point x="173" y="196"/>
+<point x="173" y="136"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B59E1AE7-AE43-5D6D-CF52-A00E0F398F85" otype="Relation" vid_source="69E04BBC-120E-433A-B653-D489C054F733" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
@@ -2821,8 +2156,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="586" y="57"/>
-<point x="506" y="57"/>
+<point x="1505" y="372"/>
+<point x="1505" y="312"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C292401C-33D2-0E6A-3B94-6BA7348BC47C" otype="Relation" vid_source="4645B973-002F-C9F5-94A8-98F71870A12D" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
@@ -2830,8 +2165,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2433" y="466"/>
-<point x="2353" y="466"/>
+<point x="866" y="388"/>
+<point x="786" y="388"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7" otype="Relation" vid_source="3C5AA425-CE06-E555-60CA-88A87D3ABF1B" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
@@ -2839,17 +2174,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="986" y="285"/>
-<point x="506" y="166"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D66D5723-6B4C-9789-B9BA-83FFFDC3D351" otype="Relation" vid_source="80018B89-7D5B-F26C-E2BD-D7FB3328915D" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="104" y="252"/>
-<point x="104" y="192"/>
+<point x="1264" y="247"/>
+<point x="1412" y="247"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D6A1350D-DD9E-5E06-B3B1-A9FB77B9024A" otype="Relation" vid_source="5BB1908B-4816-E913-F634-73171DE1EC90" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
@@ -2857,8 +2183,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1799" y="612"/>
-<point x="1961" y="544"/>
+<point x="489" y="284"/>
+<point x="489" y="344"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D86C3B67-DBA0-44B9-E84B-A96B45E7A02E" otype="Relation" vid_source="035946D2-EDD9-D5FA-39CC-6B960D4B13A9" vid_target="646DE4AE-831E-3958-2C99-79AEDE166890">
@@ -2866,17 +2192,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2729" y="442"/>
-<point x="2729" y="382"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E005CEE8-417A-75B6-7F8B-E69C7B94004A" otype="Relation" vid_source="DDB8F821-DF0A-C994-8FBD-9D3FB709CE83" vid_target="646DE4AE-831E-3958-2C99-79AEDE166890">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="3027" y="289"/>
-<point x="2947" y="289"/>
+<point x="1208" y="534"/>
+<point x="1208" y="474"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E16C4C03-B940-2A18-8D3E-0A39313A0EB7" otype="Relation" vid_source="BA3BBE2B-6AD2-4C03-4557-4417FF9C5DB5" vid_target="1D558C11-3C00-87A3-B73A-5A4FB2707165">
@@ -2884,8 +2201,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2200" y="604"/>
-<point x="2200" y="544"/>
+<point x="479" y="520"/>
+<point x="479" y="460"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F9841D34-FE19-01DE-CC95-2F093F6AEAE8" otype="Relation" vid_source="3C5AA425-CE06-E555-60CA-88A87D3ABF1B" vid_target="5F435583-C534-7AD6-F5C5-5740AD11B2C1">
@@ -2893,17 +2210,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1057" y="354"/>
-<point x="1057" y="414"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FFBD7B8B-413D-7AF5-38B5-149623A5B3AA" otype="Relation" vid_source="783DD490-576B-AA25-5932-51FB9D5AD7FD" vid_target="EAC76A75-9916-97D7-2772-9837B25D008E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="352" y="252"/>
-<point x="352" y="192"/>
+<point x="1121" y="234"/>
+<point x="407" y="111"/>
 </points>
 </Connector>
 </connectors>

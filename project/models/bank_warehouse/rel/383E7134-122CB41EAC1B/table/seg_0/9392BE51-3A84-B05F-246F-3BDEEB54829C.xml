@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9392BE51-3A84-B05F-246F-3BDEEB54829C" name="l_client_account_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>A9E0108D-8139-7D0C-28DC-6A512C958E5A</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="60433210-F222-C638-F950-937BC719C42D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>31524AE6-FABF-C75A-D6F5-FF94216C5A1D</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loaded_at" id="EBA877A3-49AF-153C-E9D8-9360007D63BD">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>A82266E3-C029-FD9E-9860-59C3F2DEB0A3</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="7318E5CC-A601-36FF-258D-F416B9EB037A">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>D357A2C1-98F2-CBF7-0B1E-E7D6865A7249</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disposition_id" id="100867CC-E2C9-7A3C-5458-766FBF33FE08">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>EDFBD42D-AC4C-569E-8486-C7BC78D68026</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4AEAB16-DF5C-1FB9-4BF0-00EAB9C54332" referredColumn="9F6F4C2A-E158-514C-5F69-66BFC921CF01"/>
+</associations>
+</Column>
+<Column name="account_id" id="E3A27563-8868-3B7F-4AF0-2F28A6E4B97D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>7672412B-A9B2-77A5-3A78-ACA974C412C3</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADCE4BDB-4028-FC79-5A2F-EDAE70446385" referredColumn="6CF6B374-5C41-1EBB-DFBE-F2EBC6EEA3A2"/>
+</associations>
+</Column>
+<Column name="client_id" id="AD1D4930-AAC5-DC99-EC33-9429B5BACF69">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>2B6D2F98-1D05-0C21-F101-5A1A51F80B4B</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D1C4828-F502-8096-E594-BE474CBE23E7" referredColumn="EE94112D-5E32-5B52-9193-B267BDB5856A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60C421C1-8B0A-F869-CC17-26DBF5BF629A" name="l_client_account_disposition_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>B697F854-2225-36F5-4603-B4954DD8666B</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60433210-F222-C638-F950-937BC719C42D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F083ED6C-232B-CBCC-EB6E-771CDE0AE309" name="h_account_l_client_account_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>617DFBE9-35F1-B15A-C4F5-224F2BF2D584</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A27563-8868-3B7F-4AF0-2F28A6E4B97D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9EC6ED4-19EB-9C3B-073F-0BA7866FB4B0" name="h_client_l_client_account_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>84B58288-9085-429A-7CF3-B2FBEA6ED64C</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD1D4930-AAC5-DC99-EC33-9429B5BACF69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABF2D242-BFCE-A234-BD44-D8CED612D539" name="h_disposition_l_client_account_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>D49A5712-8F1A-1946-8BC3-F6F1191A6DB8</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100867CC-E2C9-7A3C-5458-766FBF33FE08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

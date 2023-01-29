@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B685BDBB-B1C7-4FB4-E61B-4780C573E997" name="d loan">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 16:47:35 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B20FD40C-261E-A0AE-DDEF-CCE8C4415545">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 16:48:31 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loan id" id="CA9F4EC4-8130-AC92-E7FD-E221E023FAAC">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:28:02 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="0E878517-EA73-F1D8-FFE1-450F2B946927">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 16:47:35 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<importedID>FF223C45-6F32-CCC3-9F8C-6BF389525720</importedID>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="9EB6758E-717D-A857-D7EA-3E7C4F2D2054">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:44:16 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12CD66DC-714E-80ED-28B8-691045F87971" name="d_loan_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 16:47:35 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B20FD40C-261E-A0AE-DDEF-CCE8C4415545</newElementsIDs>
+<usedAttributes>
+<attributeRef>B20FD40C-261E-A0AE-DDEF-CCE8C4415545</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

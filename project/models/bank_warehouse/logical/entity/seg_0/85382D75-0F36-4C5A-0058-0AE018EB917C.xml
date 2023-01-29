@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,7 +21,7 @@
 <createdTime>2022-12-12 22:30:01 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2022-12-12 22:30:30 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,27 +53,13 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="account_id" id="E165C558-49F0-19CD-3371-24CEFAFB6475">
-<createdBy>muchd</createdBy>
-<createdTime>2022-12-12 22:39:30 UTC</createdTime>
-<generatorID>80F8177D-F6ED-CB49-08F9-65B1AE1D35F5</generatorID>
-<ownerDesignName>bank_warehouse</ownerDesignName>
-<engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
-</engineerTo>
-<referedAttribute>2C54606E-9445-B2DD-2743-9759ADA20644</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="transaction_id" id="FC6AEC84-34A5-FB95-741C-83EA31264B4A">
+<Attribute name="account_id" id="FC6AEC84-34A5-FB95-741C-83EA31264B4A">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-17 12:25:35 UTC</createdTime>
 <generatorID>83A6516B-823A-B914-5451-4D13BF69063B</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <referedAttribute>A2992524-7242-FD33-8597-457B95D71F99</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,15 +67,28 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="transaction_id" id="29353D90-6430-462E-131C-0BCF99DC3635">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:17:11 UTC</createdTime>
+<generatorID>292215BF-8410-11E2-0563-E83C030EB329</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
+</engineerTo>
+<referedAttribute>2C54606E-9445-B2DD-2743-9759ADA20644</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FA1E2E2B-B623-EC85-D590-7CA4E7EAA5B7" name="l_transaction PK">
+<identifier id="FA1E2E2B-B623-EC85-D590-7CA4E7EAA5B7" name="l_account_transaction PK">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:29:40 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="false"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>FCD48B2F-7C84-142C-6F9C-5D36D2BC463B</newElementsIDs>

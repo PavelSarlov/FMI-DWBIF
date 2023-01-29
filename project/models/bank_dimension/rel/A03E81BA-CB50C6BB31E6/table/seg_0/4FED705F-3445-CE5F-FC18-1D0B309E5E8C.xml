@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FED705F-3445-CE5F-FC18-1D0B309E5E8C" name="f_loan">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>499545BA-2967-0675-A78A-A320AB8D69A4</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="account_id" id="EB461F11-596E-D1ED-AE5E-6F032EA1894E">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>B4FFB85D-3A56-1C05-CBDA-1CF4B3A005C1</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB5F2FD9-531C-4541-340A-5B1A065BBF83" referredColumn="B828D756-DCDE-4262-78AD-082921AECD06"/>
+</associations>
+</Column>
+<Column name="loan_id" id="43710BC7-3100-ACAB-465C-2089A43452E0">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>CAABB37D-6160-571D-B6B8-DCCEF2C9CC36</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81326BBF-9819-B020-D332-6637B3550294" referredColumn="F11D53F3-79FF-3D56-F643-2FE3E347959D"/>
+</associations>
+</Column>
+<Column name="date" id="D3962EB3-8C48-0B6C-75C5-F0050B34914F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>17DB00C2-D390-41F6-36F5-5A27AA6C7788</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE14BD94-6413-EB94-67DC-72D9BF8B4105" referredColumn="9F974F8A-3A9A-155C-2258-C95FD2AE4AE5"/>
+</associations>
+</Column>
+<Column name="amount" id="EC45EB08-BE23-3C85-5844-767565B10096">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>27579C3F-38D2-6CF8-12C7-7DD915F8E46E</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payments" id="E206DA8E-EA88-5320-EABE-C39DCC503749">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>4A3D6AEF-F088-577B-610B-7E42B0A69047</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="449BC926-4602-7F4A-8DFF-5A91D0AE7468" name="f_loan_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>8F257EF1-BBEA-73AA-917D-38263D3180B9</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB461F11-596E-D1ED-AE5E-6F032EA1894E"/>
+<colUsage columnID="43710BC7-3100-ACAB-465C-2089A43452E0"/>
+<colUsage columnID="D3962EB3-8C48-0B6C-75C5-F0050B34914F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D08C0D43-033F-4E0D-77D5-EFD20963B80C" name="f_loan_d_account_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>91049A44-0C41-2C99-8317-BAF1C2E0389D</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB461F11-596E-D1ED-AE5E-6F032EA1894E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD43CAF-22C4-7D1C-6E9D-B68DF34E76E4" name="f_loan_d_date_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>92CDF596-52BE-8C4F-7B65-4FC3AA227A73</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3962EB3-8C48-0B6C-75C5-F0050B34914F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="032514EF-A85A-0359-02C2-11E9D7742B90" name="f_loan_d_loan_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>D86C3B67-DBA0-44B9-E84B-A96B45E7A02E</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43710BC7-3100-ACAB-465C-2089A43452E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

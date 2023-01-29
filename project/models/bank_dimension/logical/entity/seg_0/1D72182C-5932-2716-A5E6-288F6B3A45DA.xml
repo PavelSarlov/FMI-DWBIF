@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D72182C-5932-2716-A5E6-288F6B3A45DA" name="d date">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:31:39 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2AC2AB42-D20E-8912-77F6-34EFEE80CE3C">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:31:55 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="ED977208-B6D3-640C-E85D-1B8C52281F93">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:32:03 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month" id="AF352297-8531-6B8A-D798-21D1915622CB">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:32:15 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day" id="58104D31-5786-8419-8133-088173D85557">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:32:23 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98DEC92F-C77B-E500-3965-A88E1C7AB440" name="d_date_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 17:32:01 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AC2AB42-D20E-8912-77F6-34EFEE80CE3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

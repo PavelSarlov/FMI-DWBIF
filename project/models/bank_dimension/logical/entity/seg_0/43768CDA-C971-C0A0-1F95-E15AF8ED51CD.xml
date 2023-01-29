@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43768CDA-C971-C0A0-1F95-E15AF8ED51CD" name="f_permanent_order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43768CDA-C971-C0A0-1F95-E15AF8ED51CD" name="f permanent order">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:13:39 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,13 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="account_id" id="C7B59264-EF28-1EF9-9979-A586422ABE23">
+<Attribute name="account id" id="C7B59264-EF28-1EF9-9979-A586422ABE23">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:14:47 UTC</createdTime>
 <generatorID>36276A49-BC42-BB30-9BFD-418D661CA1FA</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <referedAttribute>1EF529BF-F90D-8EBF-E619-06275C392C14</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,43 +30,15 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="order_id" id="7E27797A-AFB0-E722-F45C-E34FAC7DF915">
+<Attribute name="order id" id="7E27797A-AFB0-E722-F45C-E34FAC7DF915">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:15:12 UTC</createdTime>
 <generatorID>6EBA2568-A6CE-C99F-CBE9-C0E550FFF1CE</generatorID>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <referedAttribute>9D514803-4886-A657-0AE6-9B248882FDDA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="k_symbol" id="D2D4FC31-7B69-6DE6-D3C0-AAAE44DF77AF">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:37:41 UTC</createdTime>
-<generatorID>49D3B107-5499-A36B-66C0-179EE4FD49C5</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>8D1D3C97-21DF-E18C-A124-D297D0CF69CC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="partner" id="E6BC5760-85A0-4E71-5499-1764CF3E2285">
-<createdBy>muchd</createdBy>
-<createdTime>2023-01-04 18:48:54 UTC</createdTime>
-<generatorID>A8FE9D8E-9C62-E15C-164E-18FC1052B087</generatorID>
-<ownerDesignName>bank_dimension</ownerDesignName>
-<engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
-</engineerTo>
-<referedAttribute>F5874587-EC88-9027-97F9-DB0229943EF4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -77,7 +49,7 @@
 <createdTime>2023-01-04 17:40:31 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,19 +59,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2DC1F801-C92E-7FB2-A8D5-4E874A65BB1C" name="f_account_permanent_order PK">
+<identifier id="2DC1F801-C92E-7FB2-A8D5-4E874A65BB1C" name="f_permanent_order_PK">
 <createdBy>muchd</createdBy>
 <createdTime>2023-01-02 17:14:28 UTC</createdTime>
 <ownerDesignName>bank_dimension</ownerDesignName>
 <engineerTo>
-<item key="5E9A4643-C951-7BAE-66BA-D57F5F05D0A4" value="true"/>
+<item key="0540344C-A969-C90A-207B-8D1CFA2D3617" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C7B59264-EF28-1EF9-9979-A586422ABE23</attributeRef>
 <attributeRef>7E27797A-AFB0-E722-F45C-E34FAC7DF915</attributeRef>
-<attributeRef>D2D4FC31-7B69-6DE6-D3C0-AAAE44DF77AF</attributeRef>
-<attributeRef>E6BC5760-85A0-4E71-5499-1764CF3E2285</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

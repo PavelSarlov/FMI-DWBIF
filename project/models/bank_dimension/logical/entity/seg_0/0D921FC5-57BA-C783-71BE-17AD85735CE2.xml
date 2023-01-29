@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D921FC5-57BA-C783-71BE-17AD85735CE2" name="f client">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:04:00 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="demographic_id" id="930B4AA3-7CB8-0D3B-D609-8DEE14C366D8">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:04:49 UTC</createdTime>
+<generatorID>33718994-EEE1-7DCF-830A-A5D6F29061FC</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<referedAttribute>9D40FD1A-E779-F12D-29EA-C20803E3ACC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client id" id="8D9FA185-B124-A9B7-D622-E49115E11F9D">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:05:12 UTC</createdTime>
+<generatorID>08317A4B-0D9A-81D8-98CF-7138AF3E9B4D</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<referedAttribute>1278DF3C-5C15-6D10-CB9F-66D92D48CD24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C208252C-3AA5-77D6-E25E-5D41EC08949F" name="f_client_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-02 17:05:09 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<engineerTo>
+<item key="E2529CC9-13EA-38BD-8408-4E399B77E2A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>930B4AA3-7CB8-0D3B-D609-8DEE14C366D8</attributeRef>
+<attributeRef>8D9FA185-B124-A9B7-D622-E49115E11F9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

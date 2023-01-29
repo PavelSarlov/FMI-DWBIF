@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F263AF74-1CDA-8E3A-6888-8EFBC4C92089" name="f_client">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>0D921FC5-57BA-C783-71BE-17AD85735CE2</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="demographic_id" id="4439ADEF-7830-266E-86A1-826570D62914">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>930B4AA3-7CB8-0D3B-D609-8DEE14C366D8</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4368BAB-8896-CC47-A12B-6521C6A274CD" referredColumn="E46B3683-ED40-FBE5-A7B3-63E06CF0DFA1"/>
+</associations>
+</Column>
+<Column name="client_id" id="BC8F34C8-A06E-794B-7321-3D77CAFDA4F2">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>8D9FA185-B124-A9B7-D622-E49115E11F9D</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97BA16E2-F702-31C1-DC36-8FF7B11CB5AE" referredColumn="80FA82EA-EE1B-1782-E840-B5219B93DE77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56FCF6DC-2341-C0BD-6DD5-65CC25F1A7EE" name="f_client_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>C208252C-3AA5-77D6-E25E-5D41EC08949F</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4439ADEF-7830-266E-86A1-826570D62914"/>
+<colUsage columnID="BC8F34C8-A06E-794B-7321-3D77CAFDA4F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72CABAE3-DD3F-3AA2-B582-B5A6A6355F57" name="f_client_d_client_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>08317A4B-0D9A-81D8-98CF-7138AF3E9B4D</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC8F34C8-A06E-794B-7321-3D77CAFDA4F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="617A4383-1EB7-FE6A-F69F-1F1CD7BBD019" name="f_client_d_demographic_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-29 00:15:53 UTC</createdTime>
+<generatorID>33718994-EEE1-7DCF-830A-A5D6F29061FC</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4439ADEF-7830-266E-86A1-826570D62914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

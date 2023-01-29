@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62E7220A-9D3A-4CBC-612B-3F9E4D96082A" containerWithKeyObject="E563457B-4E9F-4B7A-22DE-93E22A3FC984" localFKIndex="85FF884B-B8FB-42AF-9A5D-9B6177C5A645" name="h_credit_card_l_card_disposition">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:29:22 UTC</createdTime>
+<generatorID>4598956F-A5C6-E046-AD32-91F2617119BD</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<referredTableLongName>h_credit_card</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>0A162AE2-5D17-E88A-EBE5-A0EE4C385EAF</referredTableID>
+<keyObject>8B4126DD-DC9E-9036-9214-6C7393EB2AFD</keyObject>
+<referredKeyID>8B4126DD-DC9E-9036-9214-6C7393EB2AFD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

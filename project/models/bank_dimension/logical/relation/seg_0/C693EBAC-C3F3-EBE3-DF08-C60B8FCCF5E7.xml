@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="f transaction d date FK" directorySegmentName="seg_0" id="C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-04 19:36:32 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<sourcePk>98DEC92F-C77B-E500-3965-A88E1C7AB440</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>date</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D72182C-5932-2716-A5E6-288F6B3A45DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1993B38D-58D8-E15F-35B9-65C3D3A91A08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

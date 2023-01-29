@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45D5222F-6C7C-BBE0-B6B4-81E901328B5C" name="f_transaction">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>1993B38D-58D8-E15F-35B9-65C3D3A91A08</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>48A133A0-0A99-B377-6F5E-0CA68B1E138B</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF5A07BB-A933-686F-BC1A-F9ABBAED92E6" referredColumn="686DB323-1E0D-03DB-8B16-6F6B421B20FA"/>
+</associations>
+</Column>
+<Column name="account_id" id="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>571E31C4-DA09-68D5-0087-309C7A7F4DFC</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9E017AA-7F69-CEF2-9BE4-602DF2760668" referredColumn="86E6BA18-7101-5FBC-91A7-690EE191FFF7"/>
+</associations>
+</Column>
+<Column name="date" id="BDA38B68-75CA-5776-4F14-A850BFFBC5B6">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>D491200E-2B46-0C5D-3FF0-708EC04490DE</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EEAD0DA-21F6-105C-C702-EECA451BF008" referredColumn="29028318-C8DB-1EF0-8F49-592E312B96AF"/>
+</associations>
+</Column>
+<Column name="amount" id="AAA2F401-E5FB-EE9A-8DA9-BDCFDD755641">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>BDC8D59C-C099-8E79-C625-7902DC591AF5</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="balance" id="C7C27FFF-5AA0-AC0A-9075-AAD79E191B6A">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>BCA0329F-38B5-D193-5E93-B74A7BB254C4</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93857B05-336F-A80C-00FC-514A588A050F" name="f_transaction_PK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>14DBFE2B-441B-BE3D-B810-EA7C68AB2D15</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A10AA676-204A-E4BB-FFEC-655C65D465A4" name="f_transaction_transaction_id_date_account_id_UN">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>93C0E6CD-1CD3-BFAF-EB00-E51479BCE350</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03B06DF9-D31A-624E-1089-A697D7E1DD99" name="f_transaction_transaction_id_date_account_id_UNv1">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>CF628237-ACEB-7691-9EC4-96D597EC2320</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72398946-01BF-1A6B-590E-29AD54C01DBA" name="f_transaction_transaction_id_date_account_id_UNv2">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>4458509C-17EA-2325-4400-8317249A5E0B</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="432271EF-FBA3-B85A-7E8A-CE1E2E41ABFA" name="f_transaction_transaction_id_date_account_id_UNv3">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>9B35FC64-47B9-A6AC-4BEC-3F05F2284949</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F541B311-6017-2854-86D0-5E4EBD52FEFA" name="f_transaction_transaction_id_date_account_id_UNv4">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>237A15CF-8596-EE13-E850-B80005652CFD</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="408F455D-623F-221E-E28D-022C8B83FC67" name="f_transaction_transaction_id_date_account_id_UNv5">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>CCAE1878-603F-D709-738B-72B7F5DA1442</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A0EBED7-1105-5B11-BF81-3F8BE06D7AAB" name="f_transaction_transaction_id_date_account_id_UNv6">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>AB5C7560-A10A-0475-9278-08D0122A0D14</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92DAEB71-D458-AD7B-7DD0-97216A06797A" name="f_transaction_transaction_id_date_account_id_UNv7">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>F425DA42-9CD1-ACE5-41E3-88995C832334</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6420F6C6-49B9-47A4-BD76-908D3746FDCF" name="f_transaction__IDX">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:59:07 UTC</createdTime>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7962E93B-10CA-6D99-830C-3C3258148845" name="f_transaction_d_account_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>4B9C048A-229F-FD72-E930-3E63D532D3D4</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80A321D-4A4A-3D2B-E03A-61BBE059AEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8E5BE7A-D2D8-37CA-5BF2-9B07F2931944" name="f_transaction_d_date_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>C693EBAC-C3F3-EBE3-DF08-C60B8FCCF5E7</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDA38B68-75CA-5776-4F14-A850BFFBC5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FD7CB07-BBF4-89AC-58BE-0F5150A0AA41" name="f_transaction_d_transaction_FK">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 22:57:17 UTC</createdTime>
+<generatorID>B59E1AE7-AE43-5D6D-CF52-A00E0F398F85</generatorID>
+<ownerDesignName>bank_dimension</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB3040C-3DD1-B4B4-76A6-27FEE34AB79F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

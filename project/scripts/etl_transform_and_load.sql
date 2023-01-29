@@ -128,7 +128,7 @@ SELECT hh.id, hh.loaded_at, hh.source, rp.id, amount, rks.id
 FROM public_foreign.permanent_order pf
   JOIN hub_helper hh ON hh.order_id = pf.order_id
   LEFT JOIN r_partner rp ON rp.bank ILIKE pf.bank_to AND rp.account = pf.account_to 
-  JOIN r_k_symbol rks ON rks.value ILIKE pf.k_symbol;
+  LEFT JOIN r_k_symbol rks ON rks.value ILIKE pf.k_symbol;
 
 WITH hub_helper AS (
   INSERT INTO public.h_transaction(loaded_at, source, trans_id)
@@ -144,10 +144,10 @@ INSERT INTO public.s_transaction
 SELECT hh.id, hh.loaded_at, hh.source, DATE("date"::text), rtt.id, rto.id, amount, balance, rks.id, rp.id
 FROM public_foreign.transaction pf
   JOIN hub_helper hh ON hh.trans_id = pf.trans_id
-  JOIN r_partner rp ON rp.bank ILIKE pf.bank AND rp.account = pf.account 
+  LEFT JOIN r_partner rp ON rp.bank ILIKE pf.bank AND rp.account = pf.account 
   LEFT JOIN r_transaction_type rtt ON rtt.value ILIKE pf."type"
   LEFT JOIN r_transaction_operation rto ON rto.value ILIKE pf.operation
-  JOIN r_k_symbol rks ON rks.value ILIKE pf.k_symbol;
+  LEFT JOIN r_k_symbol rks ON rks.value ILIKE pf.k_symbol;
 
 WITH hub_helper AS (
   INSERT INTO public.h_client(loaded_at, source, client_id)
@@ -178,7 +178,7 @@ INSERT INTO public.s_disposition
 SELECT hh.id, hh.loaded_at, hh.source, rdt.id
 FROM public_foreign.disposition pf
   JOIN hub_helper hh ON hh.disp_id = pf.disp_id
-  LEFT JOIN r_disposition_type rdt ON rdt.value = pf."type";
+  JOIN r_disposition_type rdt ON rdt.value = pf."type";
 
 WITH hub_helper AS (
   INSERT INTO public.h_credit_card(loaded_at, source, card_id)

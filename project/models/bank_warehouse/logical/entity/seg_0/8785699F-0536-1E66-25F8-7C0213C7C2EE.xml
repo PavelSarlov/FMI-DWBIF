@@ -4,7 +4,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <typeID>B4C8898A-B011-940E-1A19-34BE7202E980</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,7 +21,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,29 +53,29 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="disposition_id" id="2766ECEE-FF40-0C65-9041-647E18F5DDD3">
-<createdBy>muchd</createdBy>
-<createdTime>2022-12-12 22:23:47 UTC</createdTime>
-<generatorID>5C5ABFE7-10AF-0957-3C3D-3D710E7CB46B</generatorID>
-<ownerDesignName>bank_warehouse</ownerDesignName>
-<engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
-</engineerTo>
-<referedAttribute>13320A3C-371E-9565-A8EA-A2B38DB1B020</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="card_id" id="67A2E4EE-0882-9C19-317A-CCC46486D90C">
+<Attribute name="disposition_id" id="67A2E4EE-0882-9C19-317A-CCC46486D90C">
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:24:08 UTC</createdTime>
 <generatorID>4451651A-F885-CAFE-35AF-A01DA92B9DDA</generatorID>
 <ownerDesignName>bank_warehouse</ownerDesignName>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="true"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <referedAttribute>1D8CF065-028C-773F-1880-DD68A942B5E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="card_id" id="3D644399-E6E0-266D-F0AE-EDC6F4DDC0C5">
+<createdBy>muchd</createdBy>
+<createdTime>2023-01-28 23:18:39 UTC</createdTime>
+<generatorID>4598956F-A5C6-E046-AD32-91F2617119BD</generatorID>
+<ownerDesignName>bank_warehouse</ownerDesignName>
+<engineerTo>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
+</engineerTo>
+<referedAttribute>13320A3C-371E-9565-A8EA-A2B38DB1B020</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -87,9 +87,8 @@
 <createdBy>muchd</createdBy>
 <createdTime>2022-12-12 22:22:18 UTC</createdTime>
 <ownerDesignName>bank_warehouse</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BED09E0-D6CD-53FA-3333-91B810489950" value="false"/>
+<item key="E975F7EC-B90C-029D-F793-FCAB0B1A3EA5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>5805E2D4-175D-2A22-5D29-F008687E79BB</newElementsIDs>
