@@ -54,9 +54,10 @@ FROM public_foreign.h_client h
   JOIN public_foreign.s_client s ON s.client_id = h.id;
 
 INSERT INTO public.d_account(id, account_id, frequency)
-SELECT h.id, h.account_id, frequency 
+SELECT h.id, h.account_id, raf.value 
 FROM public_foreign.h_account h
-  JOIN public_foreign.s_account s ON s.account_id = h.id;
+  JOIN public_foreign.s_account s ON s.account_id = h.id
+  LEFT JOIN public_foreign.r_account_frequency raf ON raf.id = s.frequency
 
 INSERT INTO public.d_disposition(id, disp_id, "type")
 SELECT h.id, h.disp_id, rdt.value 
